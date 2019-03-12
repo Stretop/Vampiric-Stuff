@@ -229,22 +229,5 @@
     "hit_dmg_npc": "The %1$s tentacle bones stabs <npcname>!",
     "no_dmg_msg_u": "The %1$s stabs you with tentacle bones, but fails to penetrate your armor.",
     "no_dmg_msg_npc": "The %1$s stabs <npcname> with tentacle bones, but fails to penetrate their armor."
-  },
-  {
-    "type": "monster_attack",
-    "attack_type": "melee",
-    "id": "slidekick",
-    "cooldown": 20,
-    "move_cost": 130,
-    "damage_max_instance": [
-      { "damage_type": "bash", "amount": 7, "armor_multiplier": 0.8 }
-    ],
-    "effects": [
-      { "id": "downed", "duration": 4 }
-      ],
-    "hit_dmg_u": "The %1$s slides and kicks your foot!",
-    "hit_dmg_npc": "The %1$s slide kicks <npcname>!",
-    "no_dmg_msg_u": "The %1$s slide kicks you, but fails to harm you.",
-    "no_dmg_msg_npc": "The %1$s slide kicks <npcname>, but fails to harm them."
   }
 ]
