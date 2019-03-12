@@ -12,12 +12,5 @@
     "base_faction" : "mammal",
     "neutral": [ "small_animal" ],
     "by_mood": [ "zombie" ]
-  },
-  {
-    "type" : "MONSTER_FACTION",
-    "name" : "trickzombie",
-    "base_faction" : "zombie",
-    "neutral": [ "human" ],
-    "by_mood": [ "small_animal" ]
   }
 ]
