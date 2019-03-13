@@ -2,6 +2,7 @@
     {
         "type" : "npc_class",
         "id" : "V_LONELY",
+		"common": false,
         "name" : "Lonewolf Vampire",
         "job_description" : "Isolated vampires.",
         "bonus_str" : { "rng" : [ 4, 8 ] },
@@ -43,8 +44,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
   },
   {
@@ -92,8 +92,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
   },
   {
@@ -142,8 +141,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
   },
   {
@@ -197,8 +195,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
      },
      {
@@ -246,8 +243,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
   },
   {
@@ -295,8 +291,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
   },
   {
@@ -344,8 +339,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
   },
      {
@@ -400,8 +394,7 @@
             [ "REGEN", 100 ],
             [ "NIGHTVISION3", 100 ],
             [ "FANGS", 100 ],
-            [ "CARNIVORE", 100],
-            [ "CANNIBAL", 100]
+            [ "CARNIVORE", 100]
         ]
      },
      {
