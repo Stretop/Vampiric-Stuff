@@ -11,7 +11,8 @@ https://discourse.cataclysmdda.org - CDDA official website
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
 
 -  TWEAK NPC STATS (large decrease on skills, reduction of natural stats)
--  UNUSED MONSTER REMOVAL (trashed non-loric entities)
+-  UNUSED CREATURES REMOVAL (trashed non-loric entities)
+-  FIXED STRUCTURAL ISSUES (static overmaps fixed)
 
 
 	=>PAST UPDATES<=
@@ -25,7 +26,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 +  ADDED NEW MANDATORY LOCATIONS (blood hole, random graveyards)
 +  ADDED MAIN LOCATION (wasteland outskirts, a large location acts like the vampire cove)
 
-+~ MONSTER UPGRADES (blood compact zombies and leeches now has 3rd tier upgrades)
++~ MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
 
 -  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques, regained after reinforcement)
 -  MONSTER TWEAKS (greatly reduced monster stats)
