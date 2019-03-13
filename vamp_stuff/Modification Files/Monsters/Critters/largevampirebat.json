@@ -19,6 +19,7 @@
     "melee_dice_sides": 1,
     "melee_cut": 1,
     "dodge": 8,
+	"harvest": "mammal_small_leather",
     "vision_day": 10,
     "vision_night": 20,
     "special_attacks": [ { "type": "bite" } ],

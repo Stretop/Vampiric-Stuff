@@ -22,6 +22,7 @@
     "armor_cut": 8,
     "vision_day": 30,
     "vision_night": 4,
+	"harvest": "zombie",
     "special_attacks": [
       { "type": "bite",
         "cooldown": 10
@@ -58,6 +59,7 @@
     "armor_bash": 2,
     "armor_cut": 2,
     "vision_day": 35,
+	"harvest": "zombie",
     "vision_night": 5,
     "special_attacks": [
       { "type": "bite",
@@ -95,6 +97,7 @@
     "armor_bash": 14,
     "armor_cut": 10,
     "vision_day": 13,
+	"harvest": "zombie",
     "vision_night": 3,
     "special_attacks": [
       { "type": "bite",
@@ -131,6 +134,7 @@
     "melee_cut": 5,
     "armor_bash": 15,
     "armor_cut": 16,
+	"harvest": "zombie",
     "vision_day": 35,
     "vision_night": 5,
     "special_attacks": [
@@ -162,6 +166,7 @@
     "melee_cut": 6,
     "armor_bash": 2,
     "armor_cut": 2,
+	"harvest": "zombie",
     "vision_day": 35,
     "vision_night": 5,
     "special_attacks": [

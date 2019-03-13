@@ -18,6 +18,7 @@
     "melee_dice_sides": 6,
     "melee_cut": 6,
     "dodge": 5,
+	"harvest": "exempt",
     "armor_bash": 8,
     "armor_cut": 9,
     "vision_day": 50,
@@ -29,6 +30,6 @@
       [ "GRAB", 7 ]
     ],
     "death_drops": "succumbvampire",
-    "death_function": [ "NORMAL" ],
+    "death_function": [ "DISAPPEAR" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "POISON", "NO_BREATHE", "REVIVES", "BONES" ]
   }
