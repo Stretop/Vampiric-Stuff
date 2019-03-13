@@ -2,7 +2,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "bloodhole" ],
+    "om_terrain": "bloodhole",
     "weight": 2000,
     "object": {
       "fill_ter": "t_grass",
@@ -45,7 +45,7 @@
     {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "bloodhole_bottom" ],
+    "om_terrain": "bloodhole_bottom",
     "weight": 2000,
     "object": {
       "fill_ter": "t_rock_floor",
@@ -93,7 +93,7 @@
     {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "bloodhole_lair" ],
+    "om_terrain": "bloodhole_lair",
     "weight": 2000,
     "object": {
       "fill_ter": "t_rock_floor",

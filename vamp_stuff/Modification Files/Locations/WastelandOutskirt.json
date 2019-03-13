@@ -2,7 +2,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo3" ],
+    "om_terrain": "wo3",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -45,7 +45,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo2" ],
+    "om_terrain": "wo2",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -86,7 +86,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo1" ],
+    "om_terrain": "wo1",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -125,7 +125,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo6" ],
+    "om_terrain": "wo6",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -164,7 +164,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo5" ],
+    "om_terrain": "wo5",
     "weight": 1250,
     "object": {
       "fill_ter": "t_metal_floor",
@@ -208,7 +208,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo4" ],
+    "om_terrain": "wo4",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -247,7 +247,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo9" ],
+    "om_terrain": "wo9",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -291,7 +291,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo8" ],
+    "om_terrain": "wo8",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
@@ -330,7 +330,7 @@
  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "wo7" ],
+    "om_terrain": "wo7",
     "weight": 1250,
     "object": {
       "fill_ter": "t_grass",
