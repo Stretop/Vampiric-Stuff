@@ -9,14 +9,6 @@
     ]
   },
   {
-    "name": "GROUP_SHAPESHIFT_UPGRADE",
-    "type": "monstergroup",
-    "default": "mon_null",
-    "monsters": [
-      { "monster": "mon_zombie_shifter", "freq": 100, "cost_multiplier": 0 }
-    ]
-  },
-  {
     "name": "GROUP_CRYPTIES_UPGRADE",
     "type": "monstergroup",
     "default": "mon_null",
