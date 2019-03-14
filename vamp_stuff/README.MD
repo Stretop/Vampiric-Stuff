@@ -1,4 +1,4 @@
-Vampiric Stuff v1.2 - Axema Vales (author)
+##	Vampiric Stuff v1.2 - Axema Vales (author)
 
 https://discourse.cataclysmdda.org - CDDA official website
 
@@ -7,6 +7,7 @@ https://discourse.cataclysmdda.org - CDDA official website
   ~ THE MOD FOCUSES ON ADDING VAMPIRES TO YOUR WORLD, ALONG WITH THE NEW LOCATIONS TO EXPLORE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
 
   * The v1.2 is a progress to resurrect this old jewel, after it was abandoned for so long... But for now, fixes, tweaks and reworks are the works needed for this mod :)
+  * A BIG thanks to SomeDeadGuy, he actually did my request I left here while I was gone... The works with the tileset is a bit easier now ^_^
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
 
@@ -15,13 +16,14 @@ https://discourse.cataclysmdda.org - CDDA official website
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
 
 
+
 	=>PAST UPDATES<=
 
 --> V1.1: <--
 
 +  NEW ARMOR SETS (blood and blood infused, recipes also included)
 +  A NEW MELEE WEAPON (knuckle biters)
-+  NEW RANGE WEAPONS AND AMMUNITION (blood-projecting gun types, modified human gun types)
++  NEW RANGE WEAPONS AND AMMUNITION (blood-projecting and modified human gun types)
 +  ADDED REINFORCED WEAPONS (simple requirement)
 +  ADDED NEW MANDATORY LOCATIONS (blood hole, random graveyards)
 +  ADDED MAIN LOCATION (wasteland outskirts, a large location acts like the vampire cove)
