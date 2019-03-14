@@ -102,10 +102,10 @@
     {
       "id": "bloodhole",
     "type": "overmap_terrain",
-    "name": "odd hole",
+    "name": "field",
     "sym": 46,
-    "color": "light_red",
-    "see_cost": 5,
+    "color": "brown",
+    "see_cost": 2,
     "mondensity": 0,
     "extras": "build"
     },
