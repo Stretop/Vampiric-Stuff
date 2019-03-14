@@ -10,9 +10,10 @@
                      }
             },
     "terrain": {
-         ".": "t_grass",
+         ".": ["t_grass", "t_grass", "t_dirt"],
          "-": "t_palisade",
          "~": "t_water_sh",
+		 "/": ["t_water_sh","t_grass","t_dirt"],
          "=": "t_palisade_gate",
          "!": "t_palisade_pulley",
          ";": "t_wall_wood",
