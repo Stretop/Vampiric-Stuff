@@ -14,8 +14,10 @@ https://discourse.cataclysmdda.org - CDDA official website
 	
 #  ADDED TILESET (temporary visualizations)
 
--  TWEAK NPC STATS (large decrease on skills, reduction of natural stats)
+-  TWEAKED NPC STATS (large decrease on skills, reduction of natural stats)
+-  FIXED NPC MISSIONS (non-loric quests removed)
 -  UNUSED CREATURES REMOVAL (trashed non-loric entities)
+-  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
 
 
