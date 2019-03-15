@@ -8,6 +8,8 @@ https://discourse.cataclysmdda.org - CDDA official website
 
   * The v1.2 is a progress to resurrect this old jewel, after it was abandoned for so long... But for now, fixes, tweaks and reworks are the works needed for this mod :)
 
+
+
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
 	
 #  ADDED TILESET (temporary visualizations)
@@ -15,6 +17,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 -  TWEAK NPC STATS (large decrease on skills, reduction of natural stats)
 -  UNUSED CREATURES REMOVAL (trashed non-loric entities)
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
+
 
 
 	=>PAST UPDATES<=
@@ -43,3 +46,5 @@ https://discourse.cataclysmdda.org - CDDA official website
 --> V1.0: <--
 
 +  INTRODUCED VAMPIRIC STUFF
+
+
