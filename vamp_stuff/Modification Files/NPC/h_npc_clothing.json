@@ -68,7 +68,6 @@
       { "item": "gloves_fingerless" }
       ]
   },{
-    "//": "You recognize this guy? Its him from the... IDK, got kidnapped.",
     "type" : "item_group",
     "id" : "HUMAN_JUNKSHOP_sell",
     "items":[

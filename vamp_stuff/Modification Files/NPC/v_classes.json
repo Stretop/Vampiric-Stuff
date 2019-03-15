@@ -3,7 +3,7 @@
         "type" : "npc_class",
         "id" : "V_LONELY",
 		"common": false,
-        "name" : "Lonewolf Vampire",
+        "name" : "Vampire",
         "job_description" : "Isolated vampires.",
         "bonus_str" : { "rng" : [ 4, 8 ] },
         "bonus_dex" : { "rng" : [ 4, 8 ] },
