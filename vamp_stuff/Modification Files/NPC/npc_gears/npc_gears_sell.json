@@ -1,73 +1,32 @@
 [
-  {
-    "//": "Some clothings and weapons aren't good for these fella.",
-    "id": "HUMAN_WASTELAND_weapon",
-    "type": "item_group",
-    "subtype": "distribution",
-    "entries": [
-      { "group": "HUMAN_WASTELAND_carry_stab", "prob": 20 },
-      { "group": "HUMAN_WASTELAND_carry_cut", "prob": 20 },
-      { "group": "HUMAN_WASTELAND_carry_bash", "prob": 20 }
-    ]
- },
- {
-    "id": "HUMAN_WASTELAND_carry_stab",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-    {
-        "distribution": [
-          { "item": "sword_dive", "prob": 1 },
-          { "item": "estoc", "prob": 10 },
-          { "item": "bowling_axe", "prob": 15 },
-          { "item": "spear_rebar", "prob": 30 }
-        ]
-        }
-        ]
-      },
-      {
-    "id": "HUMAN_WASTELAND_carry_bash",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-    {
-        "distribution": [
-          { "item": "hammerius", "prob": 1 },
-          { "item": "morningstar", "prob": 10 },
-          { "item": "bat_metal", "prob": 15 },
-          { "item": "bat", "prob": 30 }
-        ]
-        }
-        ]
-      },
-      {
-    "id": "HUMAN_WASTELAND_carry_cut",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-    {
-        "distribution": [
-          { "item": "sword_sip", "prob": 1 },
-          { "item": "longsword", "prob": 10 },
-          { "item": "arming_sword_inferior", "prob": 15 },
-          { "item": "knuckle_katar", "prob": 30 }
-        ]
-        }
-        ]
-      },
- {
+{
     "type" : "item_group",
-    "id" : "HUMAN_JUNKSHOP_worn",
+    "id" : "VAMP_UNDERTRADER_sell",
     "items":[
-      { "item": "armor_nomad" },
-      { "item": "helmet_nomad" },
-      { "item": "rucksack" },
-      { "item": "socks" },
-      { "item": "boots_larmor" },
-      { "item": "pants_cargo" },
-      { "item": "gloves_fingerless" }
-      ]
-  },{
+        ["sword_dive", 5],
+        ["sword_sip", 5],
+        ["hammerius", 5],
+        ["blood_talisman", 20],
+        ["blood_forge_infuse", 20],
+        ["bloodcompressor", 20],
+        ["bloodextractor", 20]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "VAMP_GUNSHOP_sell",
+    "items":[
+        ["b11_striker", 25],
+        ["bloodshot_00", 50],
+        ["blood_stinger", 5],
+        ["blood_sprayer", 15],
+        ["blood_stream_shooter", 5]
+    ]
+  },
+  
+  
+  
+  {
     "type" : "item_group",
     "id" : "HUMAN_JUNKSHOP_sell",
     "items":[
