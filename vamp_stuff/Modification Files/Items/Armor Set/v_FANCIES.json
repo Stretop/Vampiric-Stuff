@@ -24,5 +24,18 @@
     "symbol": "(",
     "color": "red",
     "flags": [ "FANCY" ]
+  },
+  {
+    "id": "blood_cring",
+    "type": "ARMOR",
+    "name": "bloodrune ring",
+    "description": "A shimmering bloodrune ring with a tiny etched symbol under it. A proof of loyalty to the commando.",
+    "weight": 55,
+    "volume": 0,
+    "price": 0,
+    "material": [ "stone" ],
+    "symbol": "(",
+    "color": "red",
+    "flags": [ "FANCY" ]
   }
   ]
