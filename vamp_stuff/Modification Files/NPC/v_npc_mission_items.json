@@ -7,7 +7,7 @@
     "description": "A black, gooey bloodrune stone specifically owned by an infected vampire. It no longer pulsate and the markings are completely erased.",
     "weight": 750,
     "volume": 1,
-    "price": 0,
+    "price": 100,
     "price_postapoc": 0,
     "count": 1,
     "material": [ "compactblood" ],
@@ -22,10 +22,10 @@
     "description": "A tooth size of the human fingernails. It is sharp, but too small to be used as a tool.",
     "weight": 750,
     "volume": 1,
-    "price": 0,
+    "price":  100,
     "price_postapoc": 0,
     "count": 1,
-    "material": [ "compactblood" ],
+    "material": [ "bone" ],
     "symbol": ".",
     "color": "white"
   },
@@ -37,26 +37,11 @@
     "description": "The large sac of the devourer leech.",
     "weight": 1400,
     "volume": 3,
-    "price": 0,
+    "price": 100,
     "price_postapoc": 0,
     "count": 1,
     "material": [ "iflesh" ],
     "symbol": ".",
     "color": "red"
-  },
-  {
-    "id": "decaybone",
-    "type": "GENERIC",
-    "category": "spare_parts",
-    "name": "decayed bone",
-    "description": "Loathful bone from an elderly dead body. Its marrow is filled with unwanted stuff.",
-    "weight": 500,
-    "volume": 1,
-    "price": 0,
-    "price_postapoc": 0,
-    "count": 1,
-    "material": [ "flesh" ],
-    "symbol": ";",
-    "color": "dark_gray"
-    }
+  }
 ]
