@@ -67,7 +67,7 @@
         "a": "f_groundsheet"
     },
     "items": {
-        "y": { "item": "cannedfood", "chance": 100, "count": 5 },
+        "y": { "item": "cannedfood", "chance": 100, "repeat": 5 },
         "t": { "item": "fridge", "chance": 40 },
         "n": { "item": "kitchen", "chance": 50 },
         "u": { "item": "kitchen", "chance": 45 },
@@ -77,6 +77,7 @@
         "E": { "item": "allclothes", "chance": 65 },
         "W": { "item": "allclothes", "chance": 65 },
         "%": { "item": "bloodset", "chance": 100 },
+		"$": { "item": "bloodammo", "chance": 100 },
         "P": { "item": "vampmeleeweapon", "chance": 100 },
         "X": { "item": "magazines", "chance": 100 }
      }
