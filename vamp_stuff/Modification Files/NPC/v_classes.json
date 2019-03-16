@@ -32,8 +32,9 @@
             { "skill": "survival", "bonus" : { "rng" : [ 1, 8 ] } },
             { "skill": "bashing", "bonus" : { "rng" : [ 1, 4 ] } }
         ],
-        "worn_override": "VAMP_LONELY_worn",
-        "carry_override": "VAMP_LONELY_carry",
+        "worn_override": "VAMP_worn",
+        "carry_override": "VAMP_carry",
+		"weapon_override": "VAMP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -81,7 +82,8 @@
             { "skill": "bashing", "bonus" : { "rng" : [ 1, 4 ] } }
         ],
         "worn_override": "VAMP_UNDERGUARD_worn",
-        "carry_override": "VAMP_UNDERGUARD_carry",
+        "carry_override": "VAMP_carry",
+		"weapon_override": "VAMP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -129,8 +131,9 @@
             { "skill": "survival", "bonus" : { "rng" : [ 1, 8 ] } },
             { "skill": "bashing", "bonus" : { "rng" : [ 1, 4 ] } }
         ],
-        "worn_override": "VAMP_UNDERTRADER_worn",
-        "carry_override": "VAMP_UNDERTRADER_carry",
+        "worn_override": "VAMP_UNDERGUARD_worn",
+        "carry_override": "VAMP_carry",
+		"weapon_override": "VAMP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -183,8 +186,9 @@
             { "skill": "launcher", "bonus" : { "rng" : [ 2, 5 ] } },
             { "skill": "gun", "bonus" : { "rng" : [ 2, 5 ] } }
         ],
-        "worn_override": "VAMP_UNDERCOMMANDO_worn",
+        "worn_override": "VAMP_UNDERGUARD_worn",
         "carry_override": "VAMP_UNDERCOMMANDO_carry",
+		"weapon_override": "VAMP_UNDERCOMMANDO_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -231,8 +235,9 @@
             { "skill": "survival", "bonus" : { "rng" : [ 1, 8 ] } },
             { "skill": "bashing", "bonus" : { "rng" : [ 1, 4 ] } }
         ],
-        "worn_override": "VAMP_WASTELAND_worn",
-        "carry_override": "VAMP_WASTELAND_carry",
+        "worn_override": "VAMP_worn",
+        "carry_override": "VAMP_carry",
+		"weapon_override": "VAMP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -279,8 +284,9 @@
             { "skill": "survival", "bonus" : { "rng" : [ 1, 8 ] } },
             { "skill": "bashing", "bonus" : { "rng" : [ 1, 4 ] } }
         ],
-        "worn_override": "VAMP_WASTELAND_worn",
-        "carry_override": "VAMP_WASTEGUARD1_carry",
+        "worn_override": "VAMP_worn",
+        "carry_override": "VAMP_carry",
+		"weapon_override": "VAMP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -327,8 +333,9 @@
             { "skill": "survival", "bonus" : { "rng" : [ 1, 8 ] } },
             { "skill": "bashing", "bonus" : { "rng" : [ 1, 4 ] } }
         ],
-        "worn_override": "VAMP_WASTELAND_worn",
-        "carry_override": "VAMP_WASTEGUARD2_carry",
+        "worn_override": "VAMP_worn",
+        "carry_override": "VAMP_carry",
+		"weapon_override": "VAMP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
@@ -382,8 +389,9 @@
             { "skill": "launcher", "bonus" : { "rng" : [ 2, 5 ] } },
             { "skill": "gun", "bonus" : { "rng" : [ 2, 5 ] } }
         ],
-        "worn_override": "VAMP_GUNSHOP_worn",
+        "worn_override": "VAMP_worn",
         "carry_override": "VAMP_GUNSHOP_carry",
+		"weapon_override": "VAMP_GUNSHOP_wielded_weapon",
         "traits": [
             [ "VAMP", 100 ],
             [ "PALE", 100 ],
