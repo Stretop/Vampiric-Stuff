@@ -11,7 +11,7 @@
           "opinion": {
             "trust": 3,
             "fear": -10,
-            "value": 1,
+            "value": 2,
             "anger": -5
             },
             "topic": "TALK_DONE"
