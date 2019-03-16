@@ -1,5 +1,26 @@
 [
  {
+    "type": "COMESTIBLE",
+    "id": "blood",
+	"copy-from": "blood",
+    "name": "blood",
+    "name_plural": "blood",
+    "weight": 5,
+    "color": "red",
+    "container": "flask_glass",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 5,
+    "healthy": -8,
+    "calories": 43,
+    "description": "Blood, possibly that of a human.  Disgusting!",
+    "price": 100,
+    "material": "hflesh",
+    "volume": 1,
+    "phase": "liquid",
+    "fun": -50
+  },
+ {
     "id": "melted_bloodrune",
     "type": "GENERIC",
     "category": "spare_parts",
