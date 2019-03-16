@@ -10,7 +10,7 @@
         "........,...............",
         "...l       l........,...",
         "..,m###2### ............",
-        "... #!&m !# ............",
+        "... #!&m !#m............",
         ",.. 3  > &1 ..,.........",
         "... #!m &!# ............",
         ".,. ###+### .........,..",
@@ -39,14 +39,14 @@
         "1": "t_window_stained_red",
         "2": "t_window_stained_green",
          "3": "t_window_stained_blue",
-         ".": "t_grass",
+         ".": ["t_grass","t_dirt"],
          " ": "t_rock_floor",
          "l": "t_column",
          ">": "t_stairs_down"
       },
       "furniture": {
         "&": "f_rubble_rock",
-        "!": "f_statue",
+        "!": ["f_statue","f_rubble_rock"],
         "=": [ "f_grave_monument", "f_grave_stone", "f_grave_head" ]
       },
       "place_items": [
@@ -57,7 +57,7 @@
        "g": { "item": "grave_memories", "chance": 5 }
        },
       "place_monsters": [
-        { "monster": "GROUP_CRYPTIES", "x": [ 3 , 21 ], "y": [ 3 , 21 ], "density": 0.25 }
+        { "monster": "GROUP_CRYPTIES", "x": [ 2 , 22 ], "y": [ 2 , 22 ], "density": 0.25 }
       ]
     }
     },
