@@ -15,7 +15,7 @@
     "ammo": "shot",
     "skill": "pistol",
     "range": 15,
-    "ranged_damage": 2,
+    "ranged_damage": 0,
     "pierce": 5,
     "dispersion": 290,
     "sight_dispersion": 270,
@@ -42,9 +42,9 @@
     "ammo": "shot",
     "skill": "smg",
     "range": 5,
-    "ranged_damage": 1,
+    "ranged_damage": 0,
     "modes": [
-    ["DEFAULT", "auto", 15 ]
+    ["DEFAULT", "auto", 5 ]
     ],
     "pierce": 3,
     "dispersion": 350,
@@ -72,7 +72,7 @@
     "ammo": "shot",
     "skill": "rifle",
     "range": 20,
-    "ranged_damage": 5,
+    "ranged_damage": 0,
     "pierce": 10,
     "dispersion": 295,
     "sight_dispersion": 275,
