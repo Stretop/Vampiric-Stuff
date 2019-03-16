@@ -1,6 +1,6 @@
 [
  {
-    "//": "Vampire's mission are mandatory, which means they are created as subgoals of the game. BUT it must be done to allow some features of the mod.",
+    "//": "Vampire's mission are mandatory, which means they are the main quest subgoals of the game. It must be done to allow some features of the mod.",
     "id": "VAMP_UNDERCOMMANDO_quest1",
     "type": "mission_definition",
     "name": "Collect 30 Blood",
@@ -13,12 +13,12 @@
     "followup": "VAMP_UNDERCOMMANDO_quest2",
     "dialogue": {
       "describe": "This errand needs you.",
-      "offer": "Blood... Our main food for dark centuries. Even I almost forgot its taste, I'd like to drink it again. Bring me 30, too much but its essential in many ways.",
+      "offer": "Blood... Our main food for darkest centuries. Even I almost forgot its taste, I'd like to drink it again. Bring me 30, too much but its essential in many ways.",
       "accepted": "Okay, descendant. This won't be hard and take your time.",
       "rejected": "If only you let me shoot your chest, this will be done easily.",
       "advice": "Go to a hospital, get a blood drawn kit, and use it on yourself. Don't overuse it, you will die eventually if you don't wait to mend your blood back",
       "inquire": "Drinks? You have the drinks ready?",
-      "success": "I better make snack powders from excess blood.",
+      "success": "These blood certainly are useful.",
       "success_lie": "Well, thank you. *smirks*",
       "failure": "*smilesatyouthenslurp*",
       "failure_lie_": "Do not lie!"
@@ -33,14 +33,17 @@
     "value": 20000,
     "item": "smallleechtooth",
     "count": 15,
+	"start": {
+      "effect": [ { "u_sell_item": "blood", "count": 30 } ]
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "VAMP_UNDERCOMMANDO_quest3",
     "dialogue": {
       "describe": "I want you to slay something...",
-      "offer": "Ofcourse you know bloodsucking pests on the swamp, we hate those things. Hand over 15 teeth as a proof to succeed.",
-      "accepted": "Its easy to kill a leech, but don't get bitten, bleeding is much dangerous than their teeth.",
+      "offer": "Ofcourse you know bloodsucking pests on the swamp, we hate those parasites squirming for blood to live. Hand over 15 of their teeth as a proof to succeed this test.",
+      "accepted": "Its easy to kill a leech, but don't get bitten: bleeding is much dangerous than their teeth.",
       "rejected": "It's just okay.",
-      "advice": "They are blind, and depends on what they hear or smell, situations will be different once you're there.",
+      "advice": "They are blind, and depends on what they hear or smell. Situations are different once you're there.",
       "inquire": "Dead?",
       "success": "Nice work, descendant!",
       "success_lie": "Well, thank you. *smirks*",
@@ -51,16 +54,20 @@
   {
     "id": "VAMP_UNDERCOMMANDO_quest3",
     "type": "mission_definition",
-    "name": "Take the Blood Sac",
+    "name": "Take the Blood Sac from the giant \"Thing\"",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 10,
     "value": 20000,
     "item": "bloodsac",
     "count": 1,
+	"start": {
+      "effect": [ { "u_sell_item": "smallleechtooth", "count": 15 } ]
+    },
+	"followup": "VAMP_UNDERCOMMANDO_quest4",
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
-      "describe": "This is extremely dangerous to you... Going to do it?",
-      "offer": "You saw a hole with large blood residue? I think its their gathering place, but that \"thing\" on the depths, you need to kill it.",
+      "describe": "This is pretty much risky to you... Going to do it?",
+      "offer": "There is a peculiar cave with vast blood residue in it and I think its their gathering place, . This giant \"thing\" on the depths, you'll need to bring it down as my command.",
       "accepted": "Bring its blood sac, that would be a nice prize taking it down and as a proof of succeeding this test.",
       "rejected": "Gather your courage first.",
       "advice": "It is blind and very slow, slower than a human snail, but it'll devour you and causes deadly injuries getting near it... Now get going!",
@@ -68,6 +75,33 @@
       "success": "Damn kid, that's the mess you wanted to get. And you are still alive after that!",
       "success_lie": "Well, thank you. *smirks*",
       "failure": "Ummm... I want to shoot you.",
+      "failure_lie_": "Do not lie!"
+    }
+  },
+  {
+  
+    "id": "VAMP_UNDERCOMMANDO_quest4",
+    "type": "mission_definition",
+    "name": "Go to the wasteland outskirts",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 10,
+    "value": 20000,
+    "destination": "wo5",
+	"start": {
+      "effect": [ { "u_sell_item": "bloodsac" }, { "u_buy_item": "blood_cring" } ],
+	  "assign_mission_target": { "om_terrain": "wo5", "om_special": "Wasteland Outskirts", "reveal_radius": 3, "search_range": 180, "z": 0 }
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Well since you've been doing well on my commands, I'd better tell you something...",
+      "offer": "The wasteland outskirts - a sanctuary for both vampires and humans alike - were built after the first wave of outbreak. I want you to go there and help everyone with their needs...",
+      "accepted": "This is not a request... Now go and aid them. And wait, I should give you this ring as a proof of helping me out.",
+      "rejected": "Waste less time for this.",
+      "advice": "It is a large structure with barricaded wall and there's this \"hub\" wherein vampires seek to avoid sunlight. That's all I can tell.",
+      "inquire": "The outskirt needs your aid!",
+      "success": "I see you did come to the outskirts.",
+      "success_lie": "Well, thank you. *smirks*",
+      "failure": "Ummm....",
       "failure_lie_": "Do not lie!"
     }
   },
@@ -81,6 +115,9 @@
     "item": "blood",
     "count": 15,
     "origins": [ "ORIGIN_SECONDARY" ],
+		"end": {
+      "effect": [ { "u_sell_item": "blood", "count": 15 } ]
+    },
     "followup": "VAMP_LONELY_quest2",
     "dialogue": {
       "describe": "I want you for this errand.",
@@ -122,18 +159,18 @@
     {
     "id": "VAMP_LONELY_quest3",
     "type": "mission_definition",
-    "name": "Bring 3 Decayed Bone",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 4,
+    "name": "Bring down 10 elder zombies",
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "difficulty": 5,
     "value": 30000,
-    "item": "decaybone",
-    "count": 3,
+    "monster_species": "ELDERZED",
+    "monster_kill_goal": 10,
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "VAMP_LONELY_quest4",
     "dialogue": {
       "describe": "This is a little harder...",
-      "offer": "My elderly gravestones has resurrected people, similar to the city folks. As a test, give me 3 decayed bones. You may want to wander various places and look for them.",
-      "accepted": "Good. Take your time.",
+      "offer": "My elderly gravestones has resurrected people. Unlike city-folks, these corpses are much formidable. Bring down and put 10 of them to rest as my request.",
+      "accepted": "Good. Now go outside and look for them.",
       "rejected": "Come back later.",
       "advice": "They have stone-like bloody armor under their skin, so you need to be careful provoking them.",
       "inquire": "Now?",
@@ -153,6 +190,9 @@
     "item": "bloodrune",
     "count": 1,
     "origins": [ "ORIGIN_SECONDARY" ],
+	"end": {
+      "effect": [ { "u_sell_item": "bloodrune" } ]
+    },
     "followup": "VAMP_LONELY_quest5",
     "dialogue": {
       "describe": "This is a bit hard for you. You still want to try?",
@@ -177,18 +217,17 @@
     "destination": "vampcave_corridor1",
     "start": {
       "effect": [ "follow" ],
-      "assign_mission_target": { "om_terrain": "vampcave_entrance", "om_special": "Vampire Cove", "reveal_radius": 3 }
+      "assign_mission_target": { "om_terrain": "vampcave_entrance", "om_special": "Vampire Cove", "reveal_radius": 3, "search_range": 180, "z": 0 }
     },
-    "end": "leave",
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "This is the last job, you want to do it?",
-      "offer": "Since you've been helping me for a while, you need to take me to the vampire cove. Being alone is great, but its greater to be with my kind.",
+      "offer": "Since you've been helping me for a while, you need to take me to the vampire cove. Being isolated for centuries is great, but seeing a living community of my kind alleviates my frozen body the most.",
       "accepted": "Good, those tests proved yourself a good descendant, as a reward, I'll protect you along the way.",
       "rejected": "Just okay, get back later...",
-      "advice": "This may be a long journey, and you better own a car for the trip... And a map.",
+      "advice": "This may be a long journey, and you better own a car for this rough trip..",
       "inquire": "What?",
-      "success": "Now I am with my kindred. Thank you descendant. Even though we'd need to break this journey up, I will remember you for eternal.",
+      "success": "I see my kindred seems alright. Well, it doesn't matter if I stay here, my corrupted soul has chosen to follow your deeds...",
       "success_lie": "Just thanks...",
       "failure": "*smirks*",
       "failure_lie": "I better have killed you, mortal."
@@ -204,6 +243,9 @@
     "item": "corruptbloodrune", 
     "count": 2,
     "origins": [ "ORIGIN_SECONDARY" ],
+	"end": {
+      "effect": [ { "u_sell_item": "corruptbloodrune", "count": 2 } ]
+    },
     "dialogue": {
       "describe": "Well, actually we have a problem...",
       "offer": "Our kin isn't a target of diseases, but those 2 vampires at the back, they really look bad and start raging on its own, so we cage them at early state... Never knew the magic was that strong enough to kill EVEN us. I want you to end the sick vampires as your task and get their corrupted bloodrune. We know we can dispose them easily, but our beliefs prevent us from killing our own kind.",
