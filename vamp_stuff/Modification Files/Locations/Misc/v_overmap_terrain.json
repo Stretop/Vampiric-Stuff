@@ -83,7 +83,7 @@
       "id": "gravesite1",
     "type": "overmap_terrain",
     "name": "graveyard",
-    "sym": 47,
+    "sym": 46,
     "color": "brown",
     "see_cost": 5,
     "mondensity": 0,
