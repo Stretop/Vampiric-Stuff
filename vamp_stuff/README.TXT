@@ -4,9 +4,11 @@ https://discourse.cataclysmdda.org - CDDA official website
 
 
 
-  ~ THE MOD FOCUSES ON ADDING VAMPIRES TO YOUR WORLD, ALONG WITH THE NEW LOCATIONS TO EXPLORE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
+  ~ THE MOD FOCUSES ON ADDING VAMPIRES TO YOUR WORLD, ALONG WITH THE NEW LOCATIONS TO EXPLORE, QUESTS TO COMPLETE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
 
-  * The v1.2 is a progress to resurrect this old jewel, after it was abandoned for so long... But for now, fixes, tweaks and reworks are the works needed for this mod :)
+  * The v1.2 is a progress to resurrect this old jewel, after it was abandoned for so long... But for now, fixes, tweaks and reworks are the stuff needed for this mod :)
+  
+  NOTE: Turn on static npcs in your world settings, or you won't see any npcs in almost all locations, as these are the main feature of this mod.
 
 
 
@@ -15,10 +17,15 @@ https://discourse.cataclysmdda.org - CDDA official website
 #  ADDED TILESET (temporary visualizations)
 
 -  TWEAKED NPC STATS (large decrease on skills, reduction of natural stats)
--  FIXED NPC MISSIONS (non-loric quests removed)
+-  NPC GEARS FIXES (reorganized npc clothing and minor bug fixes)
+-  NPC MISSION REMOVAL (non-loric quests erased)
+-  REWORKS ON NPC MISSIONS (large fixes and some changes for most quests),
+-  NPC DIALOGUE FIXES (statement recorrections and some removal/changes)
 -  UNUSED CREATURES REMOVAL (trashed non-loric entities)
 -  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
+-  ITEM DATA REWORKS (various item price fixes)
+-  WEAPON DATA FIXES (large decrease on damage)
 
 
 
@@ -50,3 +57,9 @@ https://discourse.cataclysmdda.org - CDDA official website
 +  INTRODUCED VAMPIRIC STUFF
 
 
+
+  $ The story flow is quest dependent, and actually follows this path:
+  
+	=> CRYPT => COVE => OUTSKIRTS => (WIP)
+
+  $ If you've came to the outskirts even without meeting an isolated vampire first doesn't affect the gameplay at all.
