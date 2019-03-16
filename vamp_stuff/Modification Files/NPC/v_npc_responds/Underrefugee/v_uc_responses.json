@@ -10,10 +10,16 @@
     "responses": [
       {
         "text": "I want to talk with you.",
-        "topic": "TALK_VAMP_UNDERCOMMANDO_maintalk"
+        "topic": "TALK_VAMP_UNDERCOMMANDO_maintalk",
+		"condition": "has_no_available_mission"
+      },
+	  {
+        "text": "Any work can I do?.",
+        "topic": "TALK_MISSION_LIST"
       },
       { "text": "I should go now.",
-        "topic": "TALK_DONE"
+        "topic": "TALK_DONE",
+		"condition": "has_no_available_mission"
       }
     ]
   },
@@ -38,10 +44,6 @@
       },
       { "text": "Do you offer your guns in trading?",
         "topic": "TALK_VAMP_UNDERCOMMANDO_tradegun"
-      },
-      {
-        "text": "Any work can I do?.",
-        "topic": "TALK_MISSION_LIST"
       },
       { "text": "Let's talk later.",
         "topic": "TALK_DONE"
