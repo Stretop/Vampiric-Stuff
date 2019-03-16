@@ -14,12 +14,13 @@
     ]
   },
   {
-  "type" : "item_group",
-    "id" : "bloodammo",
-    "items": [
-	["bloodypressure", 100]
-    ]
-  },
+    "id": "bloodammo",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "bloodypressure", "count": [ 50, 100] }
+      ]
+    },
   {
     "type" : "item_group",
     "id" : "vampmeleeweapon",
