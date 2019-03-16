@@ -295,6 +295,38 @@
 			{
             "id": "overlay_wielded_sword_sipplus",
             "fg": 71
+            },
+			{
+            "id": "corruptbloodrune",
+            "fg": 72
+            },
+			{
+            "id": "smallleechtooth",
+            "fg": 73
+            },
+			{
+            "id": "bloodsac",
+            "fg": 74
+            },
+			{
+            "id": "decaybone",
+            "fg": 75
+            },
+			{
+            "id": "vamp_darkfashion1",
+            "fg": 76
+            },
+			{
+            "id": "vamp_gunner1",
+            "fg": 77
+            },
+			{
+            "id": "vamp_upgradebook1",
+            "fg": 78
+            },
+			{
+            "id": ["vamp_book1","vamp_book2","vamp_book3","vamp_book4","vamp_book5"],
+            "fg": 79
             }
         ]
         }
