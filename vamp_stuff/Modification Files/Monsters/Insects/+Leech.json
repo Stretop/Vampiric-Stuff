@@ -133,7 +133,7 @@
     "id": "mon_insect_devourerleech",
     "type": "MONSTER",
     "name": "devourer leech",
-    "description": "It excrete blood from its body continiously as it slithers very slow. This enormous leech has hundreds of teeth and slabs of elastic skin makes it hideous physically.",
+    "description": "It excrete blood from its body continuously as it slithers very slow. This enormous leech has hundreds of teeth and slabs of elastic skin makes it hideous physically.",
     "default_faction": "leech",
     "species": [ "INSECT", "LEECH" ],
     "diff": 50,
