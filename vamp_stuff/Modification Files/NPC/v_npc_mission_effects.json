@@ -14,5 +14,9 @@
   {
     "type": "effect_type",
     "id": "underseekermeet"
+  },
+  {
+    "type": "effect_type",
+    "id": "underguard3concern"
   }
 ]
