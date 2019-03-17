@@ -5,8 +5,8 @@
     "type": "mission_definition",
     "name": "Collect 30 Blood",
     "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 5,
-    "value": 10000,
+    "difficulty": 0,
+    "value": 100000,
     "item": "blood",
     "count": 30,
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -20,7 +20,7 @@
       "inquire": "Drinks? You have the drinks ready?",
       "success": "These blood certainly are useful.",
       "success_lie": "Well, thank you. *smirks*",
-      "failure": "*smilesatyouthenslurp*",
+      "failure": "*grins*",
       "failure_lie_": "Do not lie!"
     }
   },
@@ -29,8 +29,8 @@
     "type": "mission_definition",
     "name": "Collect 15 Small Leech Teeth",
     "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 5,
-    "value": 20000,
+    "difficulty": 2,
+    "value": 200000,
     "item": "smallleechtooth",
     "count": 15,
 	"start": {
@@ -56,8 +56,8 @@
     "type": "mission_definition",
     "name": "Take the Blood Sac from the giant \"Thing\"",
     "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 10,
-    "value": 20000,
+    "difficulty": 5,
+    "value": 300000,
     "item": "bloodsac",
     "count": 1,
 	"start": {
@@ -79,30 +79,30 @@
     }
   },
   {
-  
     "id": "VAMP_UNDERCOMMANDO_quest4",
     "type": "mission_definition",
-    "name": "Go to the wasteland outskirts",
-    "goal": "MGOAL_GO_TO_TYPE",
-    "difficulty": 10,
-    "value": 20000,
-    "destination": "wo5",
-	"start": {
-      "effect": [ { "u_sell_item": "bloodsac" }, { "u_buy_item": "blood_cring" } ],
-	  "assign_mission_target": { "om_terrain": "wo5", "om_special": "Wasteland Outskirts", "reveal_radius": 3, "search_range": 180, "z": 0 }
-    },
+    "name": "Kill 200 zombies",
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "difficulty": 5,
+    "value": 400000,
+    "monster_species": "ZOMBIE",
+    "monster_kill_goal": 200,
     "origins": [ "ORIGIN_SECONDARY" ],
+	"start": {
+      "effect": [ { "u_sell_item": "bloodsac" }, { "u_buy_item": "blood_cring" }, { "u_add_effect": "commandovampmark", "duration": 999999999 } ]
+    },
+	"end": "thankful",
+	"//": "Since the PERMANENT duration isn't working, I instead set the duration for more than 100 of years.",
     "dialogue": {
-      "describe": "Well since you've been doing well on my commands, I'd better tell you something...",
-      "offer": "The wasteland outskirts - a sanctuary for both vampires and humans alike - were built after the first wave of outbreak. I want you to go there and help everyone with their needs...",
-      "accepted": "This is not a request... Now go and aid them. And wait, I should give you this ring as a proof of helping me out.",
-      "rejected": "Waste less time for this.",
-      "advice": "It is a large structure with barricaded wall and there's this \"hub\" wherein vampires seek to avoid sunlight. That's all I can tell.",
-      "inquire": "The outskirt needs your aid!",
-      "success": "I see you did come to the outskirts.",
-      "success_lie": "Well, thank you. *smirks*",
-      "failure": "Ummm....",
-      "failure_lie_": "Do not lie!"
+      "describe": "This is the final test I can give you... Still want to try?",
+      "offer": "I've heard that these \"blobs\" was the cause of all troubles and horrors occurring worldwide. As my command, eliminate 200 of these walking corpses to succeed... Later on, I will tell you something after this.",
+      "accepted": "Prepare yourself before jumping into this mess.",
+      "rejected": "Just prepare yourself for this job.",
+      "advice": "Visit some heavily crowded areas.",
+      "inquire": "How is the hunt going?",
+      "success": "Great job, descendant. Now try to talk to the seeker, and she may finally listen to you.",
+      "success_lie": "What good does this do us?",
+      "failure": "It was a lost cause anyways..."
     }
   },
 {
@@ -110,14 +110,11 @@
     "type": "mission_definition",
     "name": "Collect 15 Blood",
     "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 2,
-    "value": 10000,
+    "difficulty": 0,
+    "value": 100000,
     "item": "blood",
     "count": 15,
     "origins": [ "ORIGIN_SECONDARY" ],
-		"end": {
-      "effect": [ { "u_sell_item": "blood", "count": 15 } ]
-    },
     "followup": "VAMP_LONELY_quest2",
     "dialogue": {
       "describe": "I want you for this errand.",
@@ -139,8 +136,11 @@
     "goal": "MGOAL_KILL_MONSTER_SPEC",
 	"monster_species": "LEECH",
     "difficulty": 3,
-    "value": 20000,
-    "monster_kill_goal": 100,
+    "value": 200000,
+    "monster_kill_goal": 50,
+	"start": {
+      "effect": [ { "u_sell_item": "blood", "count": 15 } ]
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "VAMP_LONELY_quest3",
     "dialogue": {
@@ -161,8 +161,8 @@
     "type": "mission_definition",
     "name": "Bring down 10 elder zombies",
     "goal": "MGOAL_KILL_MONSTER_SPEC",
-    "difficulty": 5,
-    "value": 30000,
+    "difficulty": 3,
+    "value": 300000,
     "monster_species": "ELDERZED",
     "monster_kill_goal": 10,
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -185,18 +185,15 @@
     "type": "mission_definition",
     "name": "Bring Bloodrune",
     "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 8,
-    "value": 40000,
+    "difficulty": 5,
+    "value": 400000,
     "item": "bloodrune",
     "count": 1,
     "origins": [ "ORIGIN_SECONDARY" ],
-	"end": {
-      "effect": [ { "u_sell_item": "bloodrune" } ]
-    },
     "followup": "VAMP_LONELY_quest5",
     "dialogue": {
       "describe": "This is a bit hard for you. You still want to try?",
-      "offer": "Bloodrune... The vampire's eternal prowess. This artifact is what I must and consume it's hidden power. Since you are here to help, you'll do this for me.",
+      "offer": "Bloodrune... The vampire's eternal prowess. This artifact is what I must and consume it's hidden power. Since you are here to help, you'll do this for me instead.",
       "accepted": "It didn't mean I'm too lazy to look for it by myself, but you've said you are vacant for works. No turning back about this request.",
       "rejected": "I don't force you to do this...",
       "advice": "The wastelands are full of mystery, and mystery itself how to find these.",
@@ -212,13 +209,14 @@
     "type": "mission_definition",
     "name": "Take Vampire to The Cove",
     "goal": "MGOAL_GO_TO_TYPE",
-    "difficulty": 1,
-    "value": 50000,
+    "difficulty": 2,
+    "value": 500000,
     "destination": "vampcave_corridor1",
     "start": {
-      "effect": [ "follow" ],
+      "effect": [ "follow", { "u_add_effect": "isolatedvampmark", "duration": 999999999 }, { "u_sell_item": "bloodrune" } ],
       "assign_mission_target": { "om_terrain": "vampcave_entrance", "om_special": "Vampire Cove", "reveal_radius": 3, "search_range": 180, "z": 0 }
     },
+	"end": "thankful",
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "This is the last job, you want to do it?",
@@ -238,14 +236,12 @@
     "type": "mission_definition",
     "name": "Get 2 Corrupt Bloodrune Stone",
     "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 10,
-    "value": 10000,
+    "difficulty": 3,
+    "value": 100000,
     "item": "corruptbloodrune", 
     "count": 2,
     "origins": [ "ORIGIN_SECONDARY" ],
-	"end": {
-      "effect": [ { "u_sell_item": "corruptbloodrune", "count": 2 } ]
-    },
+	"followup": "VAMP_UNDERTRADER_quest2",
     "dialogue": {
       "describe": "Well, actually we have a problem...",
       "offer": "Our kin isn't a target of diseases, but those 2 vampires at the back, they really look bad and start raging on its own, so we cage them at early state... Never knew the magic was that strong enough to kill EVEN us. I want you to end the sick vampires as your task and get their corrupted bloodrune. We know we can dispose them easily, but our beliefs prevent us from killing our own kind.",
@@ -256,6 +252,88 @@
       "success": "Great, mortal. This oozing bloodrune will now meet its place... Or not at all.",
       "success_lie": "Well, thank you. *smirks*",
       "failure": "*glaressharply*",
+      "failure_lie_": "Do not lie!"
+    }
+  },
+  {
+    "id": "VAMP_UNDERTRADER_quest2",
+    "type": "mission_definition",
+    "name": "Slay 10 bats",
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "difficulty": 2,
+    "value": 200000,
+    "monster_species": "VAMPBAT",
+    "monster_kill_goal": 10,
+	"start": {
+      "effect": [ { "u_sell_item": "corruptbloodrune", "count": 2 }, { "u_add_effect": "undertradervampmark", "duration": 999999999 } ]
+    },
+	"end": "thankful",
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "We do appreciate your assistance with our needs.",
+      "offer": "Vampire bats became literal bloodsuckers these passing days and I want you to hunt down 10 of these vermins.",
+      "accepted": "Good. Come back anytime you want.",
+      "rejected": "I guess you're afraid of bats...",
+      "advice": "Bats are nocturnal, and tends to live in dark places like caves.",
+      "inquire": "How is the hunt going?",
+      "success": "Thank you for your help in eradicating some bloodsuckers.",
+      "success_lie": "What good does this do us?",
+      "failure": "It was a lost cause anyways..."
+    }
+  },
+  {
+  
+    "id": "VAMP_UNDERSEEKER_quest1",
+    "type": "mission_definition",
+    "name": "Find a forgotten burial site",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 1,
+    "value": 200000,
+    "destination": "gravesite1",
+    "origins": [ "ORIGIN_SECONDARY" ],
+	"start": {
+      "effect": [ "follow" ],
+      "assign_mission_target": { "om_terrain": "gravesite1", "om_special": "Gravesite - Wild", "reveal_radius": 1, "search_range": 180, "z": 0 }
+    },
+	"followup": "VAMP_UNDERSEEKER_quest2",
+    "dialogue": {
+      "describe": "Before we go, the trader asked me a request on this journey.",
+      "offer": "The trader told me to check out the old graveyards we knew from the past. So before we go to the outskirts, we'll get pass through it first.",
+      "accepted": "Off we go, mortal.",
+      "rejected": "Well, that's your choice...",
+      "advice": "Its been a long time since I see those graves...",
+      "inquire": "What now?",
+      "success": "The magic took over the buried corpses? That's unfortunate and the trader would be disappointed about this...",
+      "success_lie": "Well, thank you. *smirks*",
+      "failure": "*glaressharply*",
+      "failure_lie_": "Do not lie!"
+    }
+  },
+  {
+  
+    "id": "VAMP_UNDERSEEKER_quest2",
+    "type": "mission_definition",
+    "name": "Go to the wasteland outskirts",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 2,
+    "value": 400000,
+    "destination": "wo5",
+	"start": {
+      "effect": [ "follow" ],
+	  "assign_mission_target": { "om_terrain": "wo5", "om_special": "Wasteland Outskirts", "reveal_radius": 3, "search_range": 180, "z": 0 }
+    },
+	"end": "thankful",
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "Are we ready for this trip?",
+      "offer": "We are going to the outskirts, and I know the commando told you about this place.",
+      "accepted": "Good. Now off we go, mortal.",
+      "rejected": "...",
+      "advice": "I'll give you some details about the outskirts. It is a large structure with barricaded walls and tents placed outside for human survivors. Shopkeepers also sell stuff there.",
+      "inquire": "What?",
+      "success": "\"What else could I do for you\" you say? Don't worry, I have no more requests for you. Ask anyone here if you're curious.",
+      "success_lie": "Well, thank you. *smirks*",
+      "failure": "Ummm....",
       "failure_lie_": "Do not lie!"
     }
   }
