@@ -7,6 +7,12 @@
     },
 	{
         "type" : "SPECIES",
+        "id" : "VAMPBAT",
+        "anger_triggers" : ["FRIEND_DIED"],
+        "fear_triggers" : ["HURT", "FIRE"]
+    },
+	{
+        "type" : "SPECIES",
         "id" : "ELDERZED"
     }
 ]
