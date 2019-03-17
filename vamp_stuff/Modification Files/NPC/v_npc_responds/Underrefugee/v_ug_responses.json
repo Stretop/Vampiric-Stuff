@@ -215,7 +215,7 @@
 	  {
         "text": "What are you doing here?",
         "topic": "TALK_VAMP_UNDERGUARD3_hereever",
-		"condition": { "npc_has_effect": "underguard3concern" }
+		"condition": { "or": [ { "npc_has_effect": "underguard3concern" }, {"u_has_effect": "undertradervampmark"} ] }
       }
     ]
   },
