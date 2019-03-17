@@ -8,7 +8,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 
   * The v1.2 is a progress to resurrect this old jewel, after it was abandoned for so long... But for now, fixes, tweaks and reworks are the stuff needed for this mod :)
   
-  NOTE: Turn on static npcs in your world settings, or you won't see any npcs in almost all locations, as these are the main feature of this mod.
+  NOTE: Turn on static npcs in your world settings, or you won't see any npcs in almost all locations, as these are the main features of this mod.
 
 
 
@@ -16,10 +16,13 @@ https://discourse.cataclysmdda.org - CDDA official website
 	
 #  ADDED TILESET (temporary visualizations)
 
++  ADDED NEW NPC (underground seeker, the scout of the cove)
++  ADDED SOME MISSION
+
 -  TWEAKED NPC STATS (large decrease on skills, reduction of natural stats)
 -  NPC GEARS FIXES (reorganized npc clothing and minor bug fixes)
 -  NPC MISSION REMOVAL (non-loric quests erased)
--  REWORKS ON NPC MISSIONS (large fixes and some changes for most quests),
+-  REWORKS ON NPC MISSIONS (large fixes and some changes for most quests)
 -  NPC DIALOGUE FIXES (statement recorrections and some removal/changes)
 -  UNUSED CREATURES REMOVAL (trashed non-loric entities)
 -  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
@@ -60,6 +63,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 
   $ The story flow is quest dependent, and actually follows this path:
   
-	=> CRYPT => COVE => OUTSKIRTS => (WIP)
+	YOU => CRYPT => COVE => OUTSKIRTS => (WIP)
+	(Series of locations when completing quests)
 
-  $ If you've came to the outskirts even without meeting an isolated vampire first doesn't affect the gameplay at all.
+  $ If you've come to the outskirts even without meeting an isolated vampire first doesn't affect the gameplay at all. BUT you wont get the supplies from the cove like books to access the bloodcrafts.
