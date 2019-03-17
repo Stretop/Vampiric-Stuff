@@ -27,7 +27,8 @@ https://discourse.cataclysmdda.org - CDDA official website
 -  UNUSED CREATURES REMOVAL (trashed non-loric entities)
 -  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
--  ITEM DATA REWORKS (various item price fixes)
+-  ITEM DATA REWORKS (various item price fixes, weight and volume tweaks in certain items)
+-  ARMOR DATA FIXES (blood hoods will now protect vampires from sunlight, encumberance changes)
 -  WEAPON DATA FIXES (large decrease on damage)
 
 
@@ -45,7 +46,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 
 +~ MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
 
--  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques, regained after reinforcement)
+-  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques and are regained after reinforcement)
 -  MONSTER TWEAKS (greatly reduced monster stats)
 -  FIXED A MAP (vampire cove is even larger now)
 -  MAPGEN FIXED (slightly increased the chance to see structures)
