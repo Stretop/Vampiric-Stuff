@@ -54,7 +54,7 @@
     "class": "V_UNDERREFUGEE",
     "attitude": 0,
     "mission": 7,
-    "chat": "TALK_DONE",
+    "chat": "TALK_VAMP_UNDERGUARD3",
     "faction": "vamps"
   },
   {
