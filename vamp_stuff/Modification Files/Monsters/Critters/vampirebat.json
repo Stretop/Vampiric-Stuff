@@ -4,7 +4,7 @@
     "name": "large vampire bat",
     "description": "A larger vampire bat, with longer wingspan and visible fangs. Shows aggresion when startled, and detects them with screeching sounds they make.",
     "default_faction": "vampirics",
-    "species": [ "MAMMAL" ],
+    "species": [ "MAMMAL", "VAMPBAT" ],
     "diff": 10,
     "size": "SMALL",
     "hp": 45,

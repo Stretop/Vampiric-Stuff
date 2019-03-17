@@ -4,7 +4,7 @@
     "name": "feral vampire bat",
     "description": "A large vampire bat - with seeping bubbly liquid in its mouth - engorged to attack whatever is detected.",
     "default_faction": "vampirics",
-    "species": [ "MAMMAL" ],
+    "species": [ "MAMMAL", "VAMPBAT" ],
     "diff": 12,
     "size": "SMALL",
     "hp": 50,

@@ -4,7 +4,7 @@
     "name": "vampire bat",
     "description": "A mammalian creature commonly found at caverns and thick foliage. It has grown in fondness with the dark, and capable in terrain echolocation.",
     "default_faction": "vampirics",
-    "species": [ "MAMMAL" ],
+    "species": [ "MAMMAL", "VAMPBAT" ],
     "diff": 5,
     "size": "TINY",
     "hp": 25,
