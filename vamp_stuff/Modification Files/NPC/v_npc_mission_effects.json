@@ -1,0 +1,18 @@
+[
+{
+    "type": "effect_type",
+    "id": "isolatedvampmark"
+  },
+  {
+    "type": "effect_type",
+    "id": "commandovampmark"
+  },
+  {
+    "type": "effect_type",
+    "id": "undertradervampmark"
+  },
+  {
+    "type": "effect_type",
+    "id": "underseekermeet"
+  }
+]
