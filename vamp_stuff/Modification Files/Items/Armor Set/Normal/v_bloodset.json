@@ -42,7 +42,7 @@
     "warmth": 20,
     "material_thickness": 4,
     "environmental_protection": 4,
-    "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "OUTER" ]
+    "flags": [ "VARSIZE", "WATERPROOF", "STURDY", "OUTER", "HOOD" ]
  },
  {
     "id": "blood_duster",
