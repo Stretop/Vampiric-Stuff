@@ -1,5 +1,6 @@
 [
-{ 
+{
+"//": "Talking to this npc requires you to complete the first 2 npc mission providers: the commando and the trader.",
 "id": "TALK_VAMP_UNDERSEEKER",
     "type": "talk_topic",
     "dynamic_line": "...",
@@ -88,13 +89,8 @@
       {
         "text": "As I was saying...",
         "topic": "TALK_DONE",
-		"effect": { "npc_add_effect": "underseekermeet", "duration": 999999999 },
-		"opinion": {
-            "trust": 3,
-            "fear": -10,
-            "value": 1,
-            "anger": -1
-            }
+		"//": "Rep up by 5.",
+		"effect": [ { "u_faction_rep": 5 }, { "npc_add_effect": "underseekermeet", "duration": 999999999 } ]
       }
     ]
   },
