@@ -10,28 +10,33 @@
     "responses": [
       {
         "text": "Please tell me about yourself.",
-        "topic": "TALK_VAMP_LONELY_introduce"
+        "topic": "TALK_VAMP_LONELY_introduce",
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "isolatedvampmark"} ] }
       },
       {
         "text": "Why are you here?",
-        "topic": "TALK_VAMP_LONELY_here"
+        "topic": "TALK_VAMP_LONELY_here",
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "isolatedvampmark"} ] }
       },
         {
-        "text": "About that work...",
+        "text": "About that quest...",
         "topic": "TALK_MISSION_INQUIRE",
         "condition": "has_assigned_mission"
        },
        {
         "text": "Ummm... You want to stick with me?",
-        "topic": "TALK_VAMP_LONELY_wego"
+        "topic": "TALK_VAMP_LONELY_wego",
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "isolatedvampmark"} ] }
       },
       {
         "text": "I'm vacant for your needs.",
-        "topic": "TALK_MISSION_LIST"
+        "topic": "TALK_MISSION_LIST",
+		"condition": { "not": { "u_has_effect": "isolatedvampmark" } }
        },
       {
         "text": "Sorry to bother.",
-        "topic": "TALK_DONE"
+        "topic": "TALK_DONE",
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "isolatedvampmark"} ] }
       }
     ]
   }

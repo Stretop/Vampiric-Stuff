@@ -11,31 +11,38 @@
       {
         "text": "Who are you?",
         "topic": "TALK_VAMP_UNDERTRADER_introduce",
-		"condition": "has_no_available_mission"
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "undertradervampmark"} ] }
       },
       { "text": "Tell me what happened outside.",
         "topic": "TALK_VAMP_UNDERTRADER_happened",
-		"condition": "has_no_available_mission"
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "undertradervampmark"} ] }
       },
       { "text": "I'll trade with ya...",
         "effect": "start_trade",
         "topic": "TALK_VAMP_UNDERTRADER",
-		"condition": "has_no_available_mission"
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "undertradervampmark"} ] }
       },
       {
         "text": "You need help? I'm here to do it.",
-        "topic": "TALK_MISSION_LIST"
+        "topic": "TALK_MISSION_LIST",
+		"condition": { "not": { "u_has_effect": "undertradervampmark" } }
       },
+	  
+	  {
+        "text": "About your quest...",
+        "topic": "TALK_MISSION_INQUIRE",
+        "condition": "has_assigned_mission"
+       },
       { "text": "Bye, see you later.",
         "topic": "TALK_DONE",
-		"condition": "has_no_available_mission"
+		"condition": { "or": [ "has_no_available_mission", {"u_has_effect": "undertradervampmark"} ] }
       }
     ]
   },
 { 
 "id": "TALK_VAMP_UNDERTRADER_introduce",
     "type": "talk_topic",
-    "dynamic_line": "I'm assigned as a trader by my master. I sell our artifact materials used in forging vampiric stuff. Or buy an already forged ones for a higher trade value.",
+    "dynamic_line": "I am assigned as a trader by my master. I sell our artifact materials used in forging vampiric stuff. Or buy an already forged ones for a higher trade value.",
     "responses": [
       {
         "text": "Wait. Why are you selling artifacts?",
@@ -76,13 +83,12 @@
     "responses": [
 	  { "text": "Master? Could you tell me anything about this HIM?",
         "topic": "TALK_VAMP_UNDERTRADER_himdetail",
-		"condition": { "u_is_wearing": "blood_necklace" },
-		"switch": true },
+		"condition": { "u_is_wearing": "blood_necklace" }
+		},
       {
         "text": "Master? Could you tell me anything about this HIM?",
         "topic": "TALK_VAMP_UNDERTRADER_him",
-		"condition": { "not": { "u_is_wearing": "blood_necklace" } },
-		"switch": true
+		"condition": { "not": { "u_is_wearing": "blood_necklace" } }
       },
       { "text": "Okay...",
         "topic": "TALK_VAMP_UNDERTRADER"

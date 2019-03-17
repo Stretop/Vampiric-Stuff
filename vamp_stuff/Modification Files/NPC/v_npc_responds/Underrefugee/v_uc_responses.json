@@ -11,15 +11,21 @@
       {
         "text": "I want to talk with you.",
         "topic": "TALK_VAMP_UNDERCOMMANDO_maintalk",
-		"condition": "has_no_available_mission"
+		"condition": { "or": [ "has_no_available_mission", { "u_is_wearing": "blood_cring" }, {"u_has_effect": "commandovampmark"} ] }
       },
 	  {
         "text": "Any work can I do?.",
-        "topic": "TALK_MISSION_LIST"
+        "topic": "TALK_MISSION_LIST",
+		"condition": { "not": { "u_has_effect": "commandovampmark" } }
       },
+	  {
+        "text": "About your command...",
+        "topic": "TALK_MISSION_INQUIRE",
+        "condition": "has_assigned_mission"
+       },
       { "text": "I should go now.",
         "topic": "TALK_DONE",
-		"condition": "has_no_available_mission"
+		"condition": { "or": [ "has_no_available_mission", { "u_is_wearing": "blood_cring" }, {"u_has_effect": "commandovampmark"} ] }
       }
     ]
   },
