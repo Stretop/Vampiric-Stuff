@@ -59,6 +59,18 @@
   },
   {
     "type": "npc",
+    "id": "VAMP_UNDERSEEKER",
+    "name_suffix": "Underguard",
+    "gender": "female",
+    "class": "V_UNDERREFUGEE",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_VAMP_UNDERSEEKER",
+    "faction": "vamps",
+	"mission_offered": "VAMP_UNDERSEEKER_quest1"
+  },
+  {
+    "type": "npc",
     "id": "VAMP_UNDERTRADER",
     "name_suffix": "Trader",
     "gender": "male",
