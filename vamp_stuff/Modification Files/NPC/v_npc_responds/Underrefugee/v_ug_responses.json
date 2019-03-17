@@ -190,5 +190,74 @@
         "topic": "TALK_VAMP_UNDERGUARD2"
       }
     ]
+  },
+  
+  
+  
+    {
+"id": "TALK_VAMP_UNDERGUARD3",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "npc_has_effect": "underguard3concern",
+      "yes": "...",
+      "no": "What do you need?."
+    },
+    "responses": [
+	  {
+        "text": "Nothing...",
+        "topic": "TALK_DONE"
+      },
+      {
+        "text": "What are you doing here?",
+        "topic": "TALK_VAMP_UNDERGUARD3_here",
+		"condition": { "not": { "npc_has_effect": "underguard3concern" } }
+      },
+	  {
+        "text": "What are you doing here?",
+        "topic": "TALK_VAMP_UNDERGUARD3_hereever",
+		"condition": { "npc_has_effect": "underguard3concern" }
+      }
+    ]
+  },
+  {
+"id": "TALK_VAMP_UNDERGUARD3_here",
+    "type": "talk_topic",
+    "dynamic_line": "I was tasked to watch over the two rampaging kindreds in their cages.",
+    "responses": [
+	{
+        "text": "Oh, okay...",
+        "topic": "TALK_DONE"
+      },
+      {
+  "text": "May I kill those two vampires?.",
+  "topic": "TALK_VAMP_UNDERGUARD3_killthem",
+  "condition": { "u_has_mission": "VAMP_UNDERTRADER_quest" }
+}
+    ]
+  },
+  {
+"id": "TALK_VAMP_UNDERGUARD3_killthem",
+    "type": "talk_topic",
+    "dynamic_line": "Ofcourse, you can! We already have lost our faith on them to fight back their rabid sickness.",
+    "responses": [
+      {
+  "text": "That's too bad...",
+  "topic": "TALK_DONE",
+  "effect": { "npc_add_effect": "underguard3concern", "duration": 999999999 },
+  "opinion": { "trust": 2, "anger": -2 }
+}
+    ]
+  },
+  {
+"id": "TALK_VAMP_UNDERGUARD3_hereever",
+    "type": "talk_topic",
+    "dynamic_line": "Just staying in the darkness... Away from the horrifying magic.",
+    "responses": [
+	{
+        "text": "I guess you're afraid of Cataclysm...",
+        "effect": "end_conversation",
+        "topic": "TALK_DONE"
+      }
+    ]
   }
 ]
