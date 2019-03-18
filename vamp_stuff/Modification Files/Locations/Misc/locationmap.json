@@ -3,8 +3,8 @@
     "id": "crypt_map",
     "type": "GENERIC",
     "category": "books",
-    "name": "Crypt map",
-    "description": "This odd, hand drawn map points the crypt(s) in its range. There's no actual road going there, but it's an enough information for you.",
+    "name": "crypt map",
+    "description": "This odd, hand drawn map points the crypts in its range. There's no actual road going there, but it's an enough information for you.",
     "weight": 30,
     "volume": 1,
     "price": 0,
@@ -14,7 +14,7 @@
     "color": "red",
     "use_action": {
       "type": "reveal_map",
-      "radius": 500,
+      "radius": 180,
       "terrain": [ "crypt1", "crypt2" ],
       "message": "You add the Crypt(s) to your map."
     }
@@ -23,9 +23,9 @@
     "id": "vampcave_map",
     "type": "GENERIC",
     "category": "books",
-    "name": "Vampire Cove map",
+    "name": "cove map",
     "description": "This odd, hand drawn map only points the vampire cove. There's no actual road going there, but it's an enough information for you.",
-    "weight": 30,
+    "weight": 50,
     "volume": 1,
     "price": 0,
     "to_hit": -1,
@@ -34,7 +34,7 @@
     "color": "red",
     "use_action": {
       "type": "reveal_map",
-      "radius": 500,
+      "radius": 180,
       "terrain": [ "vampcave_entrance" ],
       "message": "You add the Vampire Cove to your map."
     }
