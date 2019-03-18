@@ -3,7 +3,7 @@
     "//": "Vampire's mission are mandatory, which means they are the main quest subgoals of the game. It must be done to allow some features of the mod.",
     "id": "VAMP_UNDERCOMMANDO_quest1",
     "type": "mission_definition",
-    "name": "Collect 30 Blood",
+    "name": "Collect 30 blood",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 0,
     "value": 100000,
@@ -27,7 +27,7 @@
   {
     "id": "VAMP_UNDERCOMMANDO_quest2",
     "type": "mission_definition",
-    "name": "Collect 15 Small Leech Teeth",
+    "name": "Collect 15 small leech teeth",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 2,
     "value": 200000,
@@ -54,14 +54,15 @@
   {
     "id": "VAMP_UNDERCOMMANDO_quest3",
     "type": "mission_definition",
-    "name": "Take the Blood Sac from the giant \"Thing\"",
+    "name": "Take the blood sac from the giant \"Thing\"",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 5,
     "value": 300000,
     "item": "bloodsac",
     "count": 1,
 	"start": {
-      "effect": [ { "u_sell_item": "smallleechtooth", "count": 15 } ]
+      "effect": [ { "u_sell_item": "smallleechtooth", "count": 15 } ],
+	  "assign_mission_target": { "om_terrain": "bloodhole", "om_special": "bhole", "reveal_radius": 1, "search_range": 180, "z": 0 }
     },
 	"followup": "VAMP_UNDERCOMMANDO_quest4",
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -108,7 +109,7 @@
 {
     "id": "VAMP_LONELY_quest1",
     "type": "mission_definition",
-    "name": "Collect 15 Blood",
+    "name": "Collect 15 blood",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 0,
     "value": 100000,
@@ -183,7 +184,7 @@
   {
     "id": "VAMP_LONELY_quest4",
     "type": "mission_definition",
-    "name": "Bring Bloodrune",
+    "name": "Bring a bloodrune",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 5,
     "value": 400000,
@@ -191,6 +192,10 @@
     "count": 1,
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "VAMP_LONELY_quest5",
+	"//": "Locating a blended overmap in a world would take forever, so we WILL set a pedestal in random distances.",
+	"start": {
+      "assign_mission_target": { "om_terrain": "bloodrune_pedestal", "om_special": "Pedestal - Bloodrune", "reveal_radius": 1, "search_range": 180, "z": 0, "random": true }
+    },
     "dialogue": {
       "describe": "This is a bit hard for you. You still want to try?",
       "offer": "Bloodrune... The vampire's eternal prowess. This artifact is what I must and consume it's hidden power. Since you are here to help, you'll do this for me instead.",
