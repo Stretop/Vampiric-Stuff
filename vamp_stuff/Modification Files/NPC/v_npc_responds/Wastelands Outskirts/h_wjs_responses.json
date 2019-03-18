@@ -1,0 +1,39 @@
+[{
+  "id": "TALK_HUMAN_JUNKSHOP_maintalk",
+  "type": "talk_topic",
+  "dynamic_line": "Hello kid!",
+  "responses": [{
+    "text": "What are you doing here?.",
+    "topic": "TALK_HUMAN_JUNKSHOP_here"
+   }, {
+    "text": "I want your junk...",
+    "effect": "start_trade",
+    "topic": "TALK_HUMAN_JUNKSHOP_maintalk"
+   }, {
+    "text": "Bye.",
+    "topic": "TALK_DONE"
+   }
+  ]
+ }, {
+  "id": "TALK_HUMAN_JUNKSHOP_here",
+  "type": "talk_topic",
+  "dynamic_line": "I passed by this place, and talked with these 'vampires'. They accepted me as a human refugee, and so... Here I am, a junk keeper safe from harm.",
+  "responses": [{
+    "text": "Do you plan to venture outside again?.",
+    "topic": "TALK_HUMAN_JUNKSHOP_there"
+   }, {
+    "text": "A safe haven for you...",
+    "topic": "TALK_HUMAN_JUNKSHOP_maintalk"
+   }
+  ]
+ }, {
+  "id": "TALK_HUMAN_JUNKSHOP_there",
+  "type": "talk_topic",
+  "dynamic_line": "I wanted to, but after seeing how these vampires protect this place from a vast zombie horde, I changed my mind.",
+  "responses": [{
+    "text": "Now, you depend on them.",
+    "topic": "TALK_HUMAN_JUNKSHOP_maintalk"
+   }
+  ]
+ }
+]
