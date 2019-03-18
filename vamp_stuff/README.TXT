@@ -28,6 +28,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 -  UNUSED CREATURES REMOVAL (trashed non-loric entities)
 -  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
+-  LOCATION SPAWN FIXES (structures spawn as independent, in which it has no affixed city name)
 -  ITEM DATA REWORKS (various item price fixes, weight and volume tweaks in certain items)
 -  ARMOR DATA FIXES (blood hoods will now protect vampires from sunlight, encumbrance changes)
 -  WEAPON DATA FIXES (large decrease on damage)
