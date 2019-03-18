@@ -48,7 +48,7 @@
     ],
     "components": [
      [ [ "bloodpowder", 6 ] ],
-     [ [ "meat_tainted", 2 ] ],
+     [ [ "meat_tainted", 1 ] ],
      [ [ "water", 2 ] ]
      ]
   },
