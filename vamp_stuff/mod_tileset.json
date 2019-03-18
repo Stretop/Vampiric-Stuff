@@ -309,7 +309,7 @@
             "fg": 74
             },
 			{
-            "id": "decaybone",
+            "id": ["crypt_map", "vampcave_map"],
             "fg": 75
             },
 			{
