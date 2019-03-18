@@ -13,12 +13,8 @@
             { "point":[1,2,0], "overmap": "wo8_north"},
             { "point":[2,2,0], "overmap": "wo7_north"}
         ],
-        "locations" : [ "wilderness" ],
-        "city_distance" : [14, 20],
-        "city_sizes" : [0, 16],
-        "occurrences" : [1,1],
-        
-        "flags" : [ "UNIQUE" ]
+        "locations" : [ "forest" ],
+        "occurrences" : [1,1]
     },
     {
         "type" : "overmap_special",
@@ -28,11 +24,7 @@
             { "point":[0,0,-1], "overmap": "crypt1_b1_north"}
         ],
         "locations" : [ "forest" ],
-        "city_distance" : [5, 0],
-        "city_sizes" : [0, 16],
-        "occurrences" : [10, 10],
-        
-        "flags" : [ "UNIQUE" ]
+        "occurrences" : [1, 20]
     },
     {
         "type" : "overmap_special",
@@ -42,11 +34,7 @@
             { "point":[0,0,-1], "overmap": "crypt2_b1_north"}
         ],
         "locations" : [ "forest" ],
-        "city_distance" : [-5, 0],
-        "city_sizes" : [0, 16],
-        "occurrences" : [10, 10],
-        
-        "flags" : [ "UNIQUE" ]
+        "occurrences" : [1, 20]
     },
     {
         "type" : "overmap_special",
@@ -58,11 +46,7 @@
             { "point":[0,1,-2], "overmap": "vampcave_basement_north"}
         ],
         "locations" : [ "forest" ],
-        "city_distance" : [1, 7],
-        "city_sizes" : [0, 16],
-        "occurrences" : [1,1],
-        
-        "flags" : [ "UNIQUE" ]
+        "occurrences" : [1,1]
     },
     {
         "type" : "overmap_special",
@@ -70,12 +54,8 @@
         "overmaps" : [
             { "point":[0,0,0], "overmap": "bloodrune_pedestal_north"}
         ],
-        "locations" : [ "forest" ],
-        "city_distance" : [ 10, 0 ],
-        "city_sizes" : [0, 16],
-        "occurrences" : [1, 1],
-        
-        "flags" : [ "UNIQUE" ]
+        "locations" : [ "forest", "field" ],
+        "occurrences" : [1, 5]
         },
         {
         "type" : "overmap_special",
@@ -83,12 +63,8 @@
         "overmaps" : [
             { "point":[0,0,0], "overmap": "gravesite1_north"}
         ],
-        "locations" : [ "forest" ],
-        "city_distance" : [ 10, 10 ],
-        "city_sizes" : [0, 16],
-        "occurrences" : [3, 3],
-        
-        "flags" : [ "UNIQUE" ]
+        "locations" : [ "forest", "field" ],
+        "occurrences" : [1, 15]
         },
         {
         "type" : "overmap_special",
@@ -98,11 +74,7 @@
             { "point":[0,0,-1], "overmap": "bloodhole_bottom_north"},
             { "point":[0,0,-2], "overmap": "bloodhole_lair_north"}
         ],
-        "locations" : [ "forest" ],
-        "city_distance" : [ 5, 10 ],
-        "city_sizes" : [0, 16],
-        "occurrences" : [5, 5],
-        
-        "flags" : [ "UNIQUE" ]
+        "locations" : [ "field" ],
+        "occurrences" : [1, 10]
         }
 ]
