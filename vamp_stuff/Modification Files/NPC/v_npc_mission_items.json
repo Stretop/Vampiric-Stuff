@@ -1,4 +1,5 @@
 [{
+  "//": "Items that are useless, unless its been given as mission requirements.",
   "id": "corruptbloodrune",
   "type": "GENERIC",
   "category": "spare_parts",
@@ -13,10 +14,11 @@
   "symbol": ".",
   "color": "red"
  }, {
-  "id": "smallleechtooth",
+  "id": "smallleechteeth",
   "type": "GENERIC",
   "category": "spare_parts",
   "name": "small leech tooth",
+  "name_plural": "small leech teeth",
   "description": "A tooth size of the human fingernails. It is sharp, but too small to be used as a tool.",
   "weight": 750,
   "volume": 1,

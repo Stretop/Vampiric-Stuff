@@ -16,7 +16,7 @@
  }, {
   "id": "leech",
   "type": "item_group",
-  "items": [["smallleechtooth", 20]]
+  "items": [["smallleechteeth", 20]]
  }, {
   "id": "devourerleech",
   "type": "item_group",
