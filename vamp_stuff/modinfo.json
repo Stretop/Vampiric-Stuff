@@ -1,11 +1,11 @@
 [{
   "type": "MOD_INFO",
   "ident": "vamp_stuff",
-  "name": "Vampiric Stuff",
+  "name": "Vampiric Stuff (RUS)",
   "authors": [
    "Axema Vales"
   ],
-  "description": "Implements vampire NPCs, new items and locations into your world.",
+  "description": "Добавляет в игру большое количество разнообразного контента на вампирскую тематику - предметы, локации, NPC и д.р.",
   "category": "misc_additions"
  }
 ]
