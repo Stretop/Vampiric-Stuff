@@ -152,7 +152,10 @@
 		"responses": [
 			{
 				"text": "Seems legit. I'll take it!",
-				"topic": "TALK_VAMP_GUNSHOP_givesupplies"
+				"topic": "TALK_VAMP_GUNSHOP_givesupplies",
+				"effect": {
+					"u_buy_item": "blood_slinger"
+				}
 			},
 			{
 				"text": "I guess not... Its like a garbaged project you vampires been doing for these days.",
