@@ -103,5 +103,291 @@
 				}
 			}
 		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_windfrag",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 4 tokens for each wind fragment you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 315$ for each wind fragment you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 110$ for each wind fragment you bring to me.",
+					"no": "I will give you 35$ and 4 tokens for each wind fragment you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriwindfragmentval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_blobgem",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 3 tokens for each amorphous amber you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 245$ for each amorphous amber you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 95$ for each amorphous amber you bring to me.",
+					"no": "I will give you 45$ and 3 tokens for each amorphous amber you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriblobgemval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_monstertear",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 5 tokens for each crystallized tear you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 400$ for each crystallized tear you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 110$ for each crystallized tear you bring to me.",
+					"no": "I will give you 50$ and 5 tokens for each crystallized tear you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerimonstertearval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_shadowgem",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 6 tokens for each shadow gem you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 455$ for each shadow gem you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 135$ for each shadow gem you bring to me.",
+					"no": "I will give you 70$ and 6 tokens for each shadow gem you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerishadowgemval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_bonetwisted",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 3 tokens for each twisted bone you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 195$ for each twisted bone you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 85$ for each twisted bone you bring to me.",
+					"no": "I will give you 25$ and 3 tokens for each twisted bone you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeribonetwistedval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_grackenknuckles",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 3 tokens for each cracked knucklebone you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 170$ for each cracked knucklebone you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 70$ for each cracked knucklebone you bring to me.",
+					"no": "I will give you 20$ and 3 tokens for each cracked knucklebone you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerigrackenknucklesval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_wyrmskinpiece",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 3 tokens for each wyrmskin fragment you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 170$ for each wyrmskin fragment you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 70$ for each wyrmskin fragment you bring to me.",
+					"no": "I will give you 20$ and 3 tokens for each wyrmskin fragment you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriwyrmskinpieceval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_monsterfang",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 2 tokens for each monstrous fang you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 120$ for each monstrous fang you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 30$ for each monstrous fang you bring to me.",
+					"no": "I will give you 25$ and 2 tokens for each monstrous fang you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerimonsterfangval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_iridescentplate",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 4 tokens for each iridescent plate you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 365$ for each iridescent plate you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 50$ for each iridescent plate you bring to me.",
+					"no": "I will give you 35$ and 4 tokens for each iridescent plate you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriiridescentplateval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_engravedstone",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 15 tokens for each engraved stone you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 785$ for each engraved stone you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 120$ for each engraved stone you bring to me.",
+					"no": "I will give you 90$ and 15 tokens for each engraved stone you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriengravedstoneval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_draconicheart",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 20 tokens for each petrified heart you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 885$ for each petrified heart you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 190$ for each petrified heart you bring to me.",
+					"no": "I will give you 115$ and 20 tokens for each petrified heart you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeridraconicheartval"
+				}
+			}
+		]
 	}
 ]
