@@ -54,9 +54,14 @@
 				"text": "You need help? I'm here to do it.",
 				"topic": "TALK_MISSION_LIST",
 				"condition": {
-					"not": {
-						"u_has_effect": "undertradervampmark"
-					}
+					"and": [
+						"has_available_mission",
+						{
+							"not": {
+								"u_has_trait": "undertradervampmark"
+							}
+						}
+					]
 				}
 			},
 			{
@@ -67,7 +72,7 @@
 						"has_no_available_mission",
 						{
 							"not": {
-								"u_has_effect": "undertradervampmark"
+								"u_has_trait": "undertradervampmark"
 							}
 						}
 					]
@@ -199,8 +204,7 @@
 				"topic": "TALK_VAMP_UNDERTRADER",
 				"effect": [
 				{
-					"u_add_effect": "undertradervampmark",
-					"duration": 999999999
+					"u_add_trait": "undertradervampmark"
 				}
 			]
 			}

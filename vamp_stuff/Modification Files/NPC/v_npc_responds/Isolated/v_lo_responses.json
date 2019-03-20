@@ -65,7 +65,7 @@
 						"has_no_available_mission",
 						{
 							"not": {
-								"u_has_effect": "isolatedvampmark"
+								"u_has_trait": "isolatedvampmark"
 							}
 						}
 					]
@@ -94,7 +94,7 @@
 				"//": "Prevent repetition of missions.",
 				"condition": {
 					"not": {
-						"u_has_effect": "isolatedvampmark"
+						"u_has_trait": "isolatedvampmark"
 					}
 				}
 			},
@@ -138,7 +138,7 @@
 		"id": "TALK_VAMP_LONELY_wego",
 		"type": "talk_topic",
 		"dynamic_line": {
-			"u_has_effect": "isolatedvampmark",
+			"u_has_trait": "isolatedvampmark",
 			"yes": "That marking... I see you've been helping my kindred with their troubles.",
 			"no": "Just like others, you want me as a slave... I refuse, mortal."
 		},
@@ -148,7 +148,7 @@
 				"topic": "TALK_VAMP_LONELY",
 				"condition": {
 					"not": {
-						"u_has_effect": "isolatedvampmark"
+						"u_has_trait": "isolatedvampmark"
 					}
 				}
 			},
@@ -156,7 +156,7 @@
 				"text": "I want you to go on a journey with me..",
 				"topic": "TALK_VAMP_LONELY_joinparty",
 				"condition": {
-					"u_has_effect": "isolatedvampmark"
+					"u_has_trait": "isolatedvampmark"
 				}
 			},
 			{
@@ -167,7 +167,7 @@
 				},
 				"condition": {
 					"not": {
-						"u_has_effect": "isolatedvampmark"
+						"u_has_trait": "isolatedvampmark"
 					}
 				},
 				"success": {
@@ -257,7 +257,7 @@
 		"id": "TALK_VAMP_LONELY_farthere",
 		"type": "talk_topic",
 		"dynamic_line": {
-			"u_has_effect": "isolatedvampmark",
+			"u_has_trait": "isolatedvampmark",
 			"yes": "These places could be anywhere far from human civilizations.",
 			"no": "Nope. Even if I know, I won't tell you."
 		},
@@ -302,8 +302,7 @@
 				"effect": [
 				"follow",
 				{
-					"u_add_effect": "isolatedvampmark",
-					"duration": 999999999
+					"u_add_trait": "isolatedvampmark"
 				}
 			]
 			}

@@ -1,3 +1,4 @@
+[
 {
  "type": "mutation",
  "id": "VAMP",
@@ -7,4 +8,75 @@
  "valid": false,
  "purifiable": false,
  "profession": true
-}
+},
+
+
+
+
+
+{
+    "type": "mutation",
+    "id": "isolatedvampmark",
+    "name": "Marked of the Vampire",
+    "points": 0,
+    "description": "NPCs will check your progress with this trait.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "commandovampmark",
+    "name": "Marked of the Vampire",
+    "points": 0,
+    "description": "NPCs will check your progress with this trait.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "undertradervampmark",
+    "name": "Marked of the Vampire",
+    "points": 0,
+    "description": "NPCs will check your progress with this trait.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "underseekermeet",
+    "name": "Marked of the Vampire",
+    "points": 0,
+    "description": "NPCs will check your progress with this trait.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  
+  
+  
+  
+  
+  {
+    "type": "mutation",
+    "id": "underguard3fear",
+    "name": "Marked of the Vampire",
+    "points": 0,
+    "description": "NPCs will check your progress with this trait.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  },
+  {
+    "type": "mutation",
+    "id": "wvgssupp",
+    "name": "Marked of the Vampire",
+    "points": 0,
+    "description": "NPCs will check your progress with this trait.",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false
+  }
+]
