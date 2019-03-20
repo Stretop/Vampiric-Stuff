@@ -11,7 +11,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence", "count": 7
+								"item": "essence",
+								"count": 7
 							}
 						},
 						{
@@ -40,7 +41,7 @@
 						"count": 7
 					},
 					{
-						"u_spend_cash": -30
+						"u_spend_cash": -3000
 					}
 				]
 			},
@@ -51,7 +52,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence", "count": 7
+								"item": "essence",
+								"count": 7
 							}
 						},
 						{
@@ -76,7 +78,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence", "count": 7
+								"item": "essence",
+								"count": 7
 							}
 						},
 						{
@@ -90,7 +93,7 @@
 						"count": 7
 					},
 					{
-						"u_spend_cash": -205
+						"u_spend_cash": -20500
 					}
 				]
 			},
@@ -101,7 +104,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence", "count": 7
+								"item": "essence",
+								"count": 7
 							}
 						},
 						{
@@ -115,7 +119,7 @@
 						"count": 7
 					},
 					{
-						"u_spend_cash": -90
+						"u_spend_cash": -9000
 					}
 				]
 			},
@@ -125,7 +129,8 @@
 				"condition": {
 					"not": {
 						"u_has_items": {
-							"item": "essence", "count": 7
+							"item": "essence",
+							"count": 7
 						}
 					}
 				}
@@ -136,7 +141,8 @@
 				"condition": {
 					"not": {
 						"u_has_items": {
-							"item": "essence", "count": 7
+							"item": "essence",
+							"count": 7
 						}
 					}
 				}
@@ -146,7 +152,8 @@
 				"topic": "VAMP_ASEEKER_questinquire_ihave",
 				"condition": {
 					"u_has_items": {
-						"item": "essence", "count": 7
+						"item": "essence",
+						"count": 7
 					}
 				}
 			}
@@ -164,7 +171,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_blood", "count": 5
+								"item": "essence_blood",
+								"count": 5
 							}
 						},
 						{
@@ -193,7 +201,7 @@
 						"count": 5
 					},
 					{
-						"u_spend_cash": -55
+						"u_spend_cash": -5500
 					}
 				]
 			},
@@ -204,7 +212,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_blood", "count": 5
+								"item": "essence_blood",
+								"count": 5
 							}
 						},
 						{
@@ -229,7 +238,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_blood", "count": 5
+								"item": "essence_blood",
+								"count": 5
 							}
 						},
 						{
@@ -243,7 +253,7 @@
 						"count": 5
 					},
 					{
-						"u_spend_cash": -265
+						"u_spend_cash": -26500
 					}
 				]
 			},
@@ -254,7 +264,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_blood", "count": 5
+								"item": "essence_blood",
+								"count": 5
 							}
 						},
 						{
@@ -268,7 +279,7 @@
 						"count": 5
 					},
 					{
-						"u_spend_cash": -90
+						"u_spend_cash": -9000
 					}
 				]
 			},
@@ -278,7 +289,8 @@
 				"condition": {
 					"not": {
 						"u_has_items": {
-							"item": "essence_blood", "count": 5
+							"item": "essence_blood",
+							"count": 5
 						}
 					}
 				}
@@ -289,7 +301,8 @@
 				"condition": {
 					"not": {
 						"u_has_items": {
-							"item": "essence_blood", "count": 5
+							"item": "essence_blood",
+							"count": 5
 						}
 					}
 				}
@@ -299,7 +312,8 @@
 				"topic": "VAMP_ASEEKER_questinquire_ihave",
 				"condition": {
 					"u_has_items": {
-						"item": "essence_blood", "count": 5
+						"item": "essence_blood",
+						"count": 5
 					}
 				}
 			}
@@ -317,7 +331,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_dull", "count": 15
+								"item": "essence_dull",
+								"count": 15
 							}
 						},
 						{
@@ -346,7 +361,7 @@
 						"count": 15
 					},
 					{
-						"u_spend_cash": -75
+						"u_spend_cash": -7500
 					}
 				]
 			},
@@ -357,7 +372,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_dull", "count": 15
+								"item": "essence_dull",
+								"count": 15
 							}
 						},
 						{
@@ -382,7 +398,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_dull", "count": 15
+								"item": "essence_dull",
+								"count": 15
 							}
 						},
 						{
@@ -396,7 +413,7 @@
 						"count": 15
 					},
 					{
-						"u_spend_cash": -305
+						"u_spend_cash": -30500
 					}
 				]
 			},
@@ -407,7 +424,8 @@
 					"and": [
 						{
 							"u_has_items": {
-								"item": "essence_dull", "count": 15
+								"item": "essence_dull",
+								"count": 15
 							}
 						},
 						{
@@ -421,7 +439,7 @@
 						"count": 15
 					},
 					{
-						"u_spend_cash": -105
+						"u_spend_cash": -10500
 					}
 				]
 			},
@@ -431,7 +449,8 @@
 				"condition": {
 					"not": {
 						"u_has_items": {
-							"item": "essence_dull", "count": 15
+							"item": "essence_dull",
+							"count": 15
 						}
 					}
 				}
@@ -442,7 +461,8 @@
 				"condition": {
 					"not": {
 						"u_has_items": {
-							"item": "essence_dull", "count": 15
+							"item": "essence_dull",
+							"count": 15
 						}
 					}
 				}
@@ -452,7 +472,8 @@
 				"topic": "VAMP_ASEEKER_questinquire_ihave",
 				"condition": {
 					"u_has_items": {
-						"item": "essence_dull", "count": 15
+						"item": "essence_dull",
+						"count": 15
 					}
 				}
 			}
@@ -490,13 +511,40 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "arcanetoken", "count": 10
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
 					},
 					{
 						"u_sell_item": "essence_pure"
 					},
 					{
-						"u_spend_cash": -105
+						"u_spend_cash": -10500
 					}
 				]
 			},
@@ -515,7 +563,8 @@
 				},
 				"effect": [
 					{
-						"u_buy_item": "arcanetoken", "count": 10
+						"u_buy_item": "arcanetoken",
+						"count": 10
 					},
 					{
 						"u_sell_item": "essence_pure"
@@ -540,7 +589,7 @@
 						"u_sell_item": "essence_pure"
 					},
 					{
-						"u_spend_cash": -515
+						"u_spend_cash": -51500
 					}
 				]
 			},
@@ -562,7 +611,7 @@
 						"u_sell_item": "essence_pure"
 					},
 					{
-						"u_spend_cash": -190
+						"u_spend_cash": -19000
 					}
 				]
 			},

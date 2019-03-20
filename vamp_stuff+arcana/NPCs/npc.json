@@ -242,6 +242,13 @@
 				}
 			},
 			{
+				"text": "What can I trade with these tokens?",
+				"topic": "VAMP_ASEEKER_questinquire_tokenexc",
+				"condition": {
+					"u_has_item": "arcanetoken"
+				}
+			},
+			{
 				"text": "Bye...",
 				"topic": "TALK_DONE",
 				"condition": {

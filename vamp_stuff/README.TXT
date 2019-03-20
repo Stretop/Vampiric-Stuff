@@ -19,11 +19,13 @@ https://discourse.cataclysmdda.org - CDDA official website
 	
 #  ADDED TILESET (temporary visualizations)
 
++  ADDED A NEW VAMPIRIC GUN (very cheap pistol)
 +? ADDED NEW NPC (arcane seeker, a vampire NPC that collects item from the Arcana mod)
 +? ADDED NEW MAPGEN (for the wasteland outskirts as its basement)
 +? NOW FEATURES A TRADING MECHANICS (gather tokens as currency in exchange of exclusive items)
 
 -  NPC MISSION FIXES (quest bugs fixed, especially for item retrievals)
+-? 
 
 
 
