@@ -1,0 +1,596 @@
+[
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_essence",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your 7 essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence", "count": 7
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "essence",
+						"count": 7
+					},
+					{
+						"u_spend_cash": -30
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 7 essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence", "count": 7
+							}
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "essence",
+						"count": 7
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 7 essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence", "count": 7
+							}
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence",
+						"count": 7
+					},
+					{
+						"u_spend_cash": -205
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 7 essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence", "count": 7
+							}
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence",
+						"count": 7
+					},
+					{
+						"u_spend_cash": -90
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_items": {
+							"item": "essence", "count": 7
+						}
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_items": {
+							"item": "essence", "count": 7
+						}
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_items": {
+						"item": "essence", "count": 7
+					}
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_bloodessence",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your 5 blood essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_blood", "count": 5
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "essence_blood",
+						"count": 5
+					},
+					{
+						"u_spend_cash": -55
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 5 blood essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence_blood",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_blood", "count": 5
+							}
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "essence_blood",
+						"count": 5
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 5 blood essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence_blood",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_blood", "count": 5
+							}
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence_blood",
+						"count": 5
+					},
+					{
+						"u_spend_cash": -265
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 5 blood essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence_blood",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_blood", "count": 5
+							}
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence_blood",
+						"count": 5
+					},
+					{
+						"u_spend_cash": -90
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_items": {
+							"item": "essence_blood", "count": 5
+						}
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_items": {
+							"item": "essence_blood", "count": 5
+						}
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_items": {
+						"item": "essence_blood", "count": 5
+					}
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_dullessence",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your 15 dull essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_dull", "count": 15
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "essence_dull",
+						"count": 15
+					},
+					{
+						"u_spend_cash": -75
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 15 dull essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_dull", "count": 15
+							}
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "essence_dull",
+						"count": 15
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 15 dull essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_dull", "count": 15
+							}
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence_dull",
+						"count": 15
+					},
+					{
+						"u_spend_cash": -305
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your 15 dull essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_items": {
+								"item": "essence_dull", "count": 15
+							}
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence_dull",
+						"count": 15
+					},
+					{
+						"u_spend_cash": -105
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_items": {
+							"item": "essence_dull", "count": 15
+						}
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_items": {
+							"item": "essence_dull", "count": 15
+						}
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_items": {
+						"item": "essence_dull", "count": 15
+					}
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_pureessence",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your one crystallized essence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_pureessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "essence_pure"
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken", "count": 10
+					},
+					{
+						"u_sell_item": "essence_pure"
+					},
+					{
+						"u_spend_cash": -105
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one crystallized essence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_pureessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "essence_pure"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken", "count": 10
+					},
+					{
+						"u_sell_item": "essence_pure"
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one crystallized essence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_pureessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "essence_pure"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence_pure"
+					},
+					{
+						"u_spend_cash": -515
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one crystallized essence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_pureessence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "essence_pure"
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "essence_pure"
+					},
+					{
+						"u_spend_cash": -190
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_item": "essence_pure"
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_item": "essence_pure"
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_item": "essence_pure"
+				}
+			}
+		]
+	}
+]
