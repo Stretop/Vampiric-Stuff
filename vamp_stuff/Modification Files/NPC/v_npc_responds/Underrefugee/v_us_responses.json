@@ -9,15 +9,15 @@
     "condition": {
      "and": [{
        "not": {
-        "u_has_effect": "undertradervampmark"
+        "u_has_trait": "undertradervampmark"
        }
       }, {
        "not": {
-        "u_has_effect": "commandovampmark"
+        "u_has_trait": "commandovampmark"
        }
       }, {
        "not": {
-        "npc_has_effect": "underseekermeet"
+        "npc_has_trait": "underseekermeet"
        }
       }
      ]
@@ -27,14 +27,14 @@
     "topic": "TALK_VAMP_UNDERSEEKER_notice",
     "condition": {
      "and": [{
-       "u_has_effect": "undertradervampmark"
+       "u_has_trait": "undertradervampmark"
       }, {
        "not": {
-        "u_has_effect": "commandovampmark"
+        "u_has_trait": "commandovampmark"
        }
       }, {
        "not": {
-        "npc_has_effect": "underseekermeet"
+        "npc_has_trait": "underseekermeet"
        }
       }
      ]
@@ -44,12 +44,12 @@
     "topic": "TALK_VAMP_UNDERSEEKER_attention",
     "condition": {
      "and": [{
-       "u_has_effect": "undertradervampmark"
+       "u_has_trait": "undertradervampmark"
       }, {
-       "u_has_effect": "commandovampmark"
+       "u_has_trait": "commandovampmark"
       }, {
        "not": {
-        "npc_has_effect": "underseekermeet"
+        "npc_has_trait": "underseekermeet"
        }
       }
      ]
@@ -58,7 +58,7 @@
     "text": "Can you tell me who you are?",
     "topic": "TALK_VAMP_UNDERSEEKER_introduce",
     "condition": {
-     "npc_has_effect": "underseekermeet"
+     "npc_has_trait": "underseekermeet"
     }
    }, {
     "text": "About our journey...",
@@ -68,7 +68,7 @@
     "text": "Jobs to work?.",
     "topic": "TALK_MISSION_LIST",
     "condition": {
-     "npc_has_effect": "underseekermeet"
+     "npc_has_trait": "underseekermeet"
     }
    }, {
     "text": "I'd be going now...",
@@ -104,8 +104,7 @@
     "effect": [{
       "u_faction_rep": 5
      }, {
-      "npc_add_effect": "underseekermeet",
-      "duration": 999999999
+      "npc_add_trait": "underseekermeet"
      }
     ]
    }

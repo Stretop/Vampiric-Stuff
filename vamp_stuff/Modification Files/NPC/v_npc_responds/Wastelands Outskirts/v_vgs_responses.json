@@ -55,7 +55,7 @@
 				"topic": "TALK_VAMP_GUNSHOP_freegun",
 				"condition": {
 					"not": {
-						"u_has_effect": "wvgssupp"
+						"u_has_trait": "wvgssupp"
 					}
 				}
 			},
@@ -69,7 +69,7 @@
 		"id": "TALK_VAMP_GUNSHOP_freegun",
 		"type": "talk_topic",
 		"dynamic_line": {
-			"u_has_effect": "commandovampmark",
+			"u_has_trait": "commandovampmark",
 			"yes": "I see that you've met my commander... What do you want?",
 			"no": "Ofcourse not! You want it, then buy it."
 		},
@@ -79,7 +79,7 @@
 				"topic": "TALK_VAMP_GUNSHOP_maintalk",
 				"condition": {
 					"not": {
-						"u_has_effect": "commandovampmark"
+						"u_has_trait": "commandovampmark"
 					}
 				}
 			},
@@ -87,14 +87,14 @@
 				"text": "Nothing...",
 				"topic": "TALK_VAMP_GUNSHOP_maintalk",
 				"condition": {
-					"u_has_effect": "commandovampmark"
+					"u_has_trait": "commandovampmark"
 				}
 			},
 			{
 				"text": "The commando told me about the supplies...",
 				"topic": "TALK_VAMP_GUNSHOP_givesupplies",
 				"condition": {
-					"u_has_effect": "commandovampmark"
+					"u_has_trait": "commandovampmark"
 				}
 			}
 		]
@@ -137,7 +137,7 @@
 						"count": 44
 					},
 					{
-						"u_add_effect": "wvgssupp",
+						"u_add_trait": "wvgssupp",
 						"duration": 999999999
 					}
 				]

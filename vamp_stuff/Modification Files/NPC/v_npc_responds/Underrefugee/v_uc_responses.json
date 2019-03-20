@@ -86,7 +86,7 @@
 						"has_no_available_mission",
 						{
 							"not": {
-								"u_has_effect": "commandovampmark"
+								"u_has_trait": "commandovampmark"
 							}
 						}
 					]
@@ -103,7 +103,7 @@
 					"or": [
 						{
 							"not": {
-								"u_has_effect": "commandovampmark"
+								"u_has_trait": "commandovampmark"
 							}
 						},
 						{
@@ -257,8 +257,7 @@
 						"u_buy_item": "blood_cring"
 					},
 					{
-						"u_add_effect": "commandovampmark",
-						"duration": 999999999
+						"u_add_trait": "commandovampmark"
 					}
 				]
 			}

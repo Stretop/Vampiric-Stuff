@@ -1,0 +1,100 @@
+{
+	"//": "This topic is seperated due to its VERY LONG list.",
+	"id": "VAMP_ASEEKER_questinquire",
+	"//": "Validate your items and tell you how much profit you'll gain from it or what item will be exchanged for that. Non collaborated players still gets a little reward. Try to bring all your Arcana related stuff here.",
+	"type": "talk_topic",
+	"dynamic_line": "Mostly that are odd and exquisite objects. Just bring me something and let me validate them.",
+	"responses": [
+		{
+			"text": "I've got an essence here...",
+			"topic": "VAMP_ASEEKER_item_essence",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriessenceval"
+						}
+					},
+					{
+						"u_has_item": "essence"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a blood essence here...",
+			"topic": "VAMP_ASEEKER_item_bloodessence",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeribloodessenceval"
+						}
+					},
+					{
+						"u_has_item": "essence_blood"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a dull essence here...",
+			"topic": "VAMP_ASEEKER_item_dullessence",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeridullessenceval"
+						}
+					},
+					{
+						"u_has_item": "essence_dull"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a crystallized essence here...",
+			"topic": "VAMP_ASEEKER_item_pureessence",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeripureessenceval"
+						}
+					},
+					{
+						"u_has_item": "essence_pure"
+					}
+				]
+			}
+		},
+		{
+			"text": "I should collect more...",
+			"topic": "VAMP_ASEEKER_main"
+		},
+		{
+			"text": "I guess I've collected everything",
+			"topic": "VAMP_ASEEKER_main",
+			"condition": {
+				"and": [
+					{
+						"npc_has_trait": "vaseekeriessenceval"
+					},
+					{
+						"npc_has_trait": "vaseekeribloodessenceval"
+					},
+					{
+						"npc_has_trait": "vaseekeridullessenceval"
+					},
+					{
+						"npc_has_trait": "vaseekeripureessenceval"
+					}
+				]
+			},
+			"effect": {
+					"npc_add_trait": "vaseekerigotchaeverything"
+				}
+		}
+	]
+}

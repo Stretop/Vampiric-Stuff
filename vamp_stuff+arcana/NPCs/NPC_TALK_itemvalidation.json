@@ -1,0 +1,107 @@
+[
+	{
+		"//": "You get tokens as your reward, and can be traded for some (unique) items. For those who are greedy for money? Good luck getting rich :3",
+		"id": "VAMP_ASEEKER_item_essence",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 1 token for every 7 essences you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 205$ for every 7 essences you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 90$ for every 7 essences you bring to me.",
+					"no": "I will give you 30$ and 1 token for every 7 essences you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriessenceval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_bloodessence",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 1 token for every 5 blood essences you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 265$ for every 5 blood essences you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 90$ for every 5 blood essences you bring to me.",
+					"no": "I will give you 55$ and 1 token for every 5 blood essences you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeribloodessenceval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_dullessence",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 1 token for every 15 dull essences you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 305$ for every 15 dull essences you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 105$ for every 15 dull essences you bring to me.",
+					"no": "I will give you 75$ and 1 token for every 15 dull essences you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeridullessenceval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_pureessence",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 10 token for each crystallized essence you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 515$ for each crystallized essence you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 190$ for each crystallized essence you bring to me.",
+					"no": "I will give you 105$ and 10 token for each crystallized essence you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeripureessenceval"
+				}
+			}
+		]
+	}
+]

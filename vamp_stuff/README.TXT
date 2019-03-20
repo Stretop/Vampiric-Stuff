@@ -8,14 +8,20 @@ https://discourse.cataclysmdda.org - CDDA official website
   ~ 
 
   * After the major fixes in v1.2, the v1.3 plans to improve the 'still' broken npc dialogues, especially the lore (npcs talk plainly, filthy stories, missions garbled to situation problems like 'I need blood', but not really). Also, arcana's unique features will spice up this mod as I aim to link them for extended possibilities :)
+  * The trading mechanics is 'pretty' broken... And you may (or not) get your profits from your doings.
   
   NOTE: Turn on static npcs in your world settings, or you won't see any npcs in almost all locations.
+  NOTE: Updates with "?" affixed to it has mod dependencies.
 
 
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
 	
 #  ADDED TILESET (temporary visualizations)
+
++? ADDED NEW NPC (arcane seeker, a vampire NPC that collects item from the Arcana mod)
++? ADDED NEW MAPGEN (for the wasteland outskirts as its basement)
++? NOW FEATURES A TRADING MECHANICS (gather tokens as currency in exchange of exclusive items)
 
 -  NPC MISSION FIXES (quest bugs fixed, especially for item retrievals)
 
@@ -28,7 +34,11 @@ https://discourse.cataclysmdda.org - CDDA official website
 +  ADDED NEW NPC (underground seeker, the scout of the cove)
 +  ADDED SOME MISSIONS
 
--  TWEAKED NPC STATS (large decrease on skills, reduction of natural stats)
+~  ITEM DATA REWORKS (various item price fixes, weight and volume tweaks in certain items)
+~  ARMOR DATA FIXES (blood hoods will now protect vampires from sunlight, encumbrance changes)
+~  WEAPON DATA FIXES (large decrease on damage)
+~  TWEAKED NPC STATS (large decrease on skills, reduction of natural stats)
+
 -  NPC GEAR FIXES (reorganized npc clothing and minor bug fixes)
 -  NPC MISSION REMOVALS (non-loric quests erased)
 -  REWORKS ON NPC MISSIONS (large fixes and some changes for most quests)
@@ -37,9 +47,6 @@ https://discourse.cataclysmdda.org - CDDA official website
 -  ISOLATED SPAWNRATE FIXED (only the leeches spawn at the swamps)
 -  FIXED STRUCTURAL ISSUES (static overmaps fixed)
 -  LOCATION SPAWN FIXES (structures spawn as independent, in which it has no affixed city name)
--  ITEM DATA REWORKS (various item price fixes, weight and volume tweaks in certain items)
--  ARMOR DATA FIXES (blood hoods will now protect vampires from sunlight, encumbrance changes)
--  WEAPON DATA FIXES (large decrease on damage)
 
 
 
@@ -47,12 +54,11 @@ https://discourse.cataclysmdda.org - CDDA official website
 
 +  NEW ARMOR SETS (blood and blood infused, recipes also included)
 +  A NEW MELEE WEAPON (knuckle biters)
-+  NEW RANGE WEAPONS AND AMMUNITION (blood-projecting gun types, modified human gun types)
++  NEW RANGE WEAPONS AND AMMUNITION (blood-projecting and modified human gun types)
 +  ADDED REINFORCED WEAPONS (simple requirement)
 +  ADDED NEW LOCATIONS (blood hole, random graveyards)
 +  ADDED MAIN LOCATION (wasteland outskirts, a large location acts like the vampire cove)
-
-+~ MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
++ MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
 
 -  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques and are regained after reinforcement)
 -  MONSTER TWEAKS (greatly reduced monster stats)

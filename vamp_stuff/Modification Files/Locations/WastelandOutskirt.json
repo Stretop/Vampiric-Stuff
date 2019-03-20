@@ -178,7 +178,7 @@
   "type": "mapgen",
   "method": "json",
   "om_terrain": "wo5",
-  "weight": 1250,
+  "weight": 0,
   "object": {
    "fill_ter": "t_metal_floor",
    "rows": [

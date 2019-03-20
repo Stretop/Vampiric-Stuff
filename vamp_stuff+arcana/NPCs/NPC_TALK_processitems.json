@@ -1,0 +1,75 @@
+[
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave",
+		"type": "talk_topic",
+		"dynamic_line": "Let's see what you've got in stock.",
+		"responses": [
+			{
+				"text": "I have 7 essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeriessenceval"
+						},
+						{
+							"u_has_items": {
+								"item": "essence", "count": 7
+							}
+						}
+					]
+				}
+			},
+			{
+				"text": "I have 5 blood essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeribloodessenceval"
+						},
+						{
+							"u_has_items": {
+								"item": "essence_blood", "count": 5
+							}
+						}
+					]
+				}
+			},
+			{
+				"text": "I have 3 dull essences!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeridullessenceval"
+						},
+						{
+							"u_has_items": {
+								"item": "essence_dull", "count": 15
+							}
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one crystallized essence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_pureessence",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeripureessenceval"
+						},
+						{
+							"u_has_item": "essence_pure"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have to gather more...",
+				"topic": "VAMP_ASEEKER_main"
+			}
+		]
+	}
+]
