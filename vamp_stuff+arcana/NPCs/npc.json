@@ -182,8 +182,7 @@
 		"attitude": 0,
 		"mission": 7,
 		"chat": "VAMP_ASEEKER_main",
-		"faction": "vamps",
-		"mission_offered": "VAMP_ASEEKER_slaydracolich"
+		"faction": "vamps"
 	},
 	{
 		"id": "VAMP_ASEEKER_main",
@@ -223,17 +222,17 @@
 				"text": "What kind of arcane items and artifacts do you accept?",
 				"topic": "VAMP_ASEEKER_questinquire",
 				"condition": {
-				"and": [
-					{
-						"not": {
-							"npc_has_trait": "vaseekerigotchaeverything"
+					"and": [
+						{
+							"not": {
+								"npc_has_trait": "vaseekerigotchaeverything"
+							}
+						},
+						{
+							"npc_has_trait": "vaseekeruaccepttherisk"
 						}
-					},
-					{
-						"npc_has_trait": "vaseekeruaccepttherisk"
-					}
-				]
-			}
+					]
+				}
 			},
 			{
 				"text": "I got something that would interest you.",
