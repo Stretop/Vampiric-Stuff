@@ -34,7 +34,7 @@
   "ident": "sovamp",
   "name": "So-called Vampire",
   "description": "You clearly call yourself a vampire, and you're too proud just to think about you really are one. But aside boosting your productivity, living alone with mysterious close combat trainings and a bunch of survivalist's essentials under your shelter has proven a wonderful reason to go outside now...",
-  "points": 6,
+  "points": 8,
   "skills": [{
     "level": 6,
     "name": "melee"
