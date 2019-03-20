@@ -8,9 +8,9 @@
 
 
 
-### _vamp_stuff+arcana_:
+### vamp_stuff+arcana:
 
-1. You need to get the latest Arcana mod.
+1. You need to get the latest Arcana at https://github.com/chaosvolt/cdda-arcana-mod
 2. Activate _Vampiric Stuff + Arcana Mod Extension_ on world creation.
 3. Done. Enjoy the new features!
 
@@ -18,4 +18,4 @@
 
 ### Additional info:
 
-Seek the README.TXT included inside the mod folder.
+Seek the README.TXT included inside the mod folder for changelog and other infos.
