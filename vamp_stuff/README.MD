@@ -90,3 +90,9 @@ Once an item is validated, you can now exchange this item for the said price.
 Arcane tokens are exchanged with new items, but these items depend on your days you've been living for. The items to trade with you is being expanded, and I am planning to expand it in different trades. Vampiric Stuff and Arcana should have an exclusive item for this, to set a goal for players and collect more tokens in a submissive way.
 
 The reason of implementing the arcane seeker NPC into the Vampiric Stuff mod is to provide rewards from useless or excess items, like a duplicated _cursed blade_ or a monster dropped object with no proper use of.
+
+*Guys in this mod:*
+
+* [![Axema](https://avatars2.githubusercontent.com/u/41373960?s=40&v=4)](https://github.com/Axema) - **The Vampiric Stuff author**
+
+* [![chaosvolt](https://avatars1.githubusercontent.com/u/11582235?s=40&v=4)](https://github.com/chaosvolt) - **The Arcana author**
