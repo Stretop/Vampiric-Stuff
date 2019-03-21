@@ -73,8 +73,7 @@ Arcana has a large library of strange objects, in which the trader exchanges wit
 * *Trophies*, are the items rarely dropped by certain monster.
 * *Artifacts*, are the items in which requires you to raid structures and fight its guardian.
 
-_Harder to find arcane items, the bigger the rewards. _
-_Arcane books are not allowed here, since they are very common._
+*Arcane books are not allowed here, since they are very common.*
 
 ##### Validation
 The arcane seeker will tell you how much token or money will be given to you in exchange of that item. Below are the things you need to know WHEN validating an item.
