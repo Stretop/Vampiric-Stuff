@@ -3,19 +3,20 @@
 ### How to install the mod:
 
 1. Extract Vampiric-Stuff-master.
-2. Put the _vamp_stuff_ and _vamp_stuff+arcana_.
+2. Put the _vamp_stuff_ and _vamp_stuff+arcana_ into the mod folder of CDDA.
 3. Done. Enjoy the mod!
 
 
 
 ### vamp_stuff+arcana:
 
-1. You need to get the latest Arcana at https://github.com/chaosvolt/cdda-arcana-mod
-2. Activate _Vampiric Stuff + Arcana Mod Extension_ on world creation.
-3. Done. Enjoy the new features!
+1. Get the latest _Arcana and Magic Items_ at https://github.com/chaosvolt/cdda-arcana-mod
+2. Put the _Arcana_ to the mod folder of CDDA.
+3. Activate _Vampiric Stuff + Arcana Mod Extension_ on world creation.
+4. Done. Enjoy the new features!
 
 
 
 ### Additional info:
 
-Seek the README.TXT included inside the mod folder for changelog and other infos.
+Peek inside the _vamp_stuff_ mod folder for changelogs and other informational texts.
