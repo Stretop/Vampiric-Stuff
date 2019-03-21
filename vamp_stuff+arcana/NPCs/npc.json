@@ -189,7 +189,13 @@
 		"type": "talk_topic",
 		"dynamic_line": {
 			"npc_has_trait": "metvaseeker",
-			"yes": "We've met again, adventurer.",
+			"yes": [
+				"We've met again, adventurer.",
+				"Now what could be your problem this time...",
+				"Well, We've met again, adventurer.",
+				"Greetings, my fellow survivor.",
+				"What brings you to my lair again?"
+			],
 			"no": "Greetings, my fellow adventurer. What brings you to my safe haven?"
 		},
 		"responses": [
@@ -216,6 +222,13 @@
 							}
 						}
 					]
+				}
+			},
+			{
+				"text": "Any tips for this hunt?",
+				"topic": "VAMP_ASEEKER_main_tipsforu",
+				"condition": {
+					"npc_has_trait": "vaseekeruaccepttherisk"
 				}
 			},
 			{
@@ -461,7 +474,7 @@
 		"//": "Rewards are literally low.",
 		"id": "VAMP_ASEEKER_main_collaborateforitem",
 		"type": "talk_topic",
-		"dynamic_line": "I agree, but in form of tokens. Work hard, collect more and earn my exclusive items.",
+		"dynamic_line": "I agree, but in form of tokens. Work hard, collect more and earn our exclusive items to fulfill your endeavors.",
 		"responses": [
 			{
 				"text": "Okay. I understood.",
@@ -499,7 +512,7 @@
 	{
 		"id": "VAMP_ASEEKER_main_collaboratefornothing",
 		"type": "talk_topic",
-		"dynamic_line": "I see you're different from the others who are desperate in this greedy situations. I thank you for your kind answer.",
+		"dynamic_line": "I see you're different from the others who are desperate in this greedy situations. I thank you for your kind answer. I will still give you some profit as payment for your job.",
 		"responses": [
 			{
 				"text": "Okay...",
@@ -512,6 +525,38 @@
 						"npc_add_trait": "metvaseeker"
 					}
 				]
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_main_tipsforu",
+		"type": "talk_topic",
+		"dynamic_line": [
+			"Its up to you if you'd exchange everything you have in stock. Just remember: they also have different applications other than selling.",
+			"You can't get something if you don't put an effort to it.",
+			"If you want talk to me about something like artifacts, make sure to bring them all at once to ease my time.",
+			"I bet those odd, shimmering vapors that draws out of a dead creature worths a thing for me if you collect them.",
+			"Killing any creatures might give you its arcane elements.",
+			"Those odd looking ruins from the past civilizations might have left something... Strange.",
+			"Raiding a peculiar structure might be a suicidal idea if you don't prepare for it.",
+			"Structures in the forest surely hides something beneath it.",
+			"Swamps are not the only place you'll ever hate the most.",
+			"Don't trust those highways. If you're looking for odd structures, you should walk past through the forest.",
+			"Every monsters you fight might leave you with something upon its death.",
+			"Those anomalous creatures can provide you with something when you kill it.",
+			"Rare monsters drop rare items. If you see one of them, slay immediately!",
+			"An artifact wields a high bounty, but aren't that easy to obtain...",
+			"A guardian protects an artifact. Its on you if you're up for the loot.",
+			"If you're on to fast profits, I suggest retrieving artifacts and run away from any risks you encounter.",
+			"Books are common, and I've read almost everything.",
+			"Don't try to sell me with some stupid books you've collected.",
+			"I can't accept some artifacts, because I can't.",
+			"I can't accept some artifacts, because I can't."
+		],
+		"responses": [
+			{
+				"text": "Okay... Thanks.",
+				"topic": "VAMP_ASEEKER_main"
 			}
 		]
 	}
