@@ -70,6 +70,182 @@
 			}
 		},
 		{
+			"text": "I've got a wind fragment here...",
+			"topic": "VAMP_ASEEKER_item_windfrag",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriwindfragmentval"
+						}
+					},
+					{
+						"u_has_item": "vortex_shard"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got an amorphous amber here...",
+			"topic": "VAMP_ASEEKER_item_blobgem",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriblobgemval"
+						}
+					},
+					{
+						"u_has_item": "blob_gem"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a crystallized tear here...",
+			"topic": "VAMP_ASEEKER_item_monstertear",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerimonstertearval"
+						}
+					},
+					{
+						"u_has_item": "monster_tear"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a shadow gem here...",
+			"topic": "VAMP_ASEEKER_item_shadowgem",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerishadowgemval"
+						}
+					},
+					{
+						"u_has_item": "shadow_gem"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a twisted bone here...",
+			"topic": "VAMP_ASEEKER_item_bonetwisted",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeribonetwistedval"
+						}
+					},
+					{
+						"u_has_item": "bone_twisted"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a cracked knucklebone here...",
+			"topic": "VAMP_ASEEKER_item_grackenknuckles",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerigrackenknucklesval"
+						}
+					},
+					{
+						"u_has_item": "gracken_knuckles"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a wyrmskin fragment here...",
+			"topic": "VAMP_ASEEKER_item_wyrmskinpiece",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriwyrmskinpieceval"
+						}
+					},
+					{
+						"u_has_item": "wyrmskin_piece"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a monstrous fang here...",
+			"topic": "VAMP_ASEEKER_item_monsterfang",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerimonsterfangval"
+						}
+					},
+					{
+						"u_has_item": "monster_fang"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got an iridescent plate here...",
+			"topic": "VAMP_ASEEKER_item_iridescentplate",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriiridescentplateval"
+						}
+					},
+					{
+						"u_has_item": "iridescent_plate"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got an engraved stone here...",
+			"topic": "VAMP_ASEEKER_item_engravedstone",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriengravedstoneval"
+						}
+					},
+					{
+						"u_has_item": "engraved_stone"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a petrified heart here...",
+			"topic": "VAMP_ASEEKER_item_draconicheart",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeridraconicheartval"
+						}
+					},
+					{
+						"u_has_item": "draconic_heart"
+					}
+				]
+			}
+		},
+		{
 			"text": "I should collect more...",
 			"topic": "VAMP_ASEEKER_main"
 		},
@@ -89,12 +265,45 @@
 					},
 					{
 						"npc_has_trait": "vaseekeripureessenceval"
+					},
+					{
+						"npc_has_trait": "vaseekeriwindfragmentval"
+					},
+					{
+						"npc_has_trait": "vaseekeriblobgemval"
+					},
+					{
+						"npc_has_trait": "vaseekerimonstertearval"
+					},
+					{
+						"npc_has_trait": "vaseekerishadowgemval"
+					},
+					{
+						"npc_has_trait": "vaseekeribonetwistedval"
+					},
+					{
+						"npc_has_trait": "vaseekerigrackenknucklesval"
+					},
+					{
+						"npc_has_trait": "vaseekeriwyrmskinpieceval"
+					},
+					{
+						"npc_has_trait": "vaseekerimonsterfangval"
+					},
+					{
+						"npc_has_trait": "vaseekeriiridescentplateval"
+					},
+					{
+						"npc_has_trait": "vaseekeriengravedstoneval"
+					},
+					{
+						"npc_has_trait": "vaseekeridraconicheartval"
 					}
 				]
 			},
 			"effect": {
-					"npc_add_trait": "vaseekerigotchaeverything"
-				}
+				"npc_add_trait": "vaseekerigotchaeverything"
+			}
 		}
 	]
 }

@@ -88,7 +88,6 @@
 	
 	
 	{
-		"//": "Bunch of validating traits.",
 		"type": "mutation",
 		"id": "vaseekerigotchaeverything",
 		"name": "Item Validated",
@@ -138,6 +137,121 @@
 		"//": "Bunch of validating traits.",
 		"type": "mutation",
 		"id": "vaseekeripureessenceval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekeriwindfragmentval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeriblobgemval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekerimonstertearval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekerishadowgemval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekeribonetwistedval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekerigrackenknucklesval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeriwyrmskinpieceval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekerimonsterfangval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekeriiridescentplateval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeriengravedstoneval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeridraconicheartval",
 		"name": "Item Validated",
 		"points": 0,
 		"description": "NPCs will check your progress with this trait.",
