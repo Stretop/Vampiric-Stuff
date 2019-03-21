@@ -1,19 +1,20 @@
 [
 	{
-		"//": "Get used to the spam of token giving. I just have to ensure you get the rewards.",
+		"//": "This topic is seperated due to its VERY LONG list.",
+		"//": "Get used to the spam of token giving. I just have to ensure you get the rewards and you'll get the money without notifying you about it.",
 		"id": "VAMP_ASEEKER_questinquire_ihave_essence",
 		"type": "talk_topic",
 		"dynamic_line": "It fits in my collection. Want to sell these to me?",
 		"responses": [
 			{
-				"text": "Yes! Here's your 7 essences!",
+				"text": "Yes! Here's your 15 essences!",
 				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
 				"condition": {
 					"and": [
 						{
 							"u_has_items": {
 								"item": "essence",
-								"count": 7
+								"count": 15
 							}
 						},
 						{
@@ -39,7 +40,7 @@
 					},
 					{
 						"u_sell_item": "essence",
-						"count": 7
+						"count": 15
 					},
 					{
 						"u_spend_cash": -3000
@@ -54,7 +55,7 @@
 						{
 							"u_has_items": {
 								"item": "essence",
-								"count": 7
+								"count": 15
 							}
 						},
 						{
@@ -68,7 +69,7 @@
 					},
 					{
 						"u_sell_item": "essence",
-						"count": 7
+						"count": 15
 					}
 				]
 			},
@@ -80,7 +81,7 @@
 						{
 							"u_has_items": {
 								"item": "essence",
-								"count": 7
+								"count": 15
 							}
 						},
 						{
@@ -91,7 +92,7 @@
 				"effect": [
 					{
 						"u_sell_item": "essence",
-						"count": 7
+						"count": 15
 					},
 					{
 						"u_spend_cash": -20500
@@ -106,7 +107,7 @@
 						{
 							"u_has_items": {
 								"item": "essence",
-								"count": 7
+								"count": 15
 							}
 						},
 						{
@@ -117,7 +118,7 @@
 				"effect": [
 					{
 						"u_sell_item": "essence",
-						"count": 7
+						"count": 15
 					},
 					{
 						"u_spend_cash": -9000
@@ -131,7 +132,7 @@
 					"not": {
 						"u_has_items": {
 							"item": "essence",
-							"count": 7
+							"count": 15
 						}
 					}
 				}
@@ -143,7 +144,7 @@
 					"not": {
 						"u_has_items": {
 							"item": "essence",
-							"count": 7
+							"count": 15
 						}
 					}
 				}
@@ -154,7 +155,7 @@
 				"condition": {
 					"u_has_items": {
 						"item": "essence",
-						"count": 7
+						"count": 15
 					}
 				}
 			}
@@ -166,14 +167,14 @@
 		"dynamic_line": "It fits in my collection. Want to sell these to me?",
 		"responses": [
 			{
-				"text": "Yes! Here's your 5 blood essences!",
+				"text": "Yes! Here's your 8 blood essences!",
 				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence",
 				"condition": {
 					"and": [
 						{
 							"u_has_items": {
 								"item": "essence_blood",
-								"count": 5
+								"count": 8
 							}
 						},
 						{
@@ -199,7 +200,7 @@
 					},
 					{
 						"u_sell_item": "essence_blood",
-						"count": 5
+						"count": 8
 					},
 					{
 						"u_spend_cash": -5500
@@ -214,7 +215,7 @@
 						{
 							"u_has_items": {
 								"item": "essence_blood",
-								"count": 5
+								"count": 8
 							}
 						},
 						{
@@ -228,7 +229,7 @@
 					},
 					{
 						"u_sell_item": "essence_blood",
-						"count": 5
+						"count": 8
 					}
 				]
 			},
@@ -240,7 +241,7 @@
 						{
 							"u_has_items": {
 								"item": "essence_blood",
-								"count": 5
+								"count": 8
 							}
 						},
 						{
@@ -251,7 +252,7 @@
 				"effect": [
 					{
 						"u_sell_item": "essence_blood",
-						"count": 5
+						"count": 8
 					},
 					{
 						"u_spend_cash": -26500
@@ -266,7 +267,7 @@
 						{
 							"u_has_items": {
 								"item": "essence_blood",
-								"count": 5
+								"count": 8
 							}
 						},
 						{
@@ -277,7 +278,7 @@
 				"effect": [
 					{
 						"u_sell_item": "essence_blood",
-						"count": 5
+						"count": 8
 					},
 					{
 						"u_spend_cash": -9000
@@ -291,7 +292,7 @@
 					"not": {
 						"u_has_items": {
 							"item": "essence_blood",
-							"count": 5
+							"count": 8
 						}
 					}
 				}
@@ -303,7 +304,7 @@
 					"not": {
 						"u_has_items": {
 							"item": "essence_blood",
-							"count": 5
+							"count": 8
 						}
 					}
 				}
@@ -314,7 +315,7 @@
 				"condition": {
 					"u_has_items": {
 						"item": "essence_blood",
-						"count": 5
+						"count": 8
 					}
 				}
 			}
@@ -326,14 +327,14 @@
 		"dynamic_line": "It fits in my collection. Want to sell these to me?",
 		"responses": [
 			{
-				"text": "Yes! Here's your 15 dull essences!",
+				"text": "Yes! Here's your 22 dull essences!",
 				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
 				"condition": {
 					"and": [
 						{
 							"u_has_items": {
 								"item": "essence_dull",
-								"count": 15
+								"count": 22
 							}
 						},
 						{
@@ -359,7 +360,7 @@
 					},
 					{
 						"u_sell_item": "essence_dull",
-						"count": 15
+						"count": 22
 					},
 					{
 						"u_spend_cash": -7500
@@ -374,7 +375,7 @@
 						{
 							"u_has_items": {
 								"item": "essence_dull",
-								"count": 15
+								"count": 22
 							}
 						},
 						{
@@ -388,7 +389,7 @@
 					},
 					{
 						"u_sell_item": "essence_dull",
-						"count": 15
+						"count": 22
 					}
 				]
 			},
@@ -400,7 +401,7 @@
 						{
 							"u_has_items": {
 								"item": "essence_dull",
-								"count": 15
+								"count": 22
 							}
 						},
 						{
@@ -411,7 +412,7 @@
 				"effect": [
 					{
 						"u_sell_item": "essence_dull",
-						"count": 15
+						"count": 22
 					},
 					{
 						"u_spend_cash": -30500
@@ -426,7 +427,7 @@
 						{
 							"u_has_items": {
 								"item": "essence_dull",
-								"count": 15
+								"count": 22
 							}
 						},
 						{
@@ -437,7 +438,7 @@
 				"effect": [
 					{
 						"u_sell_item": "essence_dull",
-						"count": 15
+						"count": 22
 					},
 					{
 						"u_spend_cash": -10500
@@ -451,7 +452,7 @@
 					"not": {
 						"u_has_items": {
 							"item": "essence_dull",
-							"count": 15
+							"count": 22
 						}
 					}
 				}
@@ -463,7 +464,7 @@
 					"not": {
 						"u_has_items": {
 							"item": "essence_dull",
-							"count": 15
+							"count": 22
 						}
 					}
 				}
@@ -474,7 +475,7 @@
 				"condition": {
 					"u_has_items": {
 						"item": "essence_dull",
-						"count": 15
+						"count": 22
 					}
 				}
 			}
@@ -527,21 +528,6 @@
 						"u_buy_item": "arcanetoken"
 					},
 					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
 						"u_sell_item": "essence_pure"
 					},
 					{
@@ -563,21 +549,6 @@
 					]
 				},
 				"effect": [
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
-					{
-						"u_buy_item": "arcanetoken"
-					},
 					{
 						"u_buy_item": "arcanetoken"
 					},
@@ -2492,6 +2463,1203 @@
 				"topic": "VAMP_ASEEKER_questinquire_ihave",
 				"condition": {
 					"u_has_item": "draconic_heart"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_sun_sword",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your one incorruptible sword!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_sun_sword",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "sun_sword"
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "sun_sword"
+					},
+					{
+						"u_spend_cash": -12500
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one incorruptible sword!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_sun_sword",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "sun_sword"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "sun_sword"
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one incorruptible sword!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_sun_sword",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "sun_sword"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "sun_sword"
+					},
+					{
+						"u_spend_cash": -96000
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one incorruptible sword!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_sun_sword",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "sun_sword"
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "sun_sword"
+					},
+					{
+						"u_spend_cash": -22000
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_item": "sun_sword"
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_item": "sun_sword"
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_item": "sun_sword"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_hexenhammer",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your one hammer of the hunter!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_hexenhammer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "hexenhammer"
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "hexenhammer"
+					},
+					{
+						"u_spend_cash": -11000
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one hammer of the hunter!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_hexenhammer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "hexenhammer"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "hexenhammer"
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one hammer of the hunter!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_hexenhammer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "hexenhammer"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "hexenhammer"
+					},
+					{
+						"u_spend_cash": -90500
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one hammer of the hunter!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_hexenhammer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "hexenhammer"
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "hexenhammer"
+					},
+					{
+						"u_spend_cash": -19500
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_item": "hexenhammer"
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_item": "hexenhammer"
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_item": "hexenhammer"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_spear_pestilence",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your one spear of pestilence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_spear_pestilence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "spear_pestilence"
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "spear_pestilence"
+					},
+					{
+						"u_spend_cash": -7000
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one spear of pestilence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_spear_pestilence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "spear_pestilence"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "spear_pestilence"
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one spear of pestilence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_spear_pestilence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "spear_pestilence"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "spear_pestilence"
+					},
+					{
+						"u_spend_cash": -67500
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one spear of pestilence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_spear_pestilence",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "spear_pestilence"
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "spear_pestilence"
+					},
+					{
+						"u_spend_cash": -15500
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_item": "spear_pestilence"
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_item": "spear_pestilence"
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_item": "spear_pestilence"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_staff_druidic",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your one druidic staff!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_staff_druidic",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "staff_druidic"
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "staff_druidic"
+					},
+					{
+						"u_spend_cash": -8000
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one druidic staff!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_staff_druidic",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "staff_druidic"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "staff_druidic"
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one druidic staff!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_staff_druidic",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "staff_druidic"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "staff_druidic"
+					},
+					{
+						"u_spend_cash": -72000
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one druidic staff!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_staff_druidic",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "staff_druidic"
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "staff_druidic"
+					},
+					{
+						"u_spend_cash": -13000
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_item": "staff_druidic"
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_item": "staff_druidic"
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_item": "staff_druidic"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_questinquire_ihave_stormbringer",
+		"type": "talk_topic",
+		"dynamic_line": "It fits in my collection. Want to sell these to me?",
+		"responses": [
+			{
+				"text": "Yes! Here's your one cursed blade!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_stormbringer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "stormbringer"
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabitems"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekerrewardingcollabmoney"
+							}
+						},
+						{
+							"not": {
+								"npc_has_trait": "vaseekernorewardcollab"
+							}
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "stormbringer"
+					},
+					{
+						"u_spend_cash": -7500
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one cursed blade!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_stormbringer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "stormbringer"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabitems"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_buy_item": "arcanetoken"
+					},
+					{
+						"u_sell_item": "stormbringer"
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one cursed blade!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_stormbringer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "stormbringer"
+						},
+						{
+							"npc_has_trait": "vaseekerrewardingcollabmoney"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "stormbringer"
+					},
+					{
+						"u_spend_cash": -82500
+					}
+				]
+			},
+			{
+				"text": "Yes! Here's your one cursed blade!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_stormbringer",
+				"condition": {
+					"and": [
+						{
+							"u_has_item": "stormbringer"
+						},
+						{
+							"npc_has_trait": "vaseekernorewardcollab"
+						}
+					]
+				},
+				"effect": [
+					{
+						"u_sell_item": "stormbringer"
+					},
+					{
+						"u_spend_cash": -11000
+					}
+				]
+			},
+			{
+				"text": "I got no more...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"not": {
+						"u_has_item": "stormbringer"
+					}
+				}
+			},
+			{
+				"text": "I have to collect more...",
+				"topic": "TALK_DONE",
+				"condition": {
+					"not": {
+						"u_has_item": "stormbringer"
+					}
+				}
+			},
+			{
+				"text": "I want to sell something else...",
+				"topic": "VAMP_ASEEKER_questinquire_ihave",
+				"condition": {
+					"u_has_item": "stormbringer"
 				}
 			}
 		]

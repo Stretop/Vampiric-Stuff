@@ -1,18 +1,19 @@
 [
 	{
+		"//": "This topic is seperated due to its VERY LONG list.",
 		"//": "You get tokens as your reward, and can be traded for some (unique) items. For those who are greedy for money? Good luck getting rich :3",
 		"id": "VAMP_ASEEKER_item_essence",
 		"type": "talk_topic",
 		"dynamic_line": {
 			"npc_has_trait": "vaseekerrewardingcollabitems",
-			"yes": "I will give you 1 token for every 7 essences you bring to me.",
+			"yes": "I will give you 1 token for every 15 essences you bring to me.",
 			"no": {
 				"npc_has_trait": "vaseekerrewardingcollabmoney",
-				"yes": "I will give you 205$ for every 7 essences you bring to me.",
+				"yes": "I will give you 205$ for every 15 essences you bring to me.",
 				"no": {
 					"npc_has_trait": "vaseekernorewardcollab",
-					"yes": "I will give you 90$ for every 7 essences you bring to me.",
-					"no": "I will give you 30$ and 1 token for every 7 essences you bring to me."
+					"yes": "I will give you 90$ for every 15 essences you bring to me.",
+					"no": "I will give you 30$ and 1 token for every 15 essences you bring to me."
 				}
 			}
 		},
@@ -31,14 +32,14 @@
 		"type": "talk_topic",
 		"dynamic_line": {
 			"npc_has_trait": "vaseekerrewardingcollabitems",
-			"yes": "I will give you 1 token for every 5 blood essences you bring to me.",
+			"yes": "I will give you 1 token for every 8 blood essences you bring to me.",
 			"no": {
 				"npc_has_trait": "vaseekerrewardingcollabmoney",
-				"yes": "I will give you 265$ for every 5 blood essences you bring to me.",
+				"yes": "I will give you 265$ for every 8 blood essences you bring to me.",
 				"no": {
 					"npc_has_trait": "vaseekernorewardcollab",
-					"yes": "I will give you 90$ for every 5 blood essences you bring to me.",
-					"no": "I will give you 55$ and 1 token for every 5 blood essences you bring to me."
+					"yes": "I will give you 90$ for every 8 blood essences you bring to me.",
+					"no": "I will give you 55$ and 1 token for every 8 blood essences you bring to me."
 				}
 			}
 		},
@@ -57,14 +58,14 @@
 		"type": "talk_topic",
 		"dynamic_line": {
 			"npc_has_trait": "vaseekerrewardingcollabitems",
-			"yes": "I will give you 1 token for every 15 dull essences you bring to me.",
+			"yes": "I will give you 1 token for every 22 dull essences you bring to me.",
 			"no": {
 				"npc_has_trait": "vaseekerrewardingcollabmoney",
-				"yes": "I will give you 305$ for every 15 dull essences you bring to me.",
+				"yes": "I will give you 305$ for every 22 dull essences you bring to me.",
 				"no": {
 					"npc_has_trait": "vaseekernorewardcollab",
-					"yes": "I will give you 105$ for every 15 dull essences you bring to me.",
-					"no": "I will give you 75$ and 1 token for every 15 dull essences you bring to me."
+					"yes": "I will give you 105$ for every 22 dull essences you bring to me.",
+					"no": "I will give you 75$ and 1 token for every 22 dull essences you bring to me."
 				}
 			}
 		},
@@ -83,14 +84,14 @@
 		"type": "talk_topic",
 		"dynamic_line": {
 			"npc_has_trait": "vaseekerrewardingcollabitems",
-			"yes": "I will give you 10 token for each crystallized essence you bring to me.",
+			"yes": "I will give you 5 token for each crystallized essence you bring to me.",
 			"no": {
 				"npc_has_trait": "vaseekerrewardingcollabmoney",
 				"yes": "I will give you 515$ for each crystallized essence you bring to me.",
 				"no": {
 					"npc_has_trait": "vaseekernorewardcollab",
 					"yes": "I will give you 190$ for each crystallized essence you bring to me.",
-					"no": "I will give you 105$ and 10 token for each crystallized essence you bring to me."
+					"no": "I will give you 105$ and 5 token for each crystallized essence you bring to me."
 				}
 			}
 		},
@@ -386,6 +387,150 @@
 				"topic": "VAMP_ASEEKER_questinquire",
 				"effect": {
 					"npc_add_trait": "vaseekeridraconicheartval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_sun_sword",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 25 tokens for each incorruptible sword you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 960$ for each incorruptible sword you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 220$ for each incorruptible sword you bring to me.",
+					"no": "I will give you 125$ and 25 tokens for each incorruptible sword you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerisun_swordval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_hexenhammer",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 22 tokens for each hammer of the hunter you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 905$ for each hammer of the hunter you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 195$ for each hammer of the hunter you bring to me.",
+					"no": "I will give you 110$ and 22 tokens for each hammer of the hunter you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerihexenhammerval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_spear_pestilence",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 10 tokens for each spear of pestilence you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 675$ for each spear of pestilence you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 155$ for each spear of pestilence you bring to me.",
+					"no": "I will give you 70$ and 10 tokens for each spear of pestilence you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekerispear_pestilenceval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_staff_druidic",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 15 tokens for each druidic staff you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 720$ for each druidic staff you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 130$ for each druidic staff you bring to me.",
+					"no": "I will give you 80$ and 15 tokens for each druidic staff you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeristaff_druidicval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_stormbringer",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"npc_has_trait": "vaseekerrewardingcollabitems",
+			"yes": "I will give you 20 tokens for each cursed blade you bring to me.",
+			"no": {
+				"npc_has_trait": "vaseekerrewardingcollabmoney",
+				"yes": "I will give you 815$ for each cursed blade you bring to me.",
+				"no": {
+					"npc_has_trait": "vaseekernorewardcollab",
+					"yes": "I will give you 110$ for each cursed blade you bring to me.",
+					"no": "I will give you 75$ and 20 tokens for each cursed blade you bring to me."
+				}
+			}
+		},
+		"responses": [
+			{
+				"text": "Okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeristormbringerval"
+				}
+			}
+		]
+	},
+	{
+		"id": "VAMP_ASEEKER_item_veilblade",
+		"type": "talk_topic",
+		"dynamic_line": "I don't know if I can accept that thing...",
+		"responses": [
+			{
+				"text": "Oh, okay...",
+				"topic": "VAMP_ASEEKER_questinquire",
+				"effect": {
+					"npc_add_trait": "vaseekeriveilbladeval"
 				}
 			}
 		]
