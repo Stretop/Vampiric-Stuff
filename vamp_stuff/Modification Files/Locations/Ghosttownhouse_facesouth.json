@@ -10,7 +10,6 @@
         "                        ",
         "                        ",
         "                        ",
-        "                        ",
         "      aaaaagagaaaaa     ",
         "      ahbbabbbbbbia     ",
         "      ghbbcbbbbblia     ",
@@ -20,6 +19,7 @@
         "      gnbbbbbbcbbbg     ",
         "      alkbbbbbabkia     ",
         "      aaaaaacaaaaaa     ",
+        "            d           ",
         "            d           ",
         "            d           ",
         "            d           ",
@@ -59,9 +59,9 @@
         "n": "f_sink"
       },
       "place_loot": [
-        { "group": "dresser", "chance": 50, "repeat": [ 3 ], "x": [ 15, 15 ], "y": [ 11, 11 ] },
-        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 17, 17 ], "y": [ 13, 13 ] },
-        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 17, 17 ], "y": [ 7, 9 ] }
+        { "group": "dresser", "chance": 50, "repeat": [ 3 ], "x": [ 15, 15 ], "y": [ 10, 10 ] },
+        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 17, 17 ], "y": [ 12, 12 ] },
+        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 17, 17 ], "y": [ 6, 8 ] }
       ]
     }
   },
@@ -145,6 +145,8 @@
         "                        ",
         "                        ",
         "                        ",
+        "                        ",
+        "                        ",
         "      aagaaagaaaaaa     ",
         "      ambbbbbbabbha     ",
         "      gnbbbbbbcbbhg     ",
@@ -154,8 +156,6 @@
         "      gbbbbbbbcbbbg     ",
         "      abbbbbbbajeea     ",
         "      aaaccagaaaaaa     ",
-        "         dd             ",
-        "         dd             ",
         "         dd             ",
         "         dd             ",
         "         dd             ",
@@ -193,9 +193,9 @@
         "n": "f_sink"
       },
       "place_loot": [
-        { "group": "dresser", "chance": 50, "repeat": [ 3 ], "x": [ 15, 15 ], "y": [ 13, 13 ] },
-        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 15, 15 ], "y": [ 11, 11 ] },
-        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 13, 13 ], "y": [ 9, 11 ] }
+        { "group": "dresser", "chance": 50, "repeat": [ 3 ], "x": [ 15, 15 ], "y": [ 15, 15 ] },
+        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 15, 15 ], "y": [ 13, 13 ] },
+        { "group": "homebooks", "chance": 30, "repeat": [ 1 ], "x": [ 13, 13 ], "y": [ 11, 13 ] }
       ]
     }
   },
