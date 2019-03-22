@@ -11,7 +11,7 @@ This is the mod I've made a long time ago when I was a mobile CDDA player. Well,
 Certain items are obtainable by exploring the world, while some items aren't at all. As listed below, these items *could* be obtained in many areas.
 
 ##### Books
-These are the books that could be found in certain locations. Some requires you to have a skill level of 8 to read.
+These are the books that could be found in certain locations. Most of them requires you to have a skill level of 8 to read.
 * *Red Velvets - The Dark Fashion*, the book that holds recipes of blood armors and clothings.
 * *Glorious Gunnery*, holds renewable ammunition recipes for the vampiric guns.
 * *The Vampiric Infusion*, a book that allows you to perform bloodcrafts.
@@ -50,11 +50,30 @@ When wandering around, you'll always encounter various monsters that are often d
 * *Vampire bats* are the vermins of the night, skimming their vicinity for available prey
 * They are agile and are always grouped in packs.
 
+## Locations
+To prevent further spoilers, the information in this section is briefly explained.
+
+##### Crypt
+* The crypts are found rarely in the forest, away from crowded cities.
+
+##### Vampire Cove
+* Structure that is hidden deep inside the forest and serves as the sanctuary of the night creatures.
+
+##### Wasteland Outskirts
+* A large structure that acts as the refugee center for both vampires and humans.
+
+##### Ghost Towns
+* _Villages from past civilizations that were cleared out of existence._
+
+##### Misc
+* Odd structures like random pedestals, forgotten graves and blood-filled caverns.
+* They usually blend in your map as normal terrains (forest, field, etc.) 
+
 ## Scenarios
-Scenarios would offer you a good start. Currently a stub for this mod.
+Scenarios offer you a good start. Currently a stub for this mod.
 
 ##### Vampire Wannabe
-This scenario will put yourself on a test as you are being surrounded by a mob of ravenous zeds. Below are the listed professions for this.
+This scenario will put yourself on a test as you start being surrounded by a mob of ravenous zeds outside your LMOE. Below are the listed professions for this.
 * costs: 1 points - *Vampire Freak* starts with a map to locate certain locations that will help you for earlier progress.
 * costs: 6 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and survivor armor.
 
@@ -73,26 +92,28 @@ Arcana has a large library of strange objects, in which the trader exchanges wit
 * *Trophies*, are the items rarely dropped by certain monster.
 * *Artifacts*, are the items in which requires you to raid structures and fight its guardian.
 
-*Arcane books are not allowed here, since they are very common.*
+*Price differs in difficulty of obtaining the item. Arcane books are not allowed here.*
 
 ##### Validation
 The arcane seeker will tell you how much token or money will be given to you in exchange of that item. Below are the things you need to know WHEN validating an item.
 
 * If you *Collaborated for item*, you only gain tokens as a form of currency.
-* If you *Collaborated for money*, you gain a large sum of profits.
+* If you *Collaborated for money*, you only gain a large sum of profits.
 * If you *Collaborated for nothing*, you still gain bits of money without getting any tokens.
 * If you're not collaborated, you will get both lesser money and tokens.
 
 ##### Trading
-Once an item is validated, you can now exchange this item for the said price.
+Once an item is validated, you can now exchange that item for the said price.
 
 ##### Tokens
-Arcane tokens are exchanged with new items, but these items depend on your days you've been living for. The items to trade with you is being expanded, and I am planning to expand it in different trades. Vampiric Stuff and Arcana should have an exclusive item for this, to set a goal for players and collect more tokens in a submissive way.
+Arcane tokens are exchanged with new items, but these items depend on your days you've been living for. The items to trade with you is being expanded, and I am planning to branch them in different trades. Vampiric Stuff and Arcana should have an exclusive item for this, but currently has nothing...
 
 The reason of implementing the arcane seeker NPC into the Vampiric Stuff mod is to provide rewards from useless or excess items, like a duplicated _cursed blade_ or a monster dropped object with no proper use of.
 
 *Guys in this mod:*
 
-* [![Axema](https://avatars2.githubusercontent.com/u/41373960?s=40&v=4)](https://github.com/Axema) - **The Vampiric Stuff author**
+* [![Axema](https://avatars2.githubusercontent.com/u/41373960?s=50&v=4)](https://github.com/Axema) - **Vampiric Stuff** author
 
-* [![chaosvolt](https://avatars1.githubusercontent.com/u/11582235?s=40&v=4)](https://github.com/chaosvolt) - **The Arcana author**
+* [![chaosvolt](https://avatars1.githubusercontent.com/u/11582235?s=50&v=4)](https://github.com/chaosvolt) - **Arcana** author
+
+The Changelog.TXT contains minor spoilers...
