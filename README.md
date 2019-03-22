@@ -8,7 +8,7 @@
 
 
 
-### vamp_stuff+arcana:
+### How to activate Vampiric Stuff + Arcana Mod Extension:
 
 1. Get the latest _Arcana and Magic Items_ at https://github.com/chaosvolt/cdda-arcana-mod
 2. Put the _Arcana_ to the mod folder of CDDA.
