@@ -246,11 +246,176 @@
 			}
 		},
 		{
-			"text": "I should collect more...",
-			"topic": "VAMP_ASEEKER_main"
+			"text": "I've got an incorruptible sword here...",
+			"topic": "VAMP_ASEEKER_item_sun_sword",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerisun_swordval"
+						}
+					},
+					{
+						"u_has_item": "sun_sword"
+					}
+				]
+			}
 		},
 		{
-			"text": "I guess I've collected everything",
+			"text": "I've got hammer of the hunter here...",
+			"topic": "VAMP_ASEEKER_item_hexenhammer",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerihexenhammerval"
+						}
+					},
+					{
+						"u_has_item": "hexenhammer"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a spear of pestilence here...",
+			"topic": "VAMP_ASEEKER_item_spear_pestilence",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekerispear_pestilenceval"
+						}
+					},
+					{
+						"u_has_item": "spear_pestilence"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a druidic staff here...",
+			"topic": "VAMP_ASEEKER_item_staff_druidic",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeristaff_druidicval"
+						}
+					},
+					{
+						"u_has_item": "staff_druidic"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a cursed blade here...",
+			"topic": "VAMP_ASEEKER_item_stormbringer",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeristormbringerval"
+						}
+					},
+					{
+						"u_has_item": "stormbringer"
+					}
+				]
+			}
+		},
+		{
+			"text": "I've got a restored ritual blade here...",
+			"topic": "VAMP_ASEEKER_item_veilblade",
+			"condition": {
+				"and": [
+					{
+						"not": {
+							"npc_has_trait": "vaseekeriveilbladeval"
+						}
+					},
+					{
+						"u_has_item": "veilblade"
+					}
+				]
+			}
+		},
+		{
+			"text": "I should collect more...",
+			"topic": "VAMP_ASEEKER_main",
+			"condition": {
+				"and": {
+					"not": [
+						{
+							"npc_has_trait": "vaseekeriessenceval"
+						},
+						{
+							"npc_has_trait": "vaseekeribloodessenceval"
+						},
+						{
+							"npc_has_trait": "vaseekeridullessenceval"
+						},
+						{
+							"npc_has_trait": "vaseekeripureessenceval"
+						},
+						{
+							"npc_has_trait": "vaseekeriwindfragmentval"
+						},
+						{
+							"npc_has_trait": "vaseekeriblobgemval"
+						},
+						{
+							"npc_has_trait": "vaseekerimonstertearval"
+						},
+						{
+							"npc_has_trait": "vaseekerishadowgemval"
+						},
+						{
+							"npc_has_trait": "vaseekeribonetwistedval"
+						},
+						{
+							"npc_has_trait": "vaseekerigrackenknucklesval"
+						},
+						{
+							"npc_has_trait": "vaseekeriwyrmskinpieceval"
+						},
+						{
+							"npc_has_trait": "vaseekerimonsterfangval"
+						},
+						{
+							"npc_has_trait": "vaseekeriiridescentplateval"
+						},
+						{
+							"npc_has_trait": "vaseekeriengravedstoneval"
+						},
+						{
+							"npc_has_trait": "vaseekeridraconicheartval"
+						},
+						{
+							"npc_has_trait": "vaseekerisun_swordval"
+						},
+						{
+							"npc_has_trait": "vaseekerihexenhammerval"
+						},
+						{
+							"npc_has_trait": "vaseekerispear_pestilenceval"
+						},
+						{
+							"npc_has_trait": "vaseekeristaff_druidicval"
+						},
+						{
+							"npc_has_trait": "vaseekeristormbringerval"
+						},
+						{
+							"npc_has_trait": "vaseekeriveilbladeval"
+						}
+					]
+				}
+			}
+		},
+		{
+			"text": "I guess I've collected everything...",
 			"topic": "VAMP_ASEEKER_main",
 			"condition": {
 				"and": [
@@ -298,6 +463,24 @@
 					},
 					{
 						"npc_has_trait": "vaseekeridraconicheartval"
+					},
+					{
+						"npc_has_trait": "vaseekerisun_swordval"
+					},
+					{
+						"npc_has_trait": "vaseekerihexenhammerval"
+					},
+					{
+						"npc_has_trait": "vaseekerispear_pestilenceval"
+					},
+					{
+						"npc_has_trait": "vaseekeristaff_druidicval"
+					},
+					{
+						"npc_has_trait": "vaseekeristormbringerval"
+					},
+					{
+						"npc_has_trait": "vaseekeriveilbladeval"
 					}
 				]
 			},

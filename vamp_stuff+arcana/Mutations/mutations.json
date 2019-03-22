@@ -258,5 +258,67 @@
 		"player_display": false,
 		"valid": false,
 		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekerisun_swordval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"//": "Bunch of validating traits.",
+		"type": "mutation",
+		"id": "vaseekerihexenhammerval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekerispear_pestilenceval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeristaff_druidicval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeristormbringerval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
+	},
+	{
+		"type": "mutation",
+		"id": "vaseekeriveilbladeval",
+		"name": "Item Validated",
+		"points": 0,
+		"description": "NPCs will check your progress with this trait.",
+		"player_display": false,
+		"valid": false,
+		"purifiable": false
 	}
 ]

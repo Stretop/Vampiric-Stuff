@@ -1,11 +1,12 @@
 [
 	{
+		"//": "This topic is seperated due to its VERY LONG list.",
 		"id": "VAMP_ASEEKER_questinquire_ihave",
 		"type": "talk_topic",
 		"dynamic_line": "Let's see what you've got in stock.",
 		"responses": [
 			{
-				"text": "I have 7 essences!",
+				"text": "I have 15 essences!",
 				"topic": "VAMP_ASEEKER_questinquire_ihave_essence",
 				"condition": {
 					"and": [
@@ -14,14 +15,14 @@
 						},
 						{
 							"u_has_items": {
-								"item": "essence", "count": 7
+								"item": "essence", "count": 15
 							}
 						}
 					]
 				}
 			},
 			{
-				"text": "I have 5 blood essences!",
+				"text": "I have 8 blood essences!",
 				"topic": "VAMP_ASEEKER_questinquire_ihave_bloodessence",
 				"condition": {
 					"and": [
@@ -30,14 +31,14 @@
 						},
 						{
 							"u_has_items": {
-								"item": "essence_blood", "count": 5
+								"item": "essence_blood", "count": 8
 							}
 						}
 					]
 				}
 			},
 			{
-				"text": "I have 3 dull essences!",
+				"text": "I have 22 dull essences!",
 				"topic": "VAMP_ASEEKER_questinquire_ihave_dullessence",
 				"condition": {
 					"and": [
@@ -46,7 +47,7 @@
 						},
 						{
 							"u_has_items": {
-								"item": "essence_dull", "count": 15
+								"item": "essence_dull", "count": 22
 							}
 						}
 					]
@@ -216,6 +217,90 @@
 						},
 						{
 							"u_has_item": "draconic_heart"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one incorruptible sword!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_sun_sword",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekerisun_swordval"
+						},
+						{
+							"u_has_item": "sun_sword"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one hammer of the hunter!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_hexenhammer",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekerihexenhammerval"
+						},
+						{
+							"u_has_item": "hexenhammer"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one spear of pestilence!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_spear_pestilence",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekerispear_pestilenceval"
+						},
+						{
+							"u_has_item": "spear_pestilence"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one druidic staff!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_staff_druidic",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeristaff_druidicval"
+						},
+						{
+							"u_has_item": "staff_druidic"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one cursed blade!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_stormbringer",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeristormbringerval"
+						},
+						{
+							"u_has_item": "stormbringer"
+						}
+					]
+				}
+			},
+			{
+				"text": "I have one restored ritual blade!",
+				"topic": "VAMP_ASEEKER_questinquire_ihave_veilblade",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "vaseekeriveilbladeval"
+						},
+						{
+							"u_has_item": "veilblade"
 						}
 					]
 				}

@@ -9,6 +9,7 @@
  "size": "TINY",
  "hp": 25,
  "speed": 200,
+ "bodytype": "bird",
  "material": ["flesh"],
  "symbol": "w",
  "color": "red",

@@ -8,6 +8,7 @@
  "diff": 10,
  "size": "SMALL",
  "hp": 45,
+ "bodytype": "bird",
  "speed": 200,
  "material": ["flesh"],
  "symbol": "W",
