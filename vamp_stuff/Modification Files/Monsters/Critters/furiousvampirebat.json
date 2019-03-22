@@ -6,6 +6,7 @@
  "default_faction": "vampirics",
  "species": ["MAMMAL", "VAMPBAT"],
  "diff": 12,
+ "bodytype": "bird",
  "size": "SMALL",
  "hp": 50,
  "speed": 200,

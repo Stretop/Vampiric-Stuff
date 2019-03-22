@@ -6,6 +6,7 @@
  "default_faction": "zombie",
  "species": ["ZOMBIE"],
  "size": "MEDIUM",
+ "bodytype": "human",
  "hp": 525,
  "speed": 150,
  "material": ["flesh"],
