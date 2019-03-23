@@ -8,6 +8,7 @@ https://discourse.cataclysmdda.org - CDDA official website
   ~ 
 
   * After the major fixes in v1.2, the v1.3 plans to improve the 'still' broken npc dialogues, especially the lore (npcs talk plainly, filthy stories, missions garbled to situation problems like 'I need blood', but not really). Also, arcana's unique features will spice up this mod as I aim to link them for extended possibilities :)
+  * Also aims to add some locations and fixes for the current one's.
   * The trading mechanic works great right now. All it needs is fixes and tweaks.
 
   NOTE: Updates with "?" affixed to it has mod dependencies.
@@ -19,11 +20,12 @@ https://discourse.cataclysmdda.org - CDDA official website
 #  ADDED TILESET (temporary visualizations)
 
 +  ADDED A NEW VAMPIRIC GUN (very cheap pistol)
++  ADDED GHOST TOWNS (hidden in the forest, lies the villages from the past. An outline for bigger projects)
++  ADDED NEW MAPGENS (reworked old crypts with a new layout)
 +? ADDED NEW NPC (arcane seeker, a vampire NPC that collects item from the Arcana mod)
 +? ADDED NEW MAPGEN (for the wasteland outskirts as its basement)
 +? NOW FEATURES A TRADING MECHANICS (gather tokens as currency in exchange of exclusive items)
 +? TRADEABLE ITEMS EXPANDED (essences, monster trophies and (non-generated)artifacts)
-+  ADDED GHOST TOWNS (hidden in the forest, lies the villages from the past. An outline for bigger projects)
 
 -  NPC MISSION FIXES (quest bugs fixed, especially for item retrievals)
 
@@ -60,7 +62,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 +  ADDED REINFORCED WEAPONS (simple requirement)
 +  ADDED NEW LOCATIONS (blood hole, random graveyards)
 +  ADDED MAIN LOCATION (wasteland outskirts, a large location acts like the vampire cove)
-+ MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
++  MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
 
 -  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques and are regained after reinforcement)
 -  MONSTER TWEAKS (greatly reduced monster stats)
