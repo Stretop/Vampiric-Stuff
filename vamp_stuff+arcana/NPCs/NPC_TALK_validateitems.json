@@ -343,76 +343,7 @@
 		},
 		{
 			"text": "I should collect more...",
-			"topic": "VAMP_ASEEKER_main",
-			"condition": {
-				"and": {
-					"not": [
-						{
-							"npc_has_trait": "vaseekeriessenceval"
-						},
-						{
-							"npc_has_trait": "vaseekeribloodessenceval"
-						},
-						{
-							"npc_has_trait": "vaseekeridullessenceval"
-						},
-						{
-							"npc_has_trait": "vaseekeripureessenceval"
-						},
-						{
-							"npc_has_trait": "vaseekeriwindfragmentval"
-						},
-						{
-							"npc_has_trait": "vaseekeriblobgemval"
-						},
-						{
-							"npc_has_trait": "vaseekerimonstertearval"
-						},
-						{
-							"npc_has_trait": "vaseekerishadowgemval"
-						},
-						{
-							"npc_has_trait": "vaseekeribonetwistedval"
-						},
-						{
-							"npc_has_trait": "vaseekerigrackenknucklesval"
-						},
-						{
-							"npc_has_trait": "vaseekeriwyrmskinpieceval"
-						},
-						{
-							"npc_has_trait": "vaseekerimonsterfangval"
-						},
-						{
-							"npc_has_trait": "vaseekeriiridescentplateval"
-						},
-						{
-							"npc_has_trait": "vaseekeriengravedstoneval"
-						},
-						{
-							"npc_has_trait": "vaseekeridraconicheartval"
-						},
-						{
-							"npc_has_trait": "vaseekerisun_swordval"
-						},
-						{
-							"npc_has_trait": "vaseekerihexenhammerval"
-						},
-						{
-							"npc_has_trait": "vaseekerispear_pestilenceval"
-						},
-						{
-							"npc_has_trait": "vaseekeristaff_druidicval"
-						},
-						{
-							"npc_has_trait": "vaseekeristormbringerval"
-						},
-						{
-							"npc_has_trait": "vaseekeriveilbladeval"
-						}
-					]
-				}
-			}
+			"topic": "VAMP_ASEEKER_main"
 		},
 		{
 			"text": "I guess I've collected everything...",
