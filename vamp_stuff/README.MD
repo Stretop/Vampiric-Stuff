@@ -64,6 +64,7 @@ To prevent further spoilers, the information in this section is briefly explaine
 
 ##### Ghost Towns
 * _Villages from past civilizations that were cleared out of existence._
+* Cities set in time where nature is your toilet.
 
 ##### Misc
 * Odd structures like random pedestals, forgotten graves and blood-filled caverns.
@@ -106,9 +107,7 @@ The arcane seeker will tell you how much token or money will be given to you in 
 Once an item is validated, you can now exchange that item for the said price.
 
 ##### Tokens
-Arcane tokens are exchanged with new items, but these items depend on your days you've been living for. The items to trade with you is being expanded, and I am planning to branch them in different trades. Vampiric Stuff and Arcana should have an exclusive item for this, but currently has nothing...
-
-The reason of implementing the arcane seeker NPC into the Vampiric Stuff mod is to provide rewards from useless or excess items, like a duplicated _cursed blade_ or a monster dropped object with no proper use of.
+Arcane tokens are exchanged with new items, but these items depend on your days you've survived. The items to trade with you is being expanded, and I am planning to branch them in different trades. Vampiric Stuff and Arcana should have an exclusive item for this, but currently has nothing...
 
 *Guys in this mod:*
 
