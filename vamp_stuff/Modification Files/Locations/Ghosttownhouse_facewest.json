@@ -3,34 +3,35 @@
 		"type": "mapgen",
 		"method": "json",
 		"om_terrain": [
-			"ghost_townhousenorth"
+			"ghost_townhousewest"
 		],
 		"object": {
+			
 			"rows": [
-				"oooooooooooooooooooooooo",
-				"        dddd            ",
-				"        dddd            ",
-				"         dd             ",
-				"         dd             ",
-				"         dd             ",
-				"         dd             ",
-				"      aaaccagaaagaa     ",
-				"      aiibbklkajbea     ",
-				"      aibbbbbbabbea     ",
-				"      gbbbbbbbabbba     ",
-				"      gbbbbbbbaacaa     ",
-				"      allllbbbabbja     ",
-				"      abkbfbbbcbbbg     ",
-				"      amlnbbbbabbka     ",
-				"      aagaaagaaacaa     ",
-				"              abbba     ",
-				"              ahhha     ",
-				"              aagaa     ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        "
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o        aaamaaaaa      ",
+				"oooo     abbbbjika      ",
+				"oddddddddcbbbijblm      ",
+				"oddddddddcbbbijbja      ",
+				"oooo     abbbbbbba      ",
+				"o        mbbbbbbbaaaaa  ",
+				"o        agggbbbbbbbna  ",
+				"o        aaaaaacaaacaa  ",
+				"o            abbbaheba  ",
+				"o            abbbaebbm  ",
+				"o            afffaeiba  ",
+				"o            aamaaaaaa  ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       "
 			],
 			"terrain": {
 				" ": [
@@ -136,10 +137,12 @@
 					"t_dirt"
 				],
 				"g": [
-					"t_window",
-					"t_window",
-					"t_window",
-					"t_window_frame"
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
 				],
 				"h": [
 					"t_floor",
@@ -182,12 +185,10 @@
 					"t_dirt"
 				],
 				"m": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
+					"t_window",
+					"t_window",
+					"t_window",
+					"t_window_frame"
 				],
 				"n": [
 					"t_floor",
@@ -197,7 +198,7 @@
 					"t_floor",
 					"t_dirt"
 				],
-				"o": [
+				"o": ["t_dirt",
 					"t_dirt",
 					"t_dirt",
 					"t_dirt",
@@ -209,573 +210,25 @@
 			},
 			"furniture": {
 				"e": "f_bed",
-				"h": "f_bathtub",
-				"i": "f_bookcase",
-				"j": "f_dresser",
-				"k": "f_stool",
-				"l": "f_table",
-				"m": "f_cupboard",
-				"n": "f_sink"
+				"f": "f_bathtub",
+				"g": "f_bookcase",
+				"h": "f_dresser",
+				"i": "f_stool",
+				"j": "f_table",
+				"k": "f_cupboard",
+				"l": "f_sink",
+				"n": "f_bigmirror"
 			},
 			"place_loot": [
 				{
 					"group": "elderbooks",
-					"chance": 100,
+					"chance": 50,
 					"repeat": [
 						1
 					],
 					"x": [
-						8,
-						7
-					],
-					"y": [
-						8,
-						8
-					]
-				},
-				{
-					"group": "elderbooks",
-					"chance": 100,
-					"repeat": [
-						1
-					],
-					"x": [
-						7,
-						7
-					],
-					"y": [
-						9,
-						8
-					]
-				},
-				{
-					"group": "dresser",
-					"chance": 50,
-					"repeat": [
-						3
-					],
-					"x": [
-						15,
-						15
-					],
-					"y": [
-						8,
-						8
-					]
-				},
-				{
-					"group": "dresser",
-					"chance": 50,
-					"repeat": [
-						3
-					],
-					"x": [
-						17,
-						17
-					],
-					"y": [
-						12,
+						10,
 						12
-					]
-				}
-			]
-		}
-	},
-	{
-		"type": "mapgen",
-		"method": "json",
-		"om_terrain": [
-			"ghost_townhousenorth"
-		],
-		"object": {
-			"rows": [
-				"oooooooooooooooooooooooo",
-				"           ddd          ",
-				"           ddd          ",
-				"           ddd          ",
-				"            d           ",
-				"            d           ",
-				"      aagaaacaaagaa     ",
-				"      ambbbbbbakbja     ",
-				"      alkbbbbbcbbba     ",
-				"      gnbbkbbbaieea     ",
-				"      abbbllbbaaaaa     ",
-				"      abbbbkbbabbha     ",
-				"      abbbfbbbcbbhg     ",
-				"      aiiibbiiabbha     ",
-				"      aaaaggaaaaaaa     ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        "
-			],
-			"terrain": {
-				" ": [
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_grass_long",
-					"t_grass_long",
-					"t_grass_long",
-					"t_tree_dead"
-				],
-				"a": [
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood_chipped",
-					"t_wall_wood_chipped",
-					"t_wall_wood_broken"
-				],
-				"b": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"c": [
-					"t_door_c",
-					"t_door_c",
-					"t_door_c",
-					"t_door_b"
-				],
-				"d": [
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_grass"
-				],
-				"e": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"f": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"g": [
-					"t_window",
-					"t_window",
-					"t_window",
-					"t_window_frame"
-				],
-				"h": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"i": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"j": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"k": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"l": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"m": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"n": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"o": [
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_grass",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt"
-				]
-			},
-			"furniture": {
-				"e": "f_bed",
-				"h": "f_bathtub",
-				"i": "f_bookcase",
-				"j": "f_dresser",
-				"k": "f_stool",
-				"l": "f_table",
-				"m": "f_cupboard",
-				"n": "f_sink"
-			},
-			"place_loot": [
-				{
-					"group": "dresser",
-					"chance": 50,
-					"repeat": [
-						3
-					],
-					"x": [
-						17,
-						17
-					],
-					"y": [
-						7,
-						7
-					]
-				},
-				{
-					"group": "elderbooks",
-					"chance": 30,
-					"repeat": [
-						1
-					],
-					"x": [
-						7,
-						9
-					],
-					"y": [
-						13,
-						13
-					]
-				},
-				{
-					"group": "elderbooks",
-					"chance": 30,
-					"repeat": [
-						1
-					],
-					"x": [
-						12,
-						13
-					],
-					"y": [
-						13,
-						13
-					]
-				}
-			]
-		}
-	},
-	{
-		"type": "mapgen",
-		"method": "json",
-		"om_terrain": [
-			"ghost_townhousenorth"
-		],
-		"object": {
-			"rows": [
-				"oooooooooooooooooooooooo",
-				"                   ddd  ",
-				"                   ddd  ",
-				"                   ddd  ",
-				"                    d   ",
-				"      aaaaagagaaaaa d   ",
-				"      ambbbbbbbbiia d   ",
-				"      abkbbbbbbbbbcdd   ",
-				"      gnlbbbbbbbkia     ",
-				"      aaaaalkbaaaaa     ",
-				"      ahbbakbbajeea     ",
-				"      ghbbcbbbcbbbg     ",
-				"      ahbbabiiabkia     ",
-				"      aaaaagaaaaaaa     ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        ",
-				"                        "
-			],
-			"terrain": {
-				" ": [
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_grass",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_grass_long",
-					"t_grass_long",
-					"t_grass_long",
-					"t_tree_dead"
-				],
-				"a": [
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood",
-					"t_wall_wood_chipped",
-					"t_wall_wood_chipped",
-					"t_wall_wood_broken"
-				],
-				"b": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"c": [
-					"t_door_c",
-					"t_door_c",
-					"t_door_c",
-					"t_door_b"
-				],
-				"d": [
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_grass"
-				],
-				"e": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"f": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"g": [
-					"t_window",
-					"t_window",
-					"t_window",
-					"t_window_frame"
-				],
-				"h": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"i": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"j": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"k": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"l": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"m": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"n": [
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_floor",
-					"t_dirt"
-				],
-				"o": [
-					"t_dirt",
-					"t_dirt",
-					"t_dirt",
-					"t_grass",
-					"t_dirt",
-					"t_dirt",
-					"t_dirt"
-				]
-			},
-			"furniture": {
-				"e": "f_bed",
-				"h": "f_bathtub",
-				"i": "f_bookcase",
-				"j": "f_dresser",
-				"k": "f_stool",
-				"l": "f_table",
-				"m": "f_cupboard",
-				"n": "f_sink"
-			},
-			"place_loot": [
-				{
-					"group": "elderbooks",
-					"chance": 30,
-					"repeat": [
-						1
-					],
-					"x": [
-						12,
-						13
 					],
 					"y": [
 						12,
@@ -789,57 +242,580 @@
 						3
 					],
 					"x": [
-						15,
-						15
+						18,
+						18
 					],
 					"y": [
+						14,
+						14
+					]
+				}
+			]
+		}
+	},
+	{
+		"type": "mapgen",
+		"method": "json",
+		"om_terrain": [
+			"ghost_townhousewest"
+		],
+		"object": {
+			
+			"rows": [
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o        aaamaaa        ",
+				"oooo     abbbija        ",
+				"oddddddddcbbbbja        ",
+				"oddddddddcbbbbjaaaaa    ",
+				"oooo     abbbbibbilm    ",
+				"o        mbbbbbbbbja    ",
+				"o        agggbbbbbka    ",
+				"o        aaaaabaaaaa    ",
+				"o        agbbababbfa    ",
+				"o        mbbbcbcbbfm    ",
+				"o        aeehahabbfa    ",
+				"o        aaaaaaaaaaa    ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       "
+			],
+			"terrain": {
+				" ": [
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_grass_long",
+					"t_grass_long",
+					"t_grass_long",
+					"t_tree_dead"
+				],
+				"a": [
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood_chipped",
+					"t_wall_wood_chipped",
+					"t_wall_wood_broken"
+				],
+				"b": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"c": [
+					"t_door_c",
+					"t_door_c",
+					"t_door_c",
+					"t_door_b"
+				],
+				"d": [
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_grass"
+				],
+				"e": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"f": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"g": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"h": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"i": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"j": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"k": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"l": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"m": [
+					"t_window",
+					"t_window",
+					"t_window",
+					"t_window_frame"
+				],
+				"n": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"o": [
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_grass",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt"
+				]
+			},
+			"furniture": {
+				"e": "f_bed",
+				"f": "f_bathtub",
+				"g": "f_bookcase",
+				"h": "f_dresser",
+				"i": "f_stool",
+				"j": "f_table",
+				"k": "f_cupboard",
+				"l": "f_sink",
+				"n": "f_bigmirror"
+			},
+			"place_loot": [
+				{
+					"group": "elderbooks",
+					"chance": 50,
+					"repeat": [
+						1
+					],
+					"x": [
+						10,
+						12
+					],
+					"y": [
+						12,
+						12
+					]
+				},
+				{
+					"group": "dresser",
+					"chance": 50,
+					"repeat": [
+						3
+					],
+					"x": [
+						12,
+						12
+					],
+					"y": [
+						16,
+						16
+					]
+				},
+				{
+					"group": "elderbooks",
+					"chance": 50,
+					"repeat": [
+						1
+					],
+					"x": [
 						10,
 						10
-					]
-				},
-				{
-					"group": "elderbooks",
-					"chance": 30,
-					"repeat": [
-						1
-					],
-					"x": [
-						17,
-						17
 					],
 					"y": [
-						12,
-						12
+						14,
+						14
 					]
 				},
 				{
+					"group": "dresser",
+					"chance": 50,
+					"repeat": [
+						3
+					],
+					"x": [
+						14,
+						14
+					],
+					"y": [
+						16,
+						16
+					]
+				}
+			]
+		}
+	},
+	{
+		"type": "mapgen",
+		"method": "json",
+		"om_terrain": [
+			"ghost_townhousewest"
+		],
+		"object": {
+			
+			"rows": [
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o                       ",
+				"o        aaamaaamaaa    ",
+				"oddd     aggbbbijbka    ",
+				"oddddddddcbbbbbbjija    ",
+				"oooo     abibbbijblm    ",
+				"o        aamaabbibba    ",
+				"o            abbbbha    ",
+				"o            abaaaaa    ",
+				"o            ababbfa    ",
+				"o            mbcbbfm    ",
+				"o            ababbfa    ",
+				"o            abaaaaa    ",
+				"o            abagbha    ",
+				"o            mbcbbea    ",
+				"o            anabbea    ",
+				"o            aaaamaa    ",
+				"o                       ",
+				"o                       "
+			],
+			"terrain": {
+			" ": [
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_grass",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_grass_long",
+					"t_grass_long",
+					"t_grass_long",
+					"t_tree_dead"
+				],
+				"a": [
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood",
+					"t_wall_wood_chipped",
+					"t_wall_wood_chipped",
+					"t_wall_wood_broken"
+				],
+				"b": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"c": [
+					"t_door_c",
+					"t_door_c",
+					"t_door_c",
+					"t_door_b"
+				],
+				"d": [
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_grass"
+				],
+				"e": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"f": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"g": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"h": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"i": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"j": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"k": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"l": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"m": [
+					"t_window",
+					"t_window",
+					"t_window",
+					"t_window_frame"
+				],
+				"n": [
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_floor",
+					"t_dirt"
+				],
+				"o": [
+					"t_dirt",
+					"t_dirt",
+					"t_dirt",
+					"t_grass",
+					"t_dirt",
+					"t_dirt",
+					"t_dirt"
+				]
+			},
+			"furniture": {
+				"e": "f_bed",
+				"f": "f_bathtub",
+				"g": "f_bookcase",
+				"h": "f_dresser",
+				"i": "f_stool",
+				"j": "f_table",
+				"k": "f_cupboard",
+				"l": "f_sink",
+				"n": "f_bigmirror"
+			},
+			"place_loot": [
+				{
 					"group": "elderbooks",
-					"chance": 30,
+					"chance": 50,
 					"repeat": [
 						1
 					],
 					"x": [
-						17,
+						10,
+						11
+					],
+					"y": [
+						8,
+						8
+					]
+				},
+				{
+					"group": "elderbooks",
+					"chance": 50,
+					"repeat": [
+						1
+					],
+					"x": [
+						16,
 						16
 					],
 					"y": [
-						6,
-						6
+						18,
+						18
+					]
+				},
+				{
+					"group": "dresser",
+					"chance": 50,
+					"repeat": [
+						3
+					],
+					"x": [
+						18,
+						18
+					],
+					"y": [
+						18,
+						18
 					]
 				},
 				{
 					"group": "elderbooks",
-					"chance": 30,
+					"chance": 50,
 					"repeat": [
 						1
 					],
 					"x": [
-						17,
-						17
+						18,
+						18
 					],
 					"y": [
-						8,
-						8
+						12,
+						12
 					]
 				}
 			]
@@ -850,7 +826,7 @@
 		"type": "mapgen",
 		"method": "json",
 		"om_terrain": [
-			"ghost_townhousenorth"
+			"ghost_townhousewest"
 		],
 		"object": {
 			"rows": [
