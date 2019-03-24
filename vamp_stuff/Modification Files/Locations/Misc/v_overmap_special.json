@@ -1,395 +1,295 @@
-[
-	{
-		"type": "overmap_special",
-		"id": "Wasteland Outskirts",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "wo3_north"
-			},
-			{
-				"point": [
-					1,
-					0,
-					0
-				],
-				"overmap": "wo2_north"
-			},
-			{
-				"point": [
-					2,
-					0,
-					0
-				],
-				"overmap": "wo1_north"
-			},
-			{
-				"point": [
-					0,
-					1,
-					0
-				],
-				"overmap": "wo6_north"
-			},
-			{
-				"point": [
-					1,
-					1,
-					0
-				],
-				"overmap": "wo5_north"
-			},
-			{
-				"point": [
-					2,
-					1,
-					0
-				],
-				"overmap": "wo4_north"
-			},
-			{
-				"point": [
-					0,
-					2,
-					0
-				],
-				"overmap": "wo9_north"
-			},
-			{
-				"point": [
-					1,
-					2,
-					0
-				],
-				"overmap": "wo8_north"
-			},
-			{
-				"point": [
-					2,
-					2,
-					0
-				],
-				"overmap": "wo7_north"
-			}
-		],
-		"locations": [
-			"forest"
-		],
-		"occurrences": [
-			1,
-			1
-		]
-	},
-	{
-		"type": "overmap_special",
-		"id": "Memorial Crypt",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "crypt1_north"
-			},
-			{
-				"point": [
-					0,
-					0,
-					-1
-				],
-				"overmap": "crypt1_b1_north"
-			}
-		],
-		"locations": [
-			"forest"
-		],
-		"occurrences": [
-			1,
-			20
-		]
-	},
-	{
-		"type": "overmap_special",
-		"id": "Eye Crypt",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "crypt2_north"
-			},
-			{
-				"point": [
-					0,
-					0,
-					-1
-				],
-				"overmap": "crypt2_b1_north"
-			}
-		],
-		"locations": [
-			"forest"
-		],
-		"occurrences": [
-			1,
-			20
-		]
-	},
-	{
-		"type": "overmap_special",
-		"id": "Vampire Cove",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "vampcave_entrance_north"
-			},
-			{
-				"point": [
-					0,
-					0,
-					-1
-				],
-				"overmap": "vampcave_corridor1_north"
-			},
-			{
-				"point": [
-					0,
-					1,
-					-1
-				],
-				"overmap": "vampcave_corridor2_north"
-			},
-			{
-				"point": [
-					0,
-					1,
-					-2
-				],
-				"overmap": "vampcave_basement_north"
-			}
-		],
-		"locations": [
-			"forest"
-		],
-		"occurrences": [
-			1,
-			1
-		]
-	},
-	{
-		"type": "overmap_special",
-		"id": "Pedestal - Bloodrune",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "bloodrune_pedestal_north"
-			}
-		],
-		"locations": [
-			"forest",
-			"field"
-		],
-		"occurrences": [
-			1,
-			5
-		]
-	},
-	{
-		"type": "overmap_special",
-		"id": "Gravesite - Wild",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "gravesite1_north"
-			}
-		],
-		"locations": [
-			"forest",
-			"field"
-		],
-		"occurrences": [
-			1,
-			15
-		]
-	},
-	{
-		"type": "overmap_special",
-		"id": "bhole",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "bloodhole_north"
-			},
-			{
-				"point": [
-					0,
-					0,
-					-1
-				],
-				"overmap": "bloodhole_bottom_north"
-			},
-			{
-				"point": [
-					0,
-					0,
-					-2
-				],
-				"overmap": "bloodhole_lair_north"
-			}
-		],
-		"locations": [
-			"field"
-		],
-		"occurrences": [
-			1,
-			10
-		]
-	},
-	{
-		"type": "overmap_special",
-		"//": "Small village consists of 0-6 abandoned houses with no large roads.",
-		"id": "Small Ghost Town 1",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "ghost_townhousesouth"
-			},
-			{
-				"point": [
-					1,
-					0,
-					0
-				],
-				"overmap": "ghost_townhousesouth"
-			},
-			{
-				"point": [
-					2,
-					0,
-					0
-				],
-				"overmap": "ghost_townhousesouth"
-			},
-			{
-				"point": [
-					0,
-					1,
-					0
-				],
-				"overmap": "ghost_townhousenorth"
-			},
-			{
-				"point": [
-					1,
-					1,
-					0
-				],
-				"overmap": "ghost_townhousenorth"
-			},
-			{
-				"point": [
-					2,
-					1,
-					0
-				],
-				"overmap": "ghost_townhousenorth"
-			}
-		],
-		"locations": [
-			"forest"
-		],
-		"occurrences": [
-			1,
-			2
-		]
-	},
-	{
-		"type": "overmap_special",
-		"//": "Small village consists of 0-6 abandoned houses with no large roads.",
-		"id": "Small Ghost Town 2",
-		"overmaps": [
-			{
-				"point": [
-					0,
-					0,
-					0
-				],
-				"overmap": "ghost_townhouseeast"
-			},
-			{
-				"point": [
-					1,
-					0,
-					0
-				],
-				"overmap": "ghost_townhousewest"
-			},
-			{
-				"point": [
-					0,
-					1,
-					0
-				],
-				"overmap": "ghost_townhouseeast"
-			},
-			{
-				"point": [
-					1,
-					1,
-					0
-				],
-				"overmap": "ghost_townhousewest"
-			},
-			{
-				"point": [
-					0,
-					2,
-					0
-				],
-				"overmap": "ghost_townhousenorth"
-			},
-			{
-				"point": [
-					1,
-					2,
-					0
-				],
-				"overmap": "ghost_townhousenorth"
-			}
-		],
-		"locations": [
-			"forest"
-		],
-		"occurrences": [
-			1,
-			2
-		]
-	}
+[{
+  "id": "Wasteland Outskirts",
+  "locations": ["forest"],
+  "occurrences": [1, 1],
+  "overmaps": [{
+    "overmap": "wo3_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "wo2_north",
+    "point": [1, 0, 0]
+   }, {
+    "overmap": "wo1_north",
+    "point": [2, 0, 0]
+   }, {
+    "overmap": "wo6_north",
+    "point": [0, 1, 0]
+   }, {
+    "overmap": "wo5_north",
+    "point": [1, 1, 0]
+   }, {
+    "overmap": "wo4_north",
+    "point": [2, 1, 0]
+   }, {
+    "overmap": "wo9_north",
+    "point": [0, 2, 0]
+   }, {
+    "overmap": "wo8_north",
+    "point": [1, 2, 0]
+   }, {
+    "overmap": "wo7_north",
+    "point": [2, 2, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "id": "Memorial Crypt",
+  "locations": ["forest"],
+  "occurrences": [1, 20],
+  "overmaps": [{
+    "overmap": "crypt1_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "crypt1_b1_north",
+    "point": [0, 0, -1]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "id": "Eye Crypt",
+  "locations": ["forest"],
+  "occurrences": [1, 20],
+  "overmaps": [{
+    "overmap": "crypt2_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "crypt2_b1_north",
+    "point": [0, 0, -1]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "id": "Vampire Cove",
+  "locations": ["forest"],
+  "occurrences": [1, 1],
+  "overmaps": [{
+    "overmap": "vampcave_entrance_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "vampcave_corridor1_north",
+    "point": [0, 0, -1]
+   }, {
+    "overmap": "vampcave_corridor2_north",
+    "point": [0, 1, -1]
+   }, {
+    "overmap": "vampcave_basement_north",
+    "point": [0, 1, -2]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "id": "Pedestal - Bloodrune",
+  "locations": ["forest", "field"],
+  "occurrences": [1, 5],
+  "overmaps": [{
+    "overmap": "bloodrune_pedestal_north",
+    "point": [0, 0, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "id": "Gravesite - Wild",
+  "locations": ["forest", "field"],
+  "occurrences": [1, 15],
+  "overmaps": [{
+    "overmap": "gravesite1_north",
+    "point": [0, 0, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "id": "bhole",
+  "locations": ["field"],
+  "occurrences": [1, 10],
+  "overmaps": [{
+    "overmap": "bloodhole_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "bloodhole_bottom_north",
+    "point": [0, 0, -1]
+   }, {
+    "overmap": "bloodhole_lair_north",
+    "point": [0, 0, -2]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "//": "Small village consists of 0-6 abandoned houses without large roads and other structures.",
+  "id": "Small Ghost Town 1",
+  "locations": ["forest"],
+  "occurrences": [1, 2],
+  "overmaps": [{
+    "overmap": "ghost_townhousesouth_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [1, 0, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [2, 0, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [0, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [1, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [2, 1, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "//": "Small village consists of 0-6 abandoned houses without large roads and other structures.",
+  "id": "Small Ghost Town 2",
+  "locations": ["forest"],
+  "occurrences": [1, 2],
+  "overmaps": [{
+    "overmap": "ghost_townhouseeast_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [1, 0, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [0, 1, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [1, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [0, 2, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [1, 2, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "//": "Small village consists of 0-6 abandoned houses without large roads and other structures.",
+  "id": "Small Ghost Town 3",
+  "locations": ["forest"],
+  "occurrences": [1, 2],
+  "overmaps": [{
+    "overmap": "ghost_townhousesouth_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [1, 0, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [0, 1, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [1, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [0, 2, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [1, 2, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "//": "Medium village consists of 0-12 abandoned houses and a church.",
+  "id": "Medium Ghost Town 1",
+  "locations": ["forest"],
+  "occurrences": [1, 2],
+  "overmaps": [{
+    "overmap": "ghost_townchurch_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "ghost_towngardenroad_north",
+    "point": [0, 1, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [-1, 1, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [-2, 1, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [-3, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [-3, 2, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [1, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [1, 2, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [2, 2, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [1, 0, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [1, -1, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [2, -1, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [0, -1, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [0, -2, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }, {
+  "//": "Medium village consists of 0-12 abandoned houses and a church.",
+  "id": "Medium Ghost Town 2",
+  "locations": ["forest"],
+  "occurrences": [1, 2],
+  "overmaps": [{
+    "overmap": "ghost_townchurch_north",
+    "point": [0, 0, 0]
+   }, {
+    "overmap": "ghost_towngardenroad_north",
+    "point": [0, 1, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [0, 2, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [1, 2, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [2, 2, 0]
+   }, {
+    "overmap": "ghost_townhousenorth_north",
+    "point": [2, 3, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [-1, 1, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [-1, 0, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [-1, -1, 0]
+   }, {
+    "overmap": "ghost_townhousewest_north",
+    "point": [0, -1, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [0, -2, 0]
+   }, {
+    "overmap": "ghost_townhousesouth_north",
+    "point": [1, -2, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [2, -2, 0]
+   }, {
+    "overmap": "ghost_townhouseeast_north",
+    "point": [2, -3, 0]
+   }
+  ],
+  "type": "overmap_special"
+ }
 ]
