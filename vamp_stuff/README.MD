@@ -1,8 +1,8 @@
 # Vampiric Stuff: A modification file for Cataclysm: Dark Days Ahead
 
-https://discourse.cataclysmdda.org/t/vampiric-stuffs-mod-thread/16001/1 - Mod thread is in the official CDDA forums
+Its [mod thread](https://discourse.cataclysmdda.org/t/vampiric-stuffs-mod-thread/16001/1) is at the official CDDA forums
 
-This is the mod I've made a long time ago when I was a mobile CDDA player. Well, it got abandoned due to the sudden removal of files in my phone (which is my fault). But as you can see, I am here again to fix my mistake!
+This is the mod I've made a long time ago when I was a mobile CDDA player...
 
 - Turn on static NPC, or you won't encounter any NPCs with this mod.
 - This mod is WIP, means there will always be a change in this file...
@@ -85,6 +85,8 @@ The arcane seeker is a vampire NPC that only shows up in a certain location when
 
 ## Trades
 If you are a decendant of either one of the Arcana's profession (sanguinist, etc.), you have the chance to collaborate and alter your trades with the arcane seeker.
+
+Note that you'll no longer be able to change your answer after responding to her will.
 
 ##### Collectibles
 Arcana has a large library of strange objects, in which the trader exchanges with. This library is being expanded, so the listed ones below are the current items available for trading.
