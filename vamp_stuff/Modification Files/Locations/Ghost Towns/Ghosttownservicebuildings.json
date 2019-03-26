@@ -1,0 +1,41 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ghost_towninn" ],
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "          aaaaaaa       ",
+        "          afbabfa       ",
+        "          afbabfa       ",
+        "     aaaaaaacacaa       ",
+        "     abbbcbbbbbna       ",
+        "     mbbbabaaaaaaaaaa   ",
+        "     aeehabcbbblaebba   ",
+        "     aaaaababjbkaebbm   ",
+        "     ahbbcbabjjjahbba   ",
+        "     mbbbababbbbaaaca   ",
+        "     aeebabagbbbcbbba   ",
+        "     aaaaabagbbbaaaca   ",
+        "     aeebcbagbbbabbba   ",
+        "     mbbbaaabbbbabbbm   ",
+        "     abhbabbbbjbaeeha   ",
+        "     aaaaabjbbjbaaaaa   ",
+        "         aamacama       ",
+        "             d          ",
+        "             d          ",
+        "dddddddddddddddddddddddd"
+      ],
+      "palettes": [ "ghosttownservices_palette" ],
+      "place_loot": [
+        { "group": "elderbooks", "chance": 50, "repeat": [ 1 ], "x": [ 16, 18 ], "y": [ 8, 8 ] },
+        { "group": "dresser", "chance": 50, "repeat": [ 3 ], "x": [ 10, 10 ], "y": [ 14, 14 ] },
+        { "group": "elderbooks", "chance": 50, "repeat": [ 1 ], "x": [ 10, 10 ], "y": [ 16, 16 ] }
+      ]
+    }
+  }
+]
