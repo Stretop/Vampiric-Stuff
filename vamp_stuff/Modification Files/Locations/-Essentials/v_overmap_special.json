@@ -316,7 +316,7 @@
    }
   ],
   "type": "overmap_special"
- } {
+ }, {
   "//": "Town consists of 0-40 abandoned houses a church.",
   "id": "Ghost VIllage 2",
   "locations": ["forest"],
