@@ -204,5 +204,51 @@
 				"prob": 80
 			}
 		]
+	},
+	{
+		"id": "elder_blacksmithing",
+		"type": "item_group",
+		"subtype": "collection",
+		"entries": [
+			{
+				"item": "hammer",
+				"damage": [
+					2,
+					3
+				],
+				"prob": 75
+			},
+			{
+				"item": "tongs",
+				"damage": [
+					2,
+					3
+				],
+				"prob": 40
+			}
+		]
+	},
+	{
+		"id": "elder_blacksmithing_spares",
+		"type": "item_group",
+		"subtype": "collection",
+		"entries": [
+			{
+				"item": "scrap",
+				"prob": 75
+			},
+			{
+				"item": "sheet_metal_small",
+				"prob": 25
+			},
+			{
+				"item": "steel_chunk",
+				"prob": 10
+			},
+			{
+				"item": "steel_lump",
+				"prob": 5
+			}
+		]
 	}
 ]
