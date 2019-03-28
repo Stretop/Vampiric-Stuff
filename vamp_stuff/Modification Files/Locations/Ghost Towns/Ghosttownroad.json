@@ -1,11 +1,8 @@
 [
 	{
-		"type": "mapgen",
 		"method": "json",
-		"om_terrain": [
-			"ghost_towngardenroad"
-		],
 		"object": {
+			"furniture": {},
 			"rows": [
 				"          dbbd          ",
 				"          dbbd          ",
@@ -129,17 +126,17 @@
 					"t_grass",
 					"t_grass_long"
 				]
-			},
-			"furniture": {}
-		}
-	},
-	{
-		"type": "mapgen",
-		"method": "json",
+			}
+		},
 		"om_terrain": [
 			"ghost_towngardenroad"
 		],
+		"type": "mapgen"
+	},
+	{
+		"method": "json",
 		"object": {
+			"furniture": {},
 			"rows": [
 				"          dbbd          ",
 				"          dbbd          ",
@@ -263,17 +260,17 @@
 					"t_grass",
 					"t_grass_long"
 				]
-			},
-			"furniture": {}
-		}
+			}
+		},
+		"om_terrain": [
+			"ghost_towngardenroad"
+		],
+		"type": "mapgen"
 	},
 	{
-		"type": "mapgen",
 		"method": "json",
-		"om_terrain": [
-			"ghost_townroadhor"
-		],
 		"object": {
+			"furniture": {},
 			"rows": [
 				"aaaaaaaaaaaaaaaaaaaaaaaa",
 				" b     b         b   b  ",
@@ -372,17 +369,17 @@
 					"t_dirt",
 					"t_grass"
 				]
-			},
-			"furniture": {}
-		}
-	},
-	{
-		"type": "mapgen",
-		"method": "json",
+			}
+		},
 		"om_terrain": [
 			"ghost_townroadhor"
 		],
+		"type": "mapgen"
+	},
+	{
+		"method": "json",
 		"object": {
+			"furniture": {},
 			"rows": [
 				"aaaaaaaaaaaaaaaaaaaaaaaa",
 				" a     a        a    a  ",
@@ -481,17 +478,17 @@
 					"t_dirt",
 					"t_grass"
 				]
-			},
-			"furniture": {}
-		}
+			}
+		},
+		"om_terrain": [
+			"ghost_townroadhor"
+		],
+		"type": "mapgen"
 	},
 	{
-		"type": "mapgen",
 		"method": "json",
-		"om_terrain": [
-			"ghost_townroadver"
-		],
 		"object": {
+			"furniture": {},
 			"rows": [
 				"a         aaaa         a",
 				"a         aaaa         a",
@@ -590,17 +587,17 @@
 					"t_dirt",
 					"t_grass"
 				]
-			},
-			"furniture": {}
-		}
-	},
-	{
-		"type": "mapgen",
-		"method": "json",
+			}
+		},
 		"om_terrain": [
 			"ghost_townroadver"
 		],
+		"type": "mapgen"
+	},
+	{
+		"method": "json",
 		"object": {
+			"furniture": {},
 			"rows": [
 				"a         aaaa         a",
 				"a         aaaa         a",
@@ -699,8 +696,11 @@
 					"t_dirt",
 					"t_grass"
 				]
-			},
-			"furniture": {}
-		}
+			}
+		},
+		"om_terrain": [
+			"ghost_townroadver"
+		],
+		"type": "mapgen"
 	}
 ]
