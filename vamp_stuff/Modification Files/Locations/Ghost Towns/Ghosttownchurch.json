@@ -211,7 +211,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -226,7 +226,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -241,7 +241,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -256,7 +256,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -271,7 +271,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -286,7 +286,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -301,7 +301,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -316,7 +316,7 @@
 				{
 					"group": "church",
 					"chance": 1,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
@@ -331,9 +331,6 @@
 				{
 					"group": "jackets",
 					"chance": 10,
-					"repeat": [
-						1
-					],
 					"x": [
 						13,
 						13
@@ -346,9 +343,6 @@
 				{
 					"group": "jackets",
 					"chance": 10,
-					"repeat": [
-						1
-					],
 					"x": [
 						10,
 						10
@@ -361,7 +355,7 @@
 				{
 					"group": "church",
 					"chance": 10,
-					"repeat": [
+					"repeat": [1,
 						2
 					],
 					"x": [
