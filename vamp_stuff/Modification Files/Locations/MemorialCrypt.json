@@ -220,7 +220,7 @@
 					"f_grave_head"
 				],
 				"e": ["f_statue","f_statue","f_rubble_rock"],
-				"f": ["f_coffin_o","f_coffin_o","f_coffin_"],
+				"f": ["f_coffin_o","f_coffin_o","f_coffin_c"],
 				"j": ["f_crate_c","f_crate_c","f_crate_o"]
 			},
 			"place_loot": [
