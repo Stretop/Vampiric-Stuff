@@ -290,5 +290,14 @@
     "color": "green",
     "see_cost": 5,
     "extras": "field"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ghost_townservice",
+    "name": "forest",
+    "sym": 70,
+    "color": "green",
+    "see_cost": 5,
+    "extras": "field"
   }
 ]
