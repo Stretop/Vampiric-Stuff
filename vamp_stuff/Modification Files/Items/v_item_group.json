@@ -177,7 +177,7 @@
 		"id": "coffin_bones",
 		"type": "item_group",
 		"subtype": "collection",
-		"//": "Corpses disintegrates from aging too much.",
+		"//": "Corpse disintegrates from aging too much.",
 		"entries": [
 			{
 				"item": "bone_human",
@@ -236,6 +236,10 @@
 			{
 				"item": "scrap",
 				"prob": 75
+			},
+			{
+				"item": "coal_lump",
+				"prob": 40
 			},
 			{
 				"item": "sheet_metal_small",

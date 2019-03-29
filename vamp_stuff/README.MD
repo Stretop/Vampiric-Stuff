@@ -65,6 +65,8 @@ To prevent further spoilers, the information in this section is briefly explaine
 ##### Ghost Towns
 * _Villages from past civilizations that were cleared out of existence._
 * Rarity scales in settlement hierarchy.
+* Merely an aesthetic structure on its own...
+* Also the largest pseudo-generated structure in this mod.
 
 ##### Misc
 * Odd structures like random pedestals, forgotten graves and blood-filled caverns.

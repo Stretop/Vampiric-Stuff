@@ -1,4 +1,4 @@
-Vampiric Stuff v1.3 - Axema Vales (author)
+Vampiric Stuff v1.4 - Axema Vales (author)
 
 https://discourse.cataclysmdda.org - CDDA official website
 
@@ -7,11 +7,9 @@ https://discourse.cataclysmdda.org - CDDA official website
   ~ THE MOD FOCUSES ON ADDING VAMPIRES TO YOUR WORLD, ALONG WITH THE NEW LOCATIONS TO EXPLORE, QUESTS TO COMPLETE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
   ~ 
 
-  * After the major fixes in v1.2, the v1.3 plans to improve the 'still' broken npc dialogues, especially the lore (npcs talk plainly, filthy stories, missions garbled to situation problems like 'I need blood', but not really). Also, arcana's unique features will spice up this mod as I aim to link them for extended possibilities :)
-  * Also aims to add some locations and fixes for the current one's.
-  * The trading mechanic works great right now. All it needs is fixes and tweaks.
-
-  NOTE: Updates with "?" affixed to it has mod dependencies.
+  * After several additions on contents like the Arcana trading mechanics and various fixes to mapgen errors, the v1.3 ended well to improve the mod further more. The v1.4 remains unplanned.
+  * Despite its structural density, ghost towns seem to blend in the forest pretty well...
+  * Due to my RL business, I didn't get a chance to fix up broken NPC responses, nor repair the obnoxious missions.
 
 
 
@@ -19,20 +17,25 @@ https://discourse.cataclysmdda.org - CDDA official website
 	
 #  ADDED TILESET (temporary visualizations)
 
+
+
+
+	=>PAST UPDATES<=
+
+--> V1.3: ARCANA EXTENSION <--
+
 +  ADDED A NEW VAMPIRIC GUN (very cheap pistol)
 +  ADDED GHOST TOWNS (hidden in the forest, lies the villages from the past. An outline for bigger projects)
 +  ADDED NEW MAPGENS (reworked old crypts with a new layout)
 +? ADDED NEW NPC (arcane seeker, a vampire NPC that collects item from the Arcana mod)
 +? ADDED NEW MAPGEN (for the wasteland outskirts as its basement)
 +? NOW FEATURES A TRADING MECHANICS (gather tokens as currency in exchange of exclusive items)
-+? TRADEABLE ITEMS EXPANDED (essences, monster trophies and (non-generated)artifacts)
++? TRADEABLE ITEMS EXPANDED (essences, monster trophies and almost all non-generated artifacts)
 
 -  NPC MISSION FIXES (quest bugs fixed, especially for item retrievals)
 
 
 
-	=>PAST UPDATES<=
-	
 --> V1.2: MAJOR FIXES <--
 
 +  ADDED NEW NPC (underground seeker, the scout of the cove)

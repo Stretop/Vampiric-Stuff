@@ -378,6 +378,15 @@
 				"t_dirt",
 				"t_dirt",
 				"t_dirt"
+			],
+			"v": [
+				"t_dirt",
+				"t_dirt",
+				"t_dirt",
+				"t_grass",
+				"t_dirt",
+				"t_dirt",
+				"t_dirt"
 			]
 		},
 		"furniture": {
@@ -395,7 +404,8 @@
 			"r": "f_rack",
 			"s": "f_anvil",
 			"t": "f_crate_o",
-			"u": "f_chair"
+			"u": "f_chair",
+			"v": "f_statue"
 		}
 	}
 ]
