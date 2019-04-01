@@ -6,6 +6,7 @@ This is the mod I've made a long time ago when I was a mobile CDDA player...
 
 - Turn on static NPC, or you won't encounter any NPCs with this mod.
 - This mod is WIP, means there will always be a change in this file...
+- Remember that CDDA is an open source game, suggestions are welcome!
 
 ## Items
 Certain items are obtainable by exploring the world, while some items aren't. As listed below are the items that *could* be obtained in many areas.
