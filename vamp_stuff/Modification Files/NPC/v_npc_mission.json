@@ -1,6 +1,6 @@
 [
 	{
-		"//": "Vampire's mission are mandatory, which means they are the main quest subgoals of the game. It must be done to allow some features of the mod.",
+		"//": "Subgoals that you may want to complete or to keep you busy for some moments.",
 		"id": "VAMP_UNDERCOMMANDO_quest1",
 		"type": "mission_definition",
 		"name": "Collect 30 blood",
@@ -16,7 +16,7 @@
 			"offer": "Blood... Our main food for darkest centuries. Even I almost forgot its taste, I'd like to drink it again. Bring me 30, too much but its essential in many ways.",
 			"accepted": "Okay, descendant. This won't be hard and take your time.",
 			"rejected": "If only you let me shoot your chest, this will be done easily.",
-			"advice": "Go to a hospital, get a blood drawn kit, and use it on yourself. Don't overuse it, you will die eventually if you don't wait to mend your blood back",
+			"advice": "Go to a hospital, get a blood drawn kit, and use it on yourself or your victim.",
 			"inquire": "Drinks? You have the drinks ready?",
 			"success": "These blood certainly are useful.",
 			"success_lie": "Well, thank you. *smirks*",
@@ -37,12 +37,12 @@
 		"followup": "VAMP_UNDERCOMMANDO_quest3",
 		"dialogue": {
 			"describe": "I want you to slay something...",
-			"offer": "Ofcourse you know about the bloodsucking pests on the swamp, we hate those parasites squirming for blood to live. Hand over 15 of their teeth as a proof to succeed this test.",
-			"accepted": "Its easy to kill a leech, but don't get bitten: bleeding is much dangerous than their teeth.",
+			"offer": "Ofcourse you know about the bloodsucking pests on the swamp, we hate those parasites squirming for blood to live. Hand over 15 of their teeth as a proof to succeed this trial.",
+			"accepted": "Its easy to kill a leech, but don't get bitten: bleeding is much more dangerous than their teeth.",
 			"rejected": "It's just okay.",
-			"advice": "They are blind, and depends on what they hear or smell. Situations are different once you're there.",
-			"inquire": "Dead?",
-			"success": "Nice work, descendant!",
+			"advice": "They are blind, and depends on what they hear or smell, I think?",
+			"inquire": "Got 'em?",
+			"success": "Nice work, I guess they won't bother us for a long time.",
 			"success_lie": "Well, thank you. *smirks*",
 			"failure": "*slurping*",
 			"failure_lie_": "Do not lie!"
@@ -70,7 +70,7 @@
 		],
 		"dialogue": {
 			"describe": "This is pretty much risky to you... Going to do it?",
-			"offer": "There is a peculiar cave with vast blood residue in it and I think its their gathering place, . This giant \"thing\" on the depths, you'll need to bring it down as my command.",
+			"offer": "There is a peculiar cave with vast blood residue in it and I think its their gathering place. This giant \"thing\" on the depths, you'll need to bring it down as my command.",
 			"accepted": "Bring its blood sac, that would be a nice prize taking it down and as a proof of succeeding this test.",
 			"rejected": "Gather your courage first.",
 			"advice": "It is blind and very slow, slower than a human snail, but it'll devour you and causes deadly injuries getting near it... Now get going!",
@@ -94,15 +94,14 @@
 			"ORIGIN_SECONDARY"
 		],
 		"end": "thankful",
-		"//": "Since the PERMANENT duration isn't working, I instead set the duration for more than 100 of years.",
 		"dialogue": {
 			"describe": "This is the final test I can give you... Still want to try?",
-			"offer": "I've heard that these \"blobs\" was the cause of all troubles and horrors occurring worldwide. As my command, eliminate 200 of these walking corpses to succeed... Later on, I will tell you something after this.",
+			"offer": "I've heard that these \"blobs\" was the cause of all troubles and horrifying events worldwide. As my command, eliminate 200 of these walking corpses to succeed... Later on, I will tell you something after this.",
 			"accepted": "Prepare yourself before jumping into this mess.",
 			"rejected": "Just prepare yourself for this job.",
 			"advice": "Visit some heavily crowded areas.",
 			"inquire": "How is the hunt going?",
-			"success": "Great job, descendant. Now try to talk to the seeker, and she may finally listen to you.",
+			"success": "Hmm... HE appreciates your doings, my comrade. I thank you for your assistance and giving your precious time dealing with these requests I have made for you...",
 			"success_lie": "What good does this do us?",
 			"failure": "It was a lost cause anyways..."
 		}
@@ -244,7 +243,7 @@
 			"offer": "Since you've been helping me for a while, you need to take me to the vampire cove. Being isolated for centuries is great, but seeing a living community of my kind alleviates my frozen body the most.",
 			"accepted": "Good, those tests proved yourself a good descendant, as a reward, I'll protect you along the way.",
 			"rejected": "Just okay, get back later...",
-			"advice": "This may be a long journey, and you better own a car for this rough trip..",
+			"advice": "This may be a long journey, and you know I'm a night creature...",
 			"inquire": "What?",
 			"success": "I see my kindred seems alright. Well, it doesn't matter if I stay here, my corrupted soul has chosen to follow your deeds...",
 			"success_lie": "Just thanks...",
@@ -299,8 +298,9 @@
 			"advice": "Bats are nocturnal, and tends to live in dark places like caves.",
 			"inquire": "How is the hunt going?",
 			"success": "Thank you for your help in eradicating some bloodsuckers.",
-			"success_lie": "What good does this do us?",
-			"failure": "It was a lost cause anyways..."
+			"success_lie": "Well, thank you. *smirks*",
+			"failure": "*glaressharply*",
+			"failure_lie_": "Do not lie!"
 		}
 	},
 	{
