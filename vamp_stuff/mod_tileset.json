@@ -295,6 +295,7 @@
 						"id": "sword_sipplus",
 						"fg": 70
 					},
+					
 					{
 						"id": "overlay_wielded_sword_sipplus",
 						"fg": 71
@@ -336,7 +337,8 @@
 							"vamp_book2",
 							"vamp_book3",
 							"vamp_book4",
-							"vamp_book5"
+							"vamp_book5",
+							"vamp_book6"
 						],
 						"fg": 79
 					},
