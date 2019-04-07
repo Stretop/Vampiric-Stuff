@@ -4,19 +4,18 @@ https://discourse.cataclysmdda.org - CDDA official website
 
 
 
-  ~ THE MOD FOCUSES ON ADDING VAMPIRES TO YOUR WORLD, ALONG WITH THE NEW LOCATIONS TO EXPLORE, QUESTS TO COMPLETE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
-  ~ 
+  ~ THE MOD ADDS VAMPIRES TO YOUR WORLD, ALONG WITH NEW LOCATIONS TO EXPLORE, QUESTS TO COMPLETE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
 
   * After several additions on contents like the Arcana trading mechanics and various fixes to mapgen errors, the v1.3 ended well to improve the mod further more. The v1.4 remains unplanned.
   * Despite its structural density, ghost towns seem to blend in the forest pretty well...
-  * Due to my RL business, I didn't get a chance to fix up broken NPC responses, nor repair the obnoxious missions.
 
 
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
 	
-#  ADDED TILESET (temporary visualizations)
+#  TILESETS (frequent)
 
++  ADDED A NEW MELEE WEAPON (fanged falchion)
 
 
 

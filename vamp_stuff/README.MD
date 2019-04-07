@@ -2,7 +2,7 @@
 
 Its [mod thread](https://discourse.cataclysmdda.org/t/vampiric-stuffs-mod-thread/16001/1) is at the official CDDA forums
 
-This is the mod I've made a long time ago when I was a mobile CDDA player...
+This is the mod I've made a long time ago when I was a mobile CDDA player.
 
 - Turn on static NPC, or you won't encounter any NPCs with this mod.
 - This mod is WIP, means there will always be a change in this file...
@@ -23,11 +23,12 @@ These are the improved versions of regular clothing. Some lockers and dressers i
 * *blood infused set*, improved survivor armor worn by few vampires.
 
 ##### Weapons
-A set of higher degree weaponry, boasts in overall performance. You could see them in weapon racks of a location.
-* *blood sipper*, a large and heavy serrated sword.
-* *blood diver*, an extremely light dagger.
-* *hammerius*, a large hammer with retracting spikes.
+A set of higher degree weaponry, boasts in overall performance. You could see them in the weapon racks of a location.
+* *blood sipper*, a large and heavily serrated sword.
+* *blood diver*, an extremely light, hunting dagger.
+* *hammerius*, a large hammer with retractable spikes.
 * *knuckle biters*, a light weapon that allows unarmed techniques.
+* *fanged falchion*, a longsword distinct to its low weight.
 
 ##### Ammunition
 Ammunition that are fed to the vampiric guns. You could acquire them at some point.
