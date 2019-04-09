@@ -107,7 +107,7 @@
 	{
 		"id": "TALK_VAMP_LONELY_introduce",
 		"type": "talk_topic",
-		"dynamic_line": "I am a vampire, preserved for centuries, but as you can see, I'm just a coward hiding in the shadows",
+		"dynamic_line": "I am a vampire, preserved for centuries. But you see, I enshroud myself in the shadows of the past.",
 		"responses": [
 			{
 				"text": "Preserved?",
@@ -194,7 +194,7 @@
 	{
 		"id": "TALK_VAMP_LONELY_preserved",
 		"type": "talk_topic",
-		"dynamic_line": "Most of my kin lives longer than myself, but after a magic struck the bloodbags like you, they could die in thirst.",
+		"dynamic_line": "It is the prowess that all immortals have, and we tend to refine this by concealing ourselves from humanity.",
 		"responses": [
 			{
 				"text": "Too bad.",
@@ -205,7 +205,7 @@
 	{
 		"id": "TALK_VAMP_LONELY_there",
 		"type": "talk_topic",
-		"dynamic_line": "Yes. Its a small community, and I think they let your kind go in there.",
+		"dynamic_line": "Yes. Its a small community, and I think they will let your kind go in there.",
 		"responses": [
 			{
 				"text": "Where do I find this place?.",
@@ -263,7 +263,7 @@
 		},
 		"responses": [
 			{
-				"text": "Thanks for that...",
+				"text": "Thanks, I guess...",
 				"topic": "TALK_VAMP_LONELY"
 			}
 		]
