@@ -97,5 +97,14 @@
   "purifiable": false,
   "type": "mutation",
   "valid": false
+ }, {
+  "description": "NPCs will check your progress with this trait.",
+  "id": "wvgsgun",
+  "name": "Marked of the Vampire",
+  "player_display": false,
+  "points": 0,
+  "purifiable": false,
+  "type": "mutation",
+  "valid": false
  }
 ]
