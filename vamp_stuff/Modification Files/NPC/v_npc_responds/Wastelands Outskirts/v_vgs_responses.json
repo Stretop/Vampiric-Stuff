@@ -102,23 +102,41 @@
 	{
 		"id": "TALK_VAMP_GUNSHOP_givesupplies",
 		"type": "talk_topic",
-		"dynamic_line": "The supplies that were stocked in here are some spare draw kits, a bag and blood powders. You'll take them?",
+		"dynamic_line": "The supplies that were stocked in here are some spare draw kits, a bag and blood powders. Will you take them?",
 		"//": "One time free supplies which are not that valuable, but atleast you've been given with something as rewards...",
 		"responses": [
 			{
 				"text": "But he told me to get some guns from you?",
 				"topic": "TALK_VAMP_GUNSHOP_gun",
 				"condition": {
-					"u_is_wearing": "blood_cring"
+					"and": [
+						{
+							"u_is_wearing": "blood_cring"
+						},
+						{
+							"not": {
+								"u_has_trait": "wvgsgun"
+							}
+						}
+					]
 				}
 			},
 			{
 				"text": "But he told me to get some guns from you?",
 				"topic": "TALK_VAMP_GUNSHOP_nogunforu",
 				"condition": {
-					"not": {
-						"u_is_wearing": "blood_cring"
-					}
+					"and": [
+						{
+							"not": {
+								"u_is_wearing": "blood_cring"
+							}
+						},
+						{
+							"not": {
+								"u_has_trait": "wvgsgun"
+							}
+						}
+					]
 				}
 			},
 			{
@@ -137,8 +155,7 @@
 						"count": 44
 					},
 					{
-						"u_add_trait": "wvgssupp",
-						"duration": 999999999
+						"u_add_trait": "wvgssupp"
 					}
 				]
 			}
@@ -147,15 +164,20 @@
 	{
 		"id": "TALK_VAMP_GUNSHOP_gun",
 		"type": "talk_topic",
-		"//": "Totally a thrashy handgun with very low damage output.",
+		"//": "Totally a trashy handgun with very low damage output.",
 		"dynamic_line": "Umm... I could give you the oldest prototype of vampiric guns I got here:\nThe blood slinger.",
 		"responses": [
 			{
 				"text": "Seems legit. I'll take it!",
 				"topic": "TALK_VAMP_GUNSHOP_givesupplies",
-				"effect": {
-					"u_buy_item": "blood_slinger"
-				}
+				"effect": [
+					{
+						"u_buy_item": "blood_slinger"
+					},
+					{
+						"u_add_trait": "wvgsgun"
+					}
+				]
 			},
 			{
 				"text": "I guess not... Its like a garbaged project you vampires been doing for these days.",
@@ -163,11 +185,17 @@
 				"opinion": {
 					"fear": -1,
 					"anger": 5
+				},
+				"effect": {
+					"u_add_trait": "wvgsgun"
 				}
 			},
 			{
 				"text": "I guess not...",
-				"topic": "TALK_VAMP_GUNSHOP_givesupplies"
+				"topic": "TALK_VAMP_GUNSHOP_givesupplies",
+				"effect": {
+					"u_add_trait": "wvgsgun"
+				}
 			}
 		]
 	},
@@ -178,7 +206,10 @@
 		"responses": [
 			{
 				"text": "Sorry...",
-				"topic": "TALK_VAMP_GUNSHOP_givesupplies"
+				"topic": "TALK_VAMP_GUNSHOP_givesupplies",
+				"effect": {
+					"u_add_trait": "wvgsgun"
+				}
 			}
 		]
 	}
