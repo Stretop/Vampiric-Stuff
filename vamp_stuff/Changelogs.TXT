@@ -16,6 +16,11 @@ https://discourse.cataclysmdda.org - CDDA official website
 #  TILESETS (frequent)
 
 +  ADDED A NEW MELEE WEAPON (fanged falchion)
++  EXPANDED CONDITIONAL DIALOGUES (even more talky stuff and some avoidance of dialogue line loops)
+
+-  MISSION IMPROVEMENTS (an even better flow of progression with some missions)
+-  FIXED MAJOR MISSION BUG (accepting the first quest ends into the final rewards)
+-  LOCATION SPAWN TWEAKS (major reduction of overmap generation)
 
 
 
@@ -66,7 +71,8 @@ https://discourse.cataclysmdda.org - CDDA official website
 +  ADDED MAIN LOCATION (wasteland outskirts, a large location acts like the vampire cove)
 +  MONSTER UPGRADES (blood compact zombies and leeches further upgrade paths)
 
--  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques and are regained after reinforcement)
+~  WEAPON TWEAKS (moderately reduced damage, removed ultimate techniques and are regained after reinforcement)
+
 -  MONSTER TWEAKS (greatly reduced monster stats)
 -  FIXED A MAP (vampire cove is even larger now)
 -  MAPGEN FIXED (slightly increased the chance to see structures)
