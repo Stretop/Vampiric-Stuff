@@ -219,8 +219,7 @@
 				"om_special": "Pedestal - Bloodrune",
 				"reveal_radius": 1,
 				"search_range": 180,
-				"z": 0,
-				"random": true
+				"z": 0
 			}
 		},
 		"dialogue": {
