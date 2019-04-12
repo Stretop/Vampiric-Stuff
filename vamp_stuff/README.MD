@@ -93,10 +93,10 @@ There are two factions: Vampires and wastelanders.
 * **Vampires** - A faction that dwells in the darkness. They hinder from the sight of the human beings.
 * **Wastelanders** - Named after the the structure. They are the humans and vampires that dwells in the wasteland outskirt.
 
-## Missions
-I won't spoil what, when and how to get the mission flows, but remember this:
+### Missions
+I won't spoil the `what`, `when` and `how` to get the mission, but you have to **remember**:
 
-* **Read before you pick!** Some mission will mess your progress from picking the mistake, especially after its completion.
+* **Read before you pick!** Some dialogue responses will mess up your whole progress from picking the *obviously mistaken* answer, especially after completion of missions.
 
 # Arcane Seeker
 The arcane seeker is a vampire NPC that only shows up in a certain location when you have activated the *Vampiric Stuff + Arcana Mod Extension* before world creation. She will trade with you in very different manner.
