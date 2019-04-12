@@ -23,7 +23,7 @@ These are the improved versions of regular clothing. Some lockers and dressers i
 * *blood infused set*, improved survivor armor worn by few vampires.
 
 ##### Weapons
-A set of higher degree weaponry, boasts in overall performance. You could see them in the weapon racks of a location.
+A set of higher degree weaponry, boasts in overall performance. You could see them in weapon racks of a location.
 * *blood sipper*, a large and heavily serrated sword.
 * *blood diver*, an extremely light, hunting dagger.
 * *hammerius*, a large hammer with retractable spikes.
@@ -33,7 +33,7 @@ A set of higher degree weaponry, boasts in overall performance. You could see th
 ##### Ammunition
 Ammunition that are fed to the vampiric guns. You could acquire them at some point.
 * *pressurized blood*, an artificially improved blood and versatile ammo.
-* *traversed blood*, a combination of regular blood and tainted one's.
+* *traversed blood*, a combination of regular blood and tainted ones.
 
 _Other items remain a secret, giving you the chance to look for them by yourself :)_
 
@@ -62,6 +62,7 @@ To prevent further spoilers, the information in this section is briefly explaine
 
 ##### Wasteland Outskirts
 * A large structure that acts as the refugee center for both vampires and humans.
+* A nice and peaceful area with similarities to the faction camps.
 
 ##### Ghost Towns
 * _Villages from past civilizations that were cleared out of existence._
@@ -81,7 +82,21 @@ This scenario will put yourself on a test as you start being surrounded by a mob
 * costs: 1 points - *Vampire Freak* starts with a map to locate certain locations that will help you for earlier progress.
 * costs: 6 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and survivor armor.
 
+## NPCs
+These are the friendly NPCs that will interact with you.
 
+Vampire NPCs are beneficial for their eternal experience in combat, survival and communication skills. With wrong doings, these "skills" may test it out on you.
+
+### Faction
+There are two factions: Vampires and wastelanders.
+
+* **Vampires** - A faction that dwells in the darkness. They hinder from the sight of the human beings.
+* **Wastelanders** - Named after the the structure. They are the humans and vampires that dwells in the wasteland outskirt.
+
+## Missions
+I won't spoil what, when and how to get the mission flows, but remember this:
+
+* **Read before you pick!** Some mission will mess your progress from picking the mistake, especially after its completion.
 
 # Arcane Seeker
 The arcane seeker is a vampire NPC that only shows up in a certain location when you have activated the *Vampiric Stuff + Arcana Mod Extension* before world creation. She will trade with you in very different manner.
