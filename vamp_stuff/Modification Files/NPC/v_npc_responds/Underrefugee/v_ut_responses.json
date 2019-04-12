@@ -25,6 +25,24 @@
 						}
 					]
 				}
+			},
+			{
+				"text": "I've slain those pesky bats!",
+				"topic": "TALK_MISSION_SUCCESS",
+				"effect": [
+					"mission_success",
+					{
+						"npc_add_trait": "undertradertestsdone"
+					}
+				],
+				"condition": {
+					"and": [
+						"mission_complete",
+						{
+							"u_has_mission": "VAMP_UNDERTRADER_quest2"
+						}
+					]
+				}
 			}
 		]
 	},
@@ -69,7 +87,9 @@
 				"topic": "TALK_VAMP_UNDERTRADER_testsdone",
 				"condition": {
 					"and": [
-						"has_no_available_mission",
+						{
+							"npc_has_trait": "undertradertestsdone"
+						},
 						{
 							"not": {
 								"u_has_trait": "undertradervampmark"
@@ -203,10 +223,10 @@
 				"text": "Okay...",
 				"topic": "TALK_VAMP_UNDERTRADER",
 				"effect": [
-				{
-					"u_add_trait": "undertradervampmark"
-				}
-			]
+					{
+						"u_add_trait": "undertradervampmark"
+					}
+				]
 			}
 		]
 	}

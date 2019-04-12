@@ -45,6 +45,24 @@
 						}
 					]
 				}
+			},
+			{
+				"text": "Here's your bloodrune stone.",
+				"topic": "TALK_MISSION_SUCCESS",
+				"effect": [
+					"mission_success",
+					{
+						"npc_add_trait": "isolatedtestsdone"
+					}
+				],
+				"condition": {
+					"and": [
+						"mission_complete",
+						{
+							"u_has_mission": "VAMP_LONELY_quest5"
+						}
+					]
+				}
 			}
 		]
 	},
@@ -57,20 +75,6 @@
 			"no": "Mortal?."
 		},
 		"responses": [
-			{
-				"text": "I'm vacant for your needs.",
-				"topic": "TALK_VAMP_LONELY_testsdone",
-				"condition": {
-					"and": [
-						"has_no_available_mission",
-						{
-							"not": {
-								"u_has_trait": "isolatedvampmark"
-							}
-						}
-					]
-				}
-			},
 			{
 				"text": "Please tell me about yourself.",
 				"topic": "TALK_VAMP_LONELY_introduce"
@@ -87,6 +91,22 @@
 			{
 				"text": "Ummm... You want to stick with me?",
 				"topic": "TALK_VAMP_LONELY_wego"
+			},
+			{
+				"text": "I'm vacant for your needs.",
+				"topic": "TALK_VAMP_LONELY_testsdone",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "isolatedtestsdone"
+						},
+						{
+							"not": {
+								"u_has_trait": "isolatedvampmark"
+							}
+						}
+					]
+				}
 			},
 			{
 				"text": "I'm vacant for your needs.",
@@ -300,11 +320,11 @@
 				"text": "Thank you for this mark... Let's go!",
 				"topic": "TALK_DONE",
 				"effect": [
-				"follow",
-				{
-					"u_add_trait": "isolatedvampmark"
-				}
-			]
+					"follow",
+					{
+						"u_add_trait": "isolatedvampmark"
+					}
+				]
 			}
 		]
 	}
