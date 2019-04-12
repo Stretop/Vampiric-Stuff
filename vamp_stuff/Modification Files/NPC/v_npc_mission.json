@@ -13,7 +13,7 @@
 		"followup": "VAMP_UNDERCOMMANDO_quest2",
 		"dialogue": {
 			"describe": "This errand needs you.",
-			"offer": "Blood... Our main food for darkest centuries. Even I almost forgot its taste, I'd like to drink it again. Bring me 30, too much but its essential in many ways.",
+			"offer": "Blood... Our main food for darkest centuries. Even I almost forgot its taste, I'd like to drink it again. Bring me 30, too much but it is essential in many ways.",
 			"accepted": "Okay, descendant. This won't be hard and take your time.",
 			"rejected": "If only you let me shoot your chest, this will be done easily.",
 			"advice": "Go to a hospital, get a blood drawn kit, and use it on yourself or your victim.",
@@ -60,8 +60,28 @@
 				"om_terrain": "bloodhole",
 				"om_special": "bhole",
 				"reveal_radius": 1,
-				"search_range": 180,
+				"search_range": [
+					5,
+					50
+				],
 				"z": 0
+			},
+			"update_mapgen": {
+				"place_item": [
+					{
+						"item": "bigbloodrune",
+						"x": 13,
+						"y": 13
+					}
+				],
+				"place_monster": [
+					{
+						"monster": "mon_insect_devourerleech",
+						"x": 13,
+						"y": 13,
+						"target": true
+					}
+				]
 			}
 		},
 		"followup": "VAMP_UNDERCOMMANDO_quest4",
@@ -93,7 +113,6 @@
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],
-		"end": "thankful",
 		"dialogue": {
 			"describe": "This is the final test I can give you... Still want to try?",
 			"offer": "I've heard that these \"blobs\" was the cause of all troubles and horrifying events worldwide. As my command, eliminate 200 of these walking corpses to succeed... Later on, I will tell you something after this.",
@@ -234,7 +253,6 @@
 				"z": 0
 			}
 		},
-		"end": "thankful",
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],
@@ -260,6 +278,15 @@
 		"value": 100000,
 		"item": "corruptbloodrune",
 		"count": 2,
+		"start": {
+			"assign_mission_target": {
+				"om_terrain": "vampcave_corridor2",
+				"om_special": "Vampire Cove",
+				"reveal_radius": 1,
+				"search_range": 180,
+				"z": -1
+			}
+		},
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],
@@ -286,7 +313,6 @@
 		"value": 200000,
 		"monster_species": "VAMPBAT",
 		"monster_kill_goal": 10,
-		"end": "thankful",
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],
@@ -360,7 +386,6 @@
 				"z": 0
 			}
 		},
-		"end": "thankful",
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],
@@ -369,7 +394,7 @@
 			"offer": "We are now going to the outskirts, and I know the commando told you about this place.",
 			"accepted": "Good. Now off we go, mortal.",
 			"rejected": "...",
-			"advice": "I'll give you some details about the outskirts. It is a large structure with barricaded walls and tents placed outside for human survivors. It also has a barn and farmfields that provides descent food, and shopkeepers sell various stuff there.",
+			"advice": "I'll give you some details about the outskirts. It is a large structure with barricaded walls and tents placed outside for human survivors. It also has a barn and farm fields that provides descent food, and shopkeepers sell various stuff there.",
 			"inquire": "What?",
 			"success": "\"What else could I do for you\" you say? Don't worry, I have no more requests for you. Ask anyone here if you're curious.",
 			"success_lie": "Well, thank you. *smirks*",
