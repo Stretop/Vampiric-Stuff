@@ -74,14 +74,6 @@ To prevent further spoilers, the information in this section is briefly explaine
 * Odd structures like random pedestals, forgotten graves and blood-filled caverns.
 * They usually blend in your map as normal terrains (forest, field, etc.) 
 
-## Scenarios
-Scenarios that spices up your taste in starting to venture the world. Currently a stub.
-
-##### Vampire Wannabe
-This scenario will put yourself on a test as you start being surrounded by a mob of ravenous zeds outside your LMOE. Below are the listed professions for this.
-* costs: 1 points - *Vampire Freak* starts with a map to locate certain locations that will help you for earlier progress.
-* costs: 6 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and survivor armor.
-
 ## NPCs
 These are the friendly NPCs that will interact with you.
 
@@ -91,12 +83,20 @@ Vampire NPCs are beneficial for their eternal experience in combat, survival and
 There are two factions: Vampires and wastelanders.
 
 * **Vampires** - A faction that dwells in the darkness. They hinder from the sight of the human beings.
-* **Wastelanders** - Named after the the structure. They are the humans and vampires that dwells in the wasteland outskirt.
+* **Wastelanders** - Named after the structure. They are the humans and vampires that dwells in the wasteland outskirt.
 
 ### Missions
-I won't spoil the `what`, `when` and `how` to get the mission, but you have to **remember**:
+I won't spoil the what, when and how to get the missions, but you have to **remember**:
 
 * **Read before you pick!** Some dialogue responses will mess up your whole progress from picking the *obviously mistaken* answer, especially after completion of missions.
+
+## Scenarios
+Scenarios that spices up your taste in starting to venture the world. Currently a stub.
+
+##### Vampire Wannabe
+This scenario will put yourself on a test as you start being surrounded by a mob of ravenous zeds outside your LMOE. Below are the listed professions for this.
+* costs: 1 points - *Vampire Freak* starts with a map to locate certain locations that will help you for earlier progress.
+* costs: 6 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and survivor armor.
 
 # Arcane Seeker
 The arcane seeker is a vampire NPC that only shows up in a certain location when you have activated the *Vampiric Stuff + Arcana Mod Extension* before world creation. She will trade with you in very different manner.
