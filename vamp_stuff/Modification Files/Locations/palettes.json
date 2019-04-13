@@ -51,7 +51,22 @@
 			"H": "t_reinforced_glass_h",
 			"#": "t_rock_floor",
 			"x": "t_rock_floor",
-			"Y": "t_reinforced_glass_v"
+			"Y": "t_reinforced_glass_v",
+			"X": "t_metal_floor",
+			"P": "t_metal_floor",
+			"%": "t_metal_floor",
+			"$": "t_metal_floor",
+			"}": "t_metal_floor",
+			"j": "t_metal_floor",
+			"r": "t_metal_floor",
+			"N": "t_metal_floor",
+			"n": "t_metal_floor",
+			"L": "t_metal_floor",
+			"t": "t_metal_floor",
+			"y": "t_metal_floor",
+			"{": "t_metal_floor",
+			"E": "t_metal_floor",
+			">": "t_metal_floor"
 		},
 		"furniture": {
 			"B": "f_bench",
