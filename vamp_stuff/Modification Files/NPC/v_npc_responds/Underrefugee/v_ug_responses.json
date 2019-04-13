@@ -10,11 +10,46 @@
 		"responses": [
 			{
 				"text": "Tell me about yourself.",
-				"topic": "TALK_VAMP_UNDERGUARD1_introduce"
+				"topic": "TALK_VAMP_UNDERGUARD1_introduce",
+				"condition": {
+					"not": {
+						"npc_has_trait": "underguard1talkedintroduce"
+					}
+				},
+				"effect": {
+					"npc_add_trait": "underguard1talkedintroduce"
+				}
+			},
+			{
+				"text": "Tell me about yourself.",
+				"topic": "TALK_VAMP_UNDERGUARD1_introduceagain",
+				"condition": {
+					"and": [
+						{
+							"npc_has_trait": "underguard1talkedintroduce"
+						},
+						{
+							"not": {
+								"npc_has_trait": "underguard1talkedintroduceagain"
+							}
+						}
+					]
+				},
+				"effect": {
+					"npc_add_trait": "underguard1talkedintroduceagain"
+				}
 			},
 			{
 				"text": "Where am I?",
-				"topic": "TALK_VAMP_UNDERGUARD1_direction"
+				"topic": "TALK_VAMP_UNDERGUARD1_direction",
+				"condition": {
+					"not": {
+						"npc_has_trait": "underguard1talkeddirection"
+					}
+				},
+				"effect": {
+					"npc_add_trait": "underguard1talkeddirection"
+				}
 			},
 			{
 				"text": "I'd be going now...",
@@ -27,7 +62,7 @@
 		"type": "talk_topic",
 		"dynamic_line": {
 			"u_is_wearing": "blood_necklace",
-			"yes": "Just an assigned guard here, nothing happens 'till you came in.",
+			"yes": "Just an assigned guard here, nothing happened 'till you came in.",
 			"no": "Why should I? If you want answers, go ask my partner."
 		},
 		"responses": [
@@ -37,6 +72,17 @@
 			},
 			{
 				"text": "Okay then...",
+				"topic": "TALK_VAMP_UNDERGUARD1"
+			}
+		]
+	},
+	{
+		"id": "TALK_VAMP_UNDERGUARD1_introduceagain",
+		"type": "talk_topic",
+		"dynamic_line": "You think I'm a dummy? Stop repeating your question, kid!",
+		"responses": [
+			{
+				"text": "Sorry...",
 				"topic": "TALK_VAMP_UNDERGUARD1"
 			}
 		]
@@ -98,15 +144,39 @@
 		"responses": [
 			{
 				"text": "Tell me who you are.",
-				"topic": "TALK_VAMP_UNDERGUARD2_introduce"
+				"topic": "TALK_VAMP_UNDERGUARD2_introduce",
+				"condition": {
+					"not": {
+						"npc_has_trait": "underguard2talkedcommand"
+					}
+				},
+				"effect": {
+					"npc_add_trait": "underguard2talkedcommand"
+				}
 			},
 			{
 				"text": "Where am I?",
-				"topic": "TALK_VAMP_UNDERGUARD2_direction"
+				"topic": "TALK_VAMP_UNDERGUARD2_direction",
+				"condition": {
+					"not": {
+						"npc_has_trait": "underguard2talkedcata"
+					}
+				},
+				"effect": {
+					"npc_add_trait": "underguard2talkedcata"
+				}
 			},
 			{
 				"text": "I'm vacant for jobs.",
-				"topic": "TALK_VAMP_UNDERGUARD2_job"
+				"topic": "TALK_VAMP_UNDERGUARD2_job",
+				"condition": {
+					"not": {
+						"npc_has_trait": "underguard2talkedjob"
+					}
+				},
+				"effect": {
+					"npc_add_trait": "underguard2talkedjob"
+				}
 			},
 			{
 				"text": "Bye...",

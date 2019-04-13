@@ -56,10 +56,20 @@
 		},
 		"responses": [
 			{
+				"condition": {
+					"not": {
+						"npc_has_trait": "undertradertalkedhim"
+					}
+				},
 				"text": "Who are you?",
 				"topic": "TALK_VAMP_UNDERTRADER_introduce"
 			},
 			{
+				"condition": {
+					"not": {
+						"npc_has_trait": "undertradertalkedhappened"
+					}
+				},
 				"text": "Tell me what happened outside.",
 				"topic": "TALK_VAMP_UNDERTRADER_happened"
 			},
@@ -131,11 +141,14 @@
 	{
 		"id": "TALK_VAMP_UNDERTRADER_happened",
 		"type": "talk_topic",
-		"dynamic_line": "I have no idea what's happening outside right now. I came here without sunburn after taking orders from my master.",
+		"dynamic_line": "I have no idea what's happening outside right now. I came here without sunburn after taking orders from HIM.",
 		"responses": [
 			{
 				"text": "Well, I expected nothing...",
-				"topic": "TALK_VAMP_UNDERTRADER"
+				"topic": "TALK_VAMP_UNDERTRADER",
+				"effect": {
+					"npc_add_trait": "undertradertalkedhappened"
+				}
 			}
 		]
 	},
@@ -160,6 +173,10 @@
 				"topic": "TALK_VAMP_UNDERTRADER_himdetail",
 				"condition": {
 					"u_is_wearing": "blood_necklace"
+				},
+				
+				"effect": {
+					"npc_add_trait": "undertradertalkedhim"
 				}
 			},
 			{
@@ -169,6 +186,10 @@
 					"not": {
 						"u_is_wearing": "blood_necklace"
 					}
+				},
+				
+				"effect": {
+					"npc_add_trait": "undertradertalkedhim"
 				}
 			},
 			{
