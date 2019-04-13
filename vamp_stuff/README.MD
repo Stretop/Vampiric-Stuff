@@ -87,12 +87,6 @@ These are the friendly NPCs that will interact with you.
 
 Vampire NPCs are beneficial for their eternal experience in combat, survival and communication skills. With wrong doings, these "skills" may test it out on you.
 
-### Faction
-There are two factions: Vampires and wastelanders.
-
-* **Vampires** - A faction that dwells in the darkness. They hinder from the sight of the human beings.
-* **Wastelanders** - Named after the the structure. They are the humans and vampires that dwells in the wasteland outskirt.
-
 ### Missions
 I won't spoil the `what`, `when` and `how` to get the mission, but you have to **remember**:
 
