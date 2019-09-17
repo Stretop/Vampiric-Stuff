@@ -5,7 +5,7 @@ Its [mod thread](https://discourse.cataclysmdda.org/t/vampiric-stuffs-mod-thread
 This is the mod I've made a long time ago when I was a mobile CDDA player. It provides the RPG feeling to the players by partaking a bunch of questlines for simple rewards.
 
 - Never forget to turn on static NPC, or you won't encounter any NPCs with this mod.
-- This mod is WIP, means there will always be a change in it...
+- This mod is WIP, means there will always be a change in it. Be wary of bugs, tho.
 
 ## Items
 Certain items are obtainable by exploring the world, while some are crafted only. Listed below are the items that *could* be obtained in many areas.
