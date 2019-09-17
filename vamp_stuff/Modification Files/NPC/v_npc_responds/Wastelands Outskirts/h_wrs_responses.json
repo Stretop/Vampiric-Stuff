@@ -2,11 +2,27 @@
 {
 		"id": "TALK_HUMAN_RS_talk",
 		"type": "talk_topic",
-		"dynamic_line": "Hi? Its been a while since I see a living human walk straight into me!",
+		"dynamic_line": {
+			"u_has_trait": "wrsgo",
+			"yes": "Now what? Are you going to bring me there?",
+			"no": "Well hi there? Its been a while since I see a living human walk straight towards me!"
+		},
 		"responses": [
 			{
 				"text": "We need your help in operating a radio tower.",
-				"topic": "TALK_HUMAN_RS_talked"
+				"topic": "TALK_HUMAN_RS_talked",
+				"condition": {
+					"not": {
+						"u_has_trait": "wrsgo"
+					}
+				}
+			},
+			{
+				"text": "Yes. I will.",
+				"topic": "TALK_MISSION_LIST",
+				"condition": {
+						"u_has_trait": "wrsgo"
+				}
 			}
 		]
 	},

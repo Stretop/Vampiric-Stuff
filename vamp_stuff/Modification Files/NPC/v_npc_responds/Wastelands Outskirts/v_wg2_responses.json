@@ -180,7 +180,7 @@
 		"type": "talk_topic",
 		"dynamic_line": "You're at the wasteland outskirts, now move, mortal.",
 		"responses": [
-		{
+			{
 				"text": "Wait. I want to know more about the places you know...",
 				"topic": "TALK_VAMP_WASTEGUARD2_morelocs"
 			},
@@ -217,7 +217,7 @@
 		"type": "talk_topic",
 		"dynamic_line": "I know you've been told its a deep secret, but why do you mind about our master?",
 		"responses": [
-		{
+			{
 				"text": "I'd like to meet HIM.",
 				"topic": "TALK_VAMP_WASTEGUARD2_seehimlol",
 				"effect": {
@@ -451,7 +451,7 @@
 			{
 				"text": "Uhh, okay... I'll expect that.",
 				"topic": "TALK_DONE"
-			},
+			}
 		]
 	},
 	{

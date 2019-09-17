@@ -421,8 +421,8 @@
 		"id": "VAMP_WS2_quest1",
 		"type": "mission_definition",
 		"name": "Find Radio Specialist",
-		"goal": "MGOAL_RECRUIT_NPC_CLASS",
-		"difficulty": 8,
+		"goal": "MGOAL_RECRUIT_NPC",
+		"difficulty": 2,
 		"value": 100000,
 		"start": {
       "assign_mission_target": { "om_terrain": "radio_tower", "reveal_radius": 2, "search_range": 80 },
@@ -452,11 +452,7 @@
 		"difficulty": 2,
 		"value": 10000,
 		"destination": "wo5",
-		"start": {
-			"effect": [
-				"follow"
-			]
-		},
+		"start": { "effect": "follow" },
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],

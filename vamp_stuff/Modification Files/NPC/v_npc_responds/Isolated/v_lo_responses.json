@@ -188,7 +188,7 @@
 				}
 			},
 			{
-				"text": "I want you to go on a journey with me..",
+				"text": "I want you to go on a journey with me.",
 				"topic": "TALK_VAMP_LONELY_joinparty",
 				"condition": {
 					"u_has_trait": "isolatedvampmark"
