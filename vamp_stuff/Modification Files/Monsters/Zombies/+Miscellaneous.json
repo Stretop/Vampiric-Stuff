@@ -20,8 +20,8 @@
  "melee_cut": 6,
  "dodge": 5,
  "harvest": "exempt",
- "armor_bash": 8,
- "armor_cut": 9,
+ "armor_bash": 6,
+ "armor_cut": 3,
  "vision_day": 50,
  "vision_night": 20,
  "special_attacks": [{

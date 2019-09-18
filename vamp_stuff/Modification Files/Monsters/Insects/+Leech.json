@@ -384,7 +384,7 @@
         "death_drops": "leech",
         "death_function": ["NORMAL"],
         "default_faction": "leech",
-        "description": "Small, but deadly! The mutation in its iris has changed its presicion and shoots further with sharper teeth ammunition inside its mouth. It takes more time from afar to guarantee a succesful hit.",
+        "description": "Small, but deadly! The mutation in its iris has changed its presicion and shoots further with sharper teeth ammunition inside its mouth.",
         "diff": 29,
         "fear_triggers": ["FIRE"],
         "flags": ["SMELLS", "HEARS", "SEES", "PRIORITIZE_TARGETS", "SWIMS", "BLEED", "PATH_AVOID_DANGER_2"],
