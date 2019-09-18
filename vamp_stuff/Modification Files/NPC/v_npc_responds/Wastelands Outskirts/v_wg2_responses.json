@@ -107,7 +107,7 @@
 						},
 						{
 							"not": {
-								"u_has_trait": "wsg1hire"
+								"u_has_trait": "wsg2hired"
 							}
 						}
 					]
@@ -442,7 +442,7 @@
 	{
 		"id": "TALK_VAMP_WASTEGUARD2_secrethim",
 		"type": "talk_topic",
-		"dynamic_line": "Don't worry, mortal. Eventually, you'll meet someone to quench your thrist for deeper answers...",
+		"dynamic_line": "Don't worry, mortal. Eventually, you'll meet someone to quench your thist for deeper answers.",
 		"responses": [
 		{
 				"text": "Uhh, okay...",
@@ -496,7 +496,7 @@
 		"dynamic_line": "If you insist...",
 		"responses": [
 			{
-				"text": " Okay.",
+				"text": "Okay.",
 				"topic": "TALK_VAMP_WASTEGUARD2_ohrelly"
 			}
 		]
@@ -523,7 +523,7 @@
 	{
 		"id": "TALK_VAMP_WASTEGUARD2_drunk",
 		"type": "talk_topic",
-		"dynamic_line": "Blood, ofcourse! We drink blood from the cows as our substitute of human's. Don't worry about the refugees here, we tend to protect them as ordered.",
+		"dynamic_line": "Blood, ofcourse! We drink blood from the cows as our substitute to human's. Don't worry about the refugees here, we tend to protect them as ordered.",
 		"responses": [
 		    {
 				"text": "Cows? Where'd you get them?",

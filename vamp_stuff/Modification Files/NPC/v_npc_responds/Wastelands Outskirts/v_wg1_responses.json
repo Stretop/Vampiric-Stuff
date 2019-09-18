@@ -64,7 +64,7 @@
 			{
 				"truefalsetext": {
           "condition": { "u_has_trait": "commandovampmark" },
-          "true": " The commander has sent me to this place.",
+          "true": "The commando has sent me to this place.",
           "false": "You know a place like this?"
         },
 				"topic": "TALK_VAMP_WASTEGUARD1_know",
@@ -120,7 +120,7 @@
 		"id": "TALK_VAMP_WASTEGUARD1_here",
 		"responses": [
 			{
-				"text": "Okay, thanks.",
+				"text": "Okay, thanks for the info.",
 				"topic": "TALK_VAMP_WASTEGUARD1_maintalk"
 			}
 		],
@@ -182,6 +182,22 @@
 		"dynamic_line": "I'm just a guard, I have no problems with my position.",
 		"id": "TALK_VAMP_WASTEGUARD1_job",
 		"responses": [
+			{
+				"text": "The commando has sent me here.",
+				"topic": "TALK_VAMP_WASTEGUARD1_know",
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "commandovampmark"
+						},
+						{
+							"not": {
+								"u_has_trait": "wsg1hire"
+							}
+						}
+					]
+				}
+			},
 			{
 				"text": "Okay...",
 				"topic": "TALK_VAMP_WASTEGUARD1_maintalk"
