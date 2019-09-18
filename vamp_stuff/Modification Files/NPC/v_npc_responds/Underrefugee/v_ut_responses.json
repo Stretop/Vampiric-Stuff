@@ -5,10 +5,10 @@
                 "text": "Here's your corrupted bloodrune stones.",
                 "topic": "TALK_MISSION_SUCCESS",
                 "effect": [
-                    "mission_success", {
-                        "u_sell_item": "corruptbloodrune",
-                        "count": 2
-                    }
+                    "mission_success",{
+						"u_consume_item": "corruptbloodrune",
+						"count": 2
+					}
                 ],
                 "condition": {
                     "and": [{
@@ -16,21 +16,6 @@
                             "count": 2
                         }, {
                             "u_has_mission": "VAMP_UNDERTRADER_quest"
-                        }
-                    ]
-                }
-            }, {
-                "text": "I've slain those pesky bats!",
-                "topic": "TALK_MISSION_SUCCESS",
-                "effect": [
-                    "mission_success", {
-                        "npc_add_trait": "undertradertestsdone"
-                    }
-                ],
-                "condition": {
-                    "and": [
-                        "mission_complete", {
-                            "u_has_mission": "VAMP_UNDERTRADER_quest2"
                         }
                     ]
                 }

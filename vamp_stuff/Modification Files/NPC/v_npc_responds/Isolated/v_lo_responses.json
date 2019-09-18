@@ -9,7 +9,7 @@
 				"effect": [
 					"mission_success",
 					{
-						"u_sell_item": "blood",
+						"u_consume_item": "blood",
 						"count": 15
 					}
 				],
@@ -31,7 +31,7 @@
 				"effect": [
 					"mission_success",
 					{
-						"u_sell_item": "bloodrune"
+						"u_consume_item": "bloodrune"
 					}
 				],
 				"condition": {
@@ -41,24 +41,6 @@
 						},
 						{
 							"u_has_mission": "VAMP_LONELY_quest4"
-						}
-					]
-				}
-			},
-			{
-				"text": "Here's your bloodrune stone.",
-				"topic": "TALK_MISSION_SUCCESS",
-				"effect": [
-					"mission_success",
-					{
-						"npc_add_trait": "isolatedtestsdone"
-					}
-				],
-				"condition": {
-					"and": [
-						"mission_complete",
-						{
-							"u_has_mission": "VAMP_LONELY_quest5"
 						}
 					]
 				}
