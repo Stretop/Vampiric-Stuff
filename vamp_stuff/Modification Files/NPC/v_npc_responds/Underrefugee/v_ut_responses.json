@@ -1,6 +1,5 @@
 [
 	{
-		"//": "With these conditions, we will no longer fear the item quests from revealing hateful bugs.",
 		"id": "TALK_MISSION_INQUIRE",
 		"type": "talk_topic",
 		"responses": [
@@ -166,7 +165,7 @@
 	{
 		"id": "TALK_VAMP_UNDERTRADER_trading",
 		"type": "talk_topic",
-		"dynamic_line": "I don't know. Our master said we have to accept any valuables you got on your trip.",
+		"dynamic_line": "I don't know. Our master said we have to accept any valuables you humans got in your trip.",
 		"responses": [
 			{
 				"text": "Master? Could you tell me anything about this HIM?",
@@ -221,8 +220,10 @@
 			{
 				"text": "So, where is HE?",
 				"topic": "TALK_VAMP_UNDERTRADER_himwhere"
-			}
+			},
+			"effect": {
 					"u_add_trait": "undertradertalkedhim"
+				}
 		]
 	},
 	{
