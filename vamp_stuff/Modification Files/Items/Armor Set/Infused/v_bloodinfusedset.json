@@ -17,7 +17,7 @@
   "coverage": 100,
   "encumbrance": 25,
   "warmth": 20,
-  "material_thickness": 5,
+  "material_thickness": 1,
   "environmental_protection": 5,
   "techniques": ["WBLOCK_1"],
   "flags": ["VARSIZE", "WATERPROOF", "STURDY", "OUTER", "HOOD"]
@@ -38,7 +38,7 @@
   "encumbrance": 20,
   "storage": 14,
   "warmth": 10,
-  "material_thickness": 5,
+  "material_thickness": 1,
   "environmental_protection": 4,
   "flags": ["VARSIZE", "POCKETS", "STURDY", "WATERPROOF"]
  }, {
@@ -59,7 +59,7 @@
   "encumbrance": 15,
   "storage": 36,
   "warmth": 15,
-  "material_thickness": 4,
+  "material_thickness": 1,
   "environmental_protection": 4,
   "flags": ["VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "RAINPROOF", "OUTER"]
  }, {
@@ -79,7 +79,7 @@
   "coverage": 100,
   "encumbrance": 20,
   "warmth": 20,
-  "material_thickness": 4,
+  "material_thickness": 1,
   "environmental_protection": 4,
   "flags": ["VARSIZE", "WATERPROOF", "STURDY"]
  }, {
@@ -100,7 +100,7 @@
   "coverage": 100,
   "encumbrance": 25,
   "warmth": 20,
-  "material_thickness": 6,
+  "material_thickness": 1,
   "environmental_protection": 4,
   "flags": ["VARSIZE", "WATERPROOF", "STURDY"]
  }, {
@@ -121,7 +121,7 @@
   "encumbrance": 15,
   "storage": 36,
   "warmth": 15,
-  "material_thickness": 4,
+  "material_thickness": 1,
   "environmental_protection": 4,
   "flags": ["VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "RAINPROOF", "OUTER"]
  }
