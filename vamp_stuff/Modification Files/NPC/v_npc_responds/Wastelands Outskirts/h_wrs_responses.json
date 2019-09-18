@@ -1,0 +1,62 @@
+[
+{
+		"id": "TALK_HUMAN_RS_talk",
+		"type": "talk_topic",
+		"dynamic_line": "Hi? Its been a while since I see a living human walk straight into me!",
+		"responses": [
+			{
+				"text": "We need your help in operating a radio tower.",
+				"topic": "TALK_HUMAN_RS_talked"
+			}
+		]
+	},
+	{
+		"id": "TALK_HUMAN_RS_talked",
+		"type": "talk_topic",
+		"dynamic_line": "Radios are too simple to use, so why would you want me to do it myself?",
+		"responses": [
+			{
+				"text": "To ease the job?",
+				"topic": "TALK_HUMAN_RS_nvm"
+			},
+			{
+				"text": "Increase the efficiency of our radio?",
+				"topic": "TALK_HUMAN_RS_nvm"
+			},
+			{
+				"text": "Its a complicated thing for us...",
+				"topic": "TALK_HUMAN_RS_nvm"
+			}
+		]
+	},
+	{
+		"id": "TALK_HUMAN_RS_nvm",
+		"type": "talk_topic",
+		"dynamic_line": {
+			"u_has_trait": "wrsgo",
+			"yes": "We better get going.",
+			"no": "Forget it, I will come for as long as I gain benefits from doing this crap!"
+		},
+		"responses": [
+			{
+				"text": "Lets go!",
+				"topic": "TALK_DONE",
+				"condition": {
+						"u_has_trait": "wrsgo"
+				}
+			},
+			{
+				"text": "Okay.",
+				"topic": "TALK_MISSION_LIST",
+				"effect": {
+						"u_add_trait": "wrsgo"
+				},
+				"condition": {
+					"not": {
+						"u_has_trait": "wrsgo"
+					}
+				}
+			}
+		]
+	}
+	]
