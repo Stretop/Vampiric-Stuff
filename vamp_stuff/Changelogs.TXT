@@ -19,6 +19,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 
 ~  ARMOR DATA TWEAKS (massive decrease in damage resistance)
 
+-  MAJOR MISSION FIXES (fixed most mission-related bugs, and are now up-to-dated)
 -  MISSION IMPROVEMENTS (an even better flow of progression with some missions)
 -  FIXED MAJOR MISSION BUG (accepting the first quest ends into the final rewards)
 -  LOCATION SPAWN TWEAKS (major reduction of overmap generation)
