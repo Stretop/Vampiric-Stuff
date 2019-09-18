@@ -370,7 +370,7 @@
 		"followup": "VAMP_UNDERSEEKER_quest2",
 		"dialogue": {
 			"describe": "Before we go, the trader asked me a request on this journey.",
-			"offer": "The trader told me to check out the old graveyards we knew from the past. So before we go to the outskirts, we'll get pass through it first.",
+			"offer": "The trader told me to observe the old graveyards we knew from the past. So before we go to the outskirts, we'll get pass through it first.",
 			"accepted": "Off we go, mortal.",
 			"rejected": "Well, that's your choice...",
 			"advice": "Its been a long time since I see those graves...",
@@ -412,6 +412,62 @@
 			"advice": "I'll give you some details about the outskirts. It is a large structure with barricaded walls and tents placed outside for human survivors. It also has a barn and farm fields that provides descent food, and shopkeepers sell various stuff there.",
 			"inquire": "What?",
 			"success": "\"What else could I do for you\" you say? Don't worry, I have no more requests for you. Ask anyone here if you're curious.",
+			"success_lie": "Well, thank you. *smirks*",
+			"failure": "Ummm....",
+			"failure_lie_": "Do not lie!"
+		}
+	},
+	{
+		"id": "VAMP_WS2_quest1",
+		"type": "mission_definition",
+		"name": "Find Radio Specialist",
+		"goal": "MGOAL_RECRUIT_NPC_CLASS",
+		"difficulty": 8,
+		"value": 100000,
+		"start": {
+      "assign_mission_target": { "om_terrain": "radio_tower", "reveal_radius": 2, "search_range": 80 },
+      "update_mapgen": { "place_npcs": [ { "class": "HUMAN_RADIOSPEC", "x": 10, "y": 10, "target": true } ] }
+    },
+		"origins": [
+			"ORIGIN_SECONDARY"
+		],
+		"dialogue": {
+			"describe": "It's easy, I think...",
+			"offer": "First things first, we have to build a radio tower that transmit signals to our fellow survivors out in the wilds. Well, building that cheap structure is simple, but what I want you to do is to find a guy with expertise to operate this kind of stuff.",
+			"accepted": "Great. Now move, mortal.",
+			"rejected": "Great! Let this survivors die out of nowhere then...",
+			"advice": "Just bring them in safely.",
+			"inquire": "Where are they?",
+			"success": "I knew you can bring one. Now let this nerd go to work!",
+			"success_lie": "Well, thank you. *smirks*",
+			"failure": "*glares*",
+			"failure_lie_": "Do not lie!"
+		}
+	},
+	{
+		"id": "HUMAN_RADIOSPEC_quest",
+		"type": "mission_definition",
+		"name": "Bring Radio Specialist to the outskirts",
+		"goal": "MGOAL_GO_TO_TYPE",
+		"difficulty": 2,
+		"value": 10000,
+		"destination": "wo5",
+		"start": {
+			"effect": [
+				"follow"
+			]
+		},
+		"origins": [
+			"ORIGIN_SECONDARY"
+		],
+		"dialogue": {
+			"describe": "We're going, right?",
+			"offer": "We have to go to that place and I need you to lead the way.",
+			"accepted": "Just remember to keep everything fine as we go there...",
+			"rejected": "Well, your words are useless then...",
+			"advice": "I don't know what to tell...",
+			"inquire": "What?",
+			"success": "This place looks pretty neat! Now that I'm here, we split up for the moment.",
 			"success_lie": "Well, thank you. *smirks*",
 			"failure": "Ummm....",
 			"failure_lie_": "Do not lie!"
