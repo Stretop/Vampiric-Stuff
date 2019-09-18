@@ -222,6 +222,7 @@
 				"text": "So, where is HE?",
 				"topic": "TALK_VAMP_UNDERTRADER_himwhere"
 			}
+					"u_add_trait": "undertradertalkedhim"
 		]
 	},
 	{
