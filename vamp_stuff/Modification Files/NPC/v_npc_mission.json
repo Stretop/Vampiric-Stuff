@@ -1,6 +1,7 @@
 [
 	{
 		"//": "Subgoals that you may want to complete or to keep you in the bay for moments.",
+		"//": "Missions does not assume genders.",
 		"id": "VAMP_UNDERCOMMANDO_quest1",
 		"type": "mission_definition",
 		"name": "Collect 30 blood",
@@ -179,7 +180,7 @@
 		"followup": "VAMP_LONELY_quest3",
 		"dialogue": {
 			"describe": "I want you to eradicate something.",
-			"offer": "Leeches are the vile parasites we really hate the most, aside the rampaging resurrected bodies. Kill 50 of these creatures, this would put a stop to those wandering bloodsuckers for a little time.",
+			"offer": "Leeches are the vile parasites we really hate the most, aside the rampaging animated bodies. Kill 50 of these creatures, this would put a stop to those wandering bloodsuckers for a little time.",
 			"accepted": "Good. You may start looking for these parasites anytime you wanted to.",
 			"rejected": "Just get back later.",
 			"advice": "Leeches tend to slither in moist areas.",
@@ -436,6 +437,7 @@
 				"z": 0
 			}
 		},
+		"end": { "effect": [ "leave", {"u_add_trait": "underseekerdone"} ] },
 		"origins": [
 			"ORIGIN_SECONDARY"
 		],
@@ -447,7 +449,7 @@
 			"rejected": "...",
 			"advice": "I'll give you some details about the outskirts. It is a large structure with barricaded walls and tents placed outside for human survivors. It also has a barn and farm fields that provides descent food, and shopkeepers sell various stuff there.",
 			"inquire": "What?",
-			"success": "\"What else could I do for you\" you say? Don't worry, I have no more requests for you. Ask anyone here if you're curious.",
+			"success": "\"What else could I do for you\" you say? Don't worry, I have no more requests for you. Ask anyone here if you're curious. When you're done, talk to me.",
 			"success_lie": "Well, thank you. *smirks*",
 			"failure": "Ummm....",
 			"failure_lie_": "Do not lie!"
@@ -506,6 +508,7 @@
 			"ORIGIN_SECONDARY"
 		],
 		"has_generic_rewards": false,
+		"followup": "VAMP_WS2_quest3",
 		"dialogue": {
 			"describe": "It's easy, I think...",
 			"offer": "With the radio working well, we will be able to connect to the outsiders and hope for them to receive our message. Yet there's this vampire I am worried about, wandering the cursed lands and wicked to its vile nature. Our scouting patrol knows the coordinates, and I want you to put it down immediately before it brings wrath to other survivors.",
@@ -516,6 +519,125 @@
 			"success": "Fascinating job mortal! With its death, others will be safe... A bit.",
 			"success_lie": "Well, thank you. *smirks*",
 			"failure": "*glares*",
+			"failure_lie_": "Do not lie!"
+		}
+	},
+	{
+		"id": "VAMP_WS2_quest3",
+		"type": "mission_definition",
+		"name": "Destroy the vampirus",
+		"description": "With the help of the <color_yellow>seeker</color>, locate and destroy the <color_light_blue>vampirus</color>, the place where <color_magenta>infected vampires</color> gather.\n<color_red>Going unprepared is a death trap!</color>",
+		"goal": "MGOAL_CONDITION",
+    "goal_condition": { "u_has_trait": "wsg2vampirusdone" },
+		"difficulty": 10,
+		"value": 100000,
+		"start": {
+      "effect":  { "u_add_trait": "wsg2vampirushelp" } 
+    },
+		"origins": [
+			"ORIGIN_SECONDARY"
+		],
+		"has_generic_rewards": false,
+		"dialogue": {
+			"describe": "It's easy, I think...",
+			"offer": "Unfortunately, that vampire is not alone.\n\nI have recently received a radio message that reveals the pinpoint location of the gathering place owned by those infected vampires. Your task is to find a way to stop and annihilate the entire army of them. I told the seeker about it and she'll help you infiltrate your objective.",
+			"accepted": "Good. Just remind her about it and she'll provide the essential information.",
+			"rejected": "Alright then, let's talk about it again later...",
+			"advice": "Be aware. If alone is dangerous, more so when they're dozen.",
+			"inquire": "Report?",
+			"success": "Unbelievable! You did it, mortal! Our master would be grateful of your doings!",
+			"success_lie": "Well, thank you. *smirks*",
+			"failure": "*glares*",
+			"failure_lie_": "Do not lie!"
+		}
+	},
+	{
+		"id": "VAMP_UNDERSEEKER_quest_vampirus1",
+		"type": "mission_definition",
+		"name": "Travel to the vampirus",
+		"description": "Along with the seeker, travel to the <color_light_blue>vampirus</color>.",
+		"goal": "MGOAL_GO_TO_TYPE",
+		"difficulty": 1,
+		"value": 1000,
+		"destination": "vampirus",
+		"start": {
+			"effect": [
+				"follow_only"
+			],
+			"assign_mission_target": {
+				"om_terrain": "forest",
+				"om_terrain_replace": "vampirus",
+				"reveal_radius": 3,
+				"search_range": 180,
+				"min_distance": 30,
+				"must_see": false,
+				"z": 0
+			}
+		},
+		"origins": [
+			"ORIGIN_SECONDARY"
+		],
+		"has_generic_rewards": false,
+		"followup": "VAMP_UNDERSEEKER_quest_vampirus2",
+		"dialogue": {
+			"describe": "Are we ready for this trip?",
+			"offer": "We are now going to the outskirts, and I know the commando told you about this place.",
+			"accepted": "Lead the trail, I'm right behind if you require my assistance.",
+			"rejected": "...",
+			"advice": "Keep an eye out for possible threats along the way.",
+			"inquire": "Are we in our destination?",
+			"success": "Now that we're here, we have to locate the entrance that leads to the depths.",
+			"success_lie": "Well, thank you. *smirks*",
+			"failure": "Ummm....",
+			"failure_lie_": "Do not lie!"
+		}
+	},
+	{
+		"id": "VAMP_UNDERSEEKER_quest_vampirus2",
+		"type": "mission_definition",
+		"name": "Unseal the entrance",
+		"description": "Protect the seeker from the <color_magenta>zeds</color> attracted to your location.",
+		"goal": "MGOAL_CONDITION",
+    "goal_condition": {
+					"and": [
+						{
+							"u_has_trait": "underseekerhelpvampirusunseal"
+						},
+						{
+							"not": {
+								"npc_has_effect": "underseeker_unsealing"
+							}
+						}
+					]
+				},
+		"difficulty": 1,
+		"value": 1000,
+		"start": {
+			"effect": [
+				"leave", { "u_add_trait": "underseekerhelpvampirusunseal"}, { "npc_add_effect": "underseeker_unsealing", "duration": 100 },
+    { "mapgen_update": "more zombies", "origin_npc": true, "offset_x": 2 },
+    { "mapgen_update": "more zombies", "origin_npc": true, "offset_x": 1, "offset_y": -2 },
+    { "mapgen_update": "more zombies", "origin_npc": true, "offset_x": -2 },
+    { "mapgen_update": "more zombies", "origin_npc": true, "offset_x": -1, "offset_y": 2 },
+    { "mapgen_update": "more zombies", "origin_npc": true, "offset_y": 2 },
+    { "mapgen_update": "more zombies", "origin_npc": true, "offset_y": -2 }
+			]
+		},
+		"end": { "effect":  {"u_add_trait": "underseekerhelpvampirus_enter"} },
+		"origins": [
+			"ORIGIN_SECONDARY"
+		],
+		"has_generic_rewards": false,
+		"dialogue": {
+			"describe": "...",
+			"offer": "...",
+			"accepted": "Yes. I do not guarantee our safety from breaking the seal, so check the vicinity while I break it.",
+			"rejected": "...",
+			"advice": "...",
+			"inquire": "It is done.",
+			"success": "And now that the seal is broken, we can go through it.",
+			"success_lie": "Well, thank you. *smirks*",
+			"failure": "Ummm....",
 			"failure_lie_": "Do not lie!"
 		}
 	},
@@ -553,5 +675,38 @@
 			"failure": "Ummm....",
 			"failure_lie_": "Do not lie!"
 		}
-	}
+	},
+	{
+	"//": "Missions obtained from starting with the 'Vampire Wannabe' scenario.",
+    "id": "SCEN_FIND_CRYPT",
+    "type": "mission_definition",
+    "name": "Reach a memorial crypt",
+    "description": "Travel to a <color_light_blue>memorial crypt</color> then inspect its surroundings.",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "destination": "crypt1_b1",
+    "difficulty": 1,
+    "value": 0,
+    "origins": [ "ORIGIN_GAME_START" ],
+    "start": {
+			"assign_mission_target": {
+				"om_terrain": "crypt1",
+				"om_special": "Memorial Crypt",
+				"reveal_radius": 2,
+				"search_range": 90,
+				"z": 0
+			}
+		}
+  },
+  {
+    "//": "From this mission, players will start to progress little by little.",
+    "id": "SCEN_RECRUIT_VAMP",
+    "type": "mission_definition",
+    "name": "Dark Descendant",
+    "description": "Ask a <color_yellow>lone vampire</color> to join your party.\nYou must earn their trust by doing their favor.",
+    "goal": "MGOAL_RECRUIT_NPC",
+    "recruit_class ": [ "VAMP_LONELY_M", "VAMP_LONELY_F" ],
+    "difficulty": 10,
+    "value": 0,
+    "origins": [ "ORIGIN_GAME_START" ]
+  }
 ]
