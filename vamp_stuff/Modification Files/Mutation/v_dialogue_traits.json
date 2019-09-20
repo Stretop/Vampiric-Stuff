@@ -19,6 +19,16 @@
 		"type": "mutation",
 		"valid": false
 		},
+		{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "isolatedurfake",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+		},
 	{
 		"description": "NPCs will check your progress with this trait.",
 		"id": "isolatedtestsdone",
@@ -221,6 +231,76 @@
 	},
 	{
 		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerwhou",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerdone",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerwehelp",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerhelpvampirus",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerhelpvampirus_enter",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerhelpvampirusunseal",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "underseekerhelpvampirusdone",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
 		"id": "wvgssupp",
 		"name": "Mark of the Vampire",
 		"player_display": false,
@@ -372,6 +452,26 @@
 	{
 		"description": "NPCs will check your progress with this trait.",
 		"id": "wsg2hired",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wsg2vampirushelp",
+		"name": "Mark of the Vampire",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "wsg2vampirusdone",
 		"name": "Mark of the Vampire",
 		"player_display": false,
 		"points": 0,
