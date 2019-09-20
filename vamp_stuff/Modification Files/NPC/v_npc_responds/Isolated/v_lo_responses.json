@@ -53,11 +53,11 @@
 		"dynamic_line": {
 			"u_is_wearing": "blood_necklace",
 			"yes": "Greetings, human.",
-			"no": "Mortal?."
+			"no": [ "What is it, mortal?", "Speak up, mortal.", "What led you to this place, mortal?" ]
 		},
 		"responses": [
 			{
-				"text": "Please tell me about yourself.",
+				"text": "Tell me about yourself.",
 				"topic": "TALK_VAMP_LONELY_introduce",
 				"effect": {
 					"u_add_trait": "isolatedintro"
@@ -78,6 +78,26 @@
 					"not": {
 						"u_has_trait": "isolatedhere"
 					}
+				}
+			},
+			{
+				"text": "Greetings, my brethren.",
+				"topic": "TALK_VAMP_LONELY_fakevamp",
+				"//": "A hidden joke response.",
+				"effect": {
+					"u_add_trait": "isolatedurfake"
+				},
+				"condition": {
+					"and": [
+						{
+							"u_has_trait": "THRESH_VAMP"
+						},
+						{
+							"not": {
+								"u_has_trait": "isolatedurfake"
+							}
+						}
+					]
 				}
 			},
 			{
@@ -108,12 +128,7 @@
 			{
 				"text": "I'm vacant for your needs.",
 				"topic": "TALK_MISSION_LIST",
-				"//": "Prevent repetition of missions.",
-				"condition": {
-					"not": {
-						"u_has_trait": "isolatedvampmark"
-					}
-				}
+				"condition": "has_available_mission"
 			},
 			{
 				"text": "Sorry to bother.",
@@ -322,6 +337,19 @@
 						"u_add_trait": "isolatedvampmark"
 					}
 				]
+			}
+		]
+	},
+	{
+		"//": "Vampire rants about your non-traditional way of transformation.",
+		"//": "Yes, they're talking about C.R.I.T mod's vampire mutation branch.",
+		"id": "TALK_VAMP_LONELY_fakevamp",
+		"type": "talk_topic",
+		"dynamic_line": "You think I'm foolish to believe you as my kind? Trust me, mortal, us vampires are not born by drinking artificial drugs.",
+		"responses": [
+			{
+				"text": "Well, atleast I'm alot stronger than you.",
+				"topic": "TALK_VAMP_LONELY"
 			}
 		]
 	}
