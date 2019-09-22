@@ -4,9 +4,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			1
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -89,9 +90,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			5
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -118,9 +120,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			5
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -147,9 +150,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			1
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -194,7 +198,7 @@
 			"field"
 		],
 		"occurrences": [
-			1,
+			0,
 			10
 		],
 		"overmaps": [
@@ -216,7 +220,7 @@
 			"field"
 		],
 		"occurrences": [
-			1,
+			0,
 			10
 		],
 		"overmaps": [
@@ -237,7 +241,7 @@
 			"field"
 		],
 		"occurrences": [
-			1,
+			0,
 			15
 		],
 		"overmaps": [
@@ -274,9 +278,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			15
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -336,9 +341,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			15
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -398,9 +404,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			15
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -460,9 +467,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			30
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -618,9 +626,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			30
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -776,9 +785,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			60
+			25,
+			100
 		],
 		"overmaps": [
 			{
