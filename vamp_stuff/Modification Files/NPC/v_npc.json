@@ -182,5 +182,16 @@
 		"chat": "TALK_HUMAN_RS_talk",
 		"faction": "no_faction",
 		"mission_offered": "HUMAN_RADIOSPEC_quest"
+},
+{
+		"type": "npc",
+		"id": "HUMAN_VAΜPRISON",
+		"name_suffix": "Prisoner",
+		"class": "NC_PRISONER",
+		"attitude": 1,
+		"mission": 3,
+		"chat": "TALK_HUMAN_VAΜPRISON_help",
+		"faction": "no_faction",
+		"mission_offered": "HUMAN_VAΜPRISON_quest"
 }
 ]
