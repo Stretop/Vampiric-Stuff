@@ -25,6 +25,42 @@
 		]
 	},
 	{
+		"name": "GROUP_VAMPIRUS_LABY",
+		"type": "monstergroup",
+		"default": "mon_null",
+		"monsters": [
+			{
+				"monster": "mon_zombie_succumbvampire",
+				"freq": 100,
+				"cost_multiplier": 1,
+				"pack_size": [
+					1,
+					2
+				]
+			},
+			{
+				"monster": "mon_zombie_succumbvampire_sinker",
+				"freq": 150,
+				"cost_multiplier": 4
+			},
+			{
+				"monster": "mon_zombie_succumbvampire_warlock",
+				"freq": 100,
+				"cost_multiplier": 2
+			},
+			{
+				"monster": "mon_zombie_succumbvampire_conjurer",
+				"freq": 50,
+				"cost_multiplier": 3
+			},
+			{
+				"monster": "mon_zombie_succumbvampire_hemomancer",
+				"freq": 5,
+				"cost_multiplier": 3
+			}
+		]
+	},
+	{
 		"type": "monstergroup",
 		"name": "GROUP_CHURCH_ZOMBIE",
 		"default": "mon_zombie",
