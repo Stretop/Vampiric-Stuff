@@ -4,9 +4,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			0,
-			1
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -89,9 +90,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			0,
-			5
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -118,9 +120,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			0,
-			5
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -147,9 +150,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			0,
-			1
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -217,7 +221,7 @@
 		],
 		"occurrences": [
 			0,
-			30
+			10
 		],
 		"overmaps": [
 			{
@@ -238,7 +242,7 @@
 		],
 		"occurrences": [
 			0,
-			10
+			15
 		],
 		"overmaps": [
 			{
@@ -303,9 +307,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			15
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -365,9 +370,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			15
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -427,9 +433,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			15
+			75,
+			100
 		],
 		"overmaps": [
 			{
@@ -489,9 +496,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			30
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -647,9 +655,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			30
+			50,
+			100
 		],
 		"overmaps": [
 			{
@@ -805,9 +814,10 @@
 		"locations": [
 			"forest"
 		],
+		"flags": ["UNIQUE"],
 		"occurrences": [
-			1,
-			60
+			25,
+			100
 		],
 		"overmaps": [
 			{
