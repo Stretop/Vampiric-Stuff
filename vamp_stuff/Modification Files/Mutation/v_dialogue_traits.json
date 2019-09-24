@@ -550,6 +550,16 @@
 		"valid": false
 	},
 	{
+		"description": "NPCs will check your progress with this trait.",
+		"id": "hvprisoncomesaveme",
+		"name": "Mark of the Human",
+		"player_display": false,
+		"points": 0,
+		"purifiable": false,
+		"type": "mutation",
+		"valid": false
+	},
+	{
 		"description": "NPC with this trait tells their unique story.",
 		"id": "lonevamp_s1",
 		"name": "Survivor Story",
