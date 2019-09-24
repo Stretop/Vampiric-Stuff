@@ -41,7 +41,7 @@ _Other items remain a secret, giving you the chance to look for them by yourself
 When wandering around, you'll always encounter various monsters that are often deadly or lethal. They sometimes drop quest related items or could also be collected for something else.
 
 ##### Leeches
-* *Leeches* are monsters seen mostly in moist areas like swamps.
+* *Leeches* are monsters seen mostly in moist areas like the swamps.
 * It is the largest faction of the mod.
 
 ##### Elder Zombies
@@ -80,15 +80,17 @@ These are the friendly NPCs that interacts with you.
 Vampire NPCs are beneficial for their eternal experience in combat, survival and communication skills. With wrong doings, these "skills" may test out onto you.
 
 ### Missions
-Every mission is simple and self-explanatory, intended to provide players with RPG-ish feeling. Completing missions will provide fearures furthermore, such as unlocking new areas.
+Every mission is simple and self-explanatory, intended to provide players with RPG-ish feeling. Completing missions will provide features furthermore, such as unlocking new areas.
 
 ## Scenarios
 Scenarios that spices up your taste in starting to venture the world. Currently a stub.
 
 ##### Vampire Wannabe
-This scenario will put yourself on a test as you start being surrounded by a mob of ravenous zeds outside your LMOE. Below are the listed professions for this.
-* costs: 1 points - *Vampire Freak* starts with a map to locate certain locations that will help you for earlier progress.
-* costs: 6 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and survivor armor.
+This scenario will put yourself on a test as you start being surrounded by a mob of ravenous zeds outside your LMOE shelter. Below are the listed professions for this.
+* costs: 1 points - *Vampire Freak* starts with low level communication and survival skills, while the rest is similar to evacuee profession.
+* costs: 12 points - *So-called Vampire* is rather an overpowered profession in this scenario. It starts with high combat skills (mainly melee) and light survivor armor.
+
+Starting your journey with this scenario gives you a point of direction...
 
 # Arcane Seeker
 The arcane seeker is a vampire NPC that only shows up in a certain location when you activate the *Vampiric Stuff + Arcana Mod Extension* before world creation. She will trade with you in very different manner.
