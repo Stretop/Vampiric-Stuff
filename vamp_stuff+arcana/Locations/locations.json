@@ -25,7 +25,11 @@
       { "point": [ 1, 1, -1 ], "overmap": "wob_north" }
     ],
     "locations": [ "forest" ],
-    "occurrences": [ 1, 1 ]
+    "flags": ["UNIQUE"],
+		"occurrences": [
+			50,
+			100
+		]
   },
   {
     "\/\/": "Basement, with temporary contents. I'm not good in designing BTW.",
