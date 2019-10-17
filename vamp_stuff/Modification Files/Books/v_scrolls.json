@@ -1,0 +1,20 @@
+[{
+    "abstract": "v_spell_scroll",
+    "name": "Spell Scroll",
+    "type": "GENERIC",
+    "weight": 475,
+    "volume": 2,
+    "price": 4000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "light_red"
+  },
+  {
+    "type": "GENERIC",
+    "copy-from": "v_spell_scroll",
+    "id": "v_spell_scroll_VAMPIRIC",
+    "name": "scroll of ancient vampiric wisdom",
+    "description": "Written in an unreadable language, but with just a glimpse of it, you learn how to cast all vampiric spells!",
+    "use_action": { "type": "learn_spell", "spells": [ "t1_blood_transfusion", "t1_blood_bcurl", "t1_blood_clot", "t2_blood_bloodpuddle", "t2_blood_bloodsting", "t3_blood_crimsonhaze" ] }
+  }
+  ]

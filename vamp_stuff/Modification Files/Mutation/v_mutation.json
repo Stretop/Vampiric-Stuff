@@ -1,10 +1,23 @@
+[
 {
-		"description": "Your proof of immortality. You invested your whole life on a countless battles with immensive power and all of your experiences has paid off until now. The living nightmare of the dark days, is now a scavenger of the Cataclysm.",
-		"id": "VAMP",
-		"name": "Vampire",
-		"points": 0,
-		"profession": true,
-		"purifiable": false,
-		"type": "mutation",
-		"valid": false
-	}
+    "description": "Your proof of immortality. You invested your whole life on a countless battles with immensive power and all of your experiences has paid off until now. The living nightmare of the dark days, is now a scavenger of the Cataclysm.",
+    "id": "VAMP",
+    "name": "Vampire",
+    "points": 0,
+    "profession": true,
+    "purifiable": false,
+    "type": "mutation",
+    "valid": false
+},
+{
+    "type": "mutation",
+    "id": "VAMP_BLOOD_spellcaster",
+    "name": "Hemomancer",
+    "points": 0,
+    "description": "Hemomancers tend to be resourceful in their environment, manipulating the life force of one's self and seize other's to bind for their own will.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false,
+    "spells_learned": [ [ "t1_blood_transfusion", 1 ] ]
+  }
+]

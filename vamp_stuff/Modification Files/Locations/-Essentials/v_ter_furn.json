@@ -19,16 +19,16 @@
         "flags": ["TRANSPARENT", "LIQUID", "SWIMMABLE", "DEEP_WATER"],
         "connects_to": "WATER"
     }, {
-    "type": "terrain",
-    "id": "t_vamp_seal",
-    "name": "seal",
-    "description": "An invincible force field. A spell could let you go through it, even if its active.",
-    "looks_like": "t_slope_down",
-    "symbol": "0",
-    "color": "white",
-    "move_cost": 2,
-    "flags": [ "TRANSPARENT", "PLACE_ITEM" ]
-  }, {
+        "type": "terrain",
+        "id": "t_vamp_seal",
+        "name": "seal",
+        "description": "An invincible force field. A spell could let you go through it, even if its active.",
+        "looks_like": "t_slope_down",
+        "symbol": "0",
+        "color": "white",
+        "move_cost": 2,
+        "flags": ["TRANSPARENT", "PLACE_ITEM"]
+    }, {
         "type": "furniture",
         "id": "f_slope_down_vamp",
         "name": "downward slope",

@@ -1,0 +1,68 @@
+[
+{
+        "type": "effect_type",
+        "id": "v_spell_bloodcurl",
+        "name": [
+            "Blood Curled"
+        ],
+        "desc": [
+            "You feel yourself very stiff."
+        ],
+        "show_in_info": true,
+        "base_mods": {
+            "speed_mod": [
+                -180
+            ]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_clot",
+        "name": [
+            "Clotting"
+        ],
+        "desc": [
+            "Blood clots are actively seeking for bleeding parts to repair."
+        ],
+        "removes_effects": [
+      "bleed"
+    ],
+    "blocks_effects": [
+      "bleed"
+    ],
+        "show_in_info": true
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_bloodpuddle",
+        "name": [
+            "Ensnared"
+        ],
+        "max_duration": 15,
+        "desc": [
+            "Viscous blood sticks to your body!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+            "speed_mod": [
+                -80
+            ]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_crimsonhaze",
+        "name": [
+            "Crimson Hazed"
+        ],
+        "desc": [
+            "Sticky vapors of blood sticks to your body!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+            "speed_mod": [
+                -55
+            ]
+        }
+    }
+]

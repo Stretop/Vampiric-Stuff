@@ -1,0 +1,52 @@
+[
+    {
+        "id": "t1_blood_transfusion_spell_dmg",
+        "type": "SPELL",
+        "name": "Tranfusion Damage",
+        "description": "Damages the target with 2 hp.",
+		"message": "You drain the random target's life force!",
+        "flags": ["SILENT", "RANDOM_TARGET"],
+        "valid_targets": ["hostile"],
+        "effect": "target_attack",
+		"extra_effects": [{
+                "id": "t1_blood_transfusion_spell_heal",
+                "hit_self": true
+            }
+        ],
+		"min_pierce": 500,
+		"max_pierce": 500,
+        "min_damage": 2,
+        "max_damage": 2,
+        "min_range": 10,
+		"max_range": 10,
+		"//": "Uses 'none' cuz 'bio' is deflected by monster's armor. Even 'none' is reduced by armor.",
+        "damage_type": "none"
+    },
+    {
+        "id": "t1_blood_transfusion_spell_heal",
+        "type": "SPELL",
+        "name": "Tranfusion Heal",
+        "description": "Heals the caster with 1 hp.",
+        "flags": ["SILENT"],
+        "valid_targets": ["self"],
+        "effect": "target_attack",
+        "min_damage": -1,
+        "max_damage": -1,
+        "damage_type": "none"
+    },
+    {
+        "id": "t3_blood_crimsonhaze_blind",
+        "type": "SPELL",
+        "name": "Crimson Haze Blind",
+        "description": "Blind foes within a 4 tile radius.",
+        "flags": ["SILENT"],
+        "valid_targets": ["hostile","ground"],
+        "effect": "projectile_attack",
+        "effect_str": "blind",
+        "min_aoe": 4,
+    	"max_aoe": 4,
+	    "min_duration": 700,
+  	    "max_duration": 700,
+        "damage_type": "bio"
+    }
+]

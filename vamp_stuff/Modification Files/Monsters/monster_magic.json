@@ -3,32 +3,33 @@
         "type": "SPELL",
         "name": "Teleport",
         "description": "Combined with blind strike spell.",
-        "valid_targets": ["ground","ally"],
+        "valid_targets": ["ground", "ally"],
         "min_aoe": 8,
         "max_aoe": 8,
         "effect": "teleport_random"
-    },{
+    }, {
         "id": "v_sink_conceal",
         "type": "SPELL",
         "name": "Concealment",
         "description": "Combined with blind strike spell.",
-        "valid_targets": ["ground","ally"],
+        "valid_targets": ["ground", "ally"],
         "effect": "target_attack",
         "effect_str": "vamp_conceal",
         "//": "5 turns, just to avert the focus of players. Also moderately enslows the caster.",
         "min_duration": 500,
         "max_duration": 500
-    },{
+    }, {
         "id": "v_sink_bstrike",
         "type": "SPELL",
         "name": "Blind Strike",
         "description": "Caster teleports and quickly strikes the target, dealing moderate cutting damage, then turns invisible while retreating to a random spot.",
-        "valid_targets": ["ground","hostile"],
+        "valid_targets": ["ground", "hostile"],
         "extra_effects": [{
-                "id": "v_sink_conceal"
-            },
-            {
-                "id": "v_sink_tp"
+                "id": "v_sink_conceal",
+                "hit_self": true
+            }, {
+                "id": "v_sink_tp",
+                "hit_self": true
             }
         ],
         "min_damage": 16,
@@ -37,12 +38,12 @@
         "max_range": 10,
         "effect": "target_attack",
         "damage_type": "cut"
-    },{
+    }, {
         "id": "v_warlock_innate_strike",
         "type": "SPELL",
         "name": "Innate Strike",
         "description": "A quick surge of mana blast strikes the target, dealing bash damage.",
-        "valid_targets": ["ground","hostile"],
+        "valid_targets": ["ground", "hostile"],
         "effect": "target_attack",
         "min_damage": 14,
         "max_damage": 14,
@@ -54,7 +55,7 @@
         "type": "SPELL",
         "name": "Stun",
         "description": "Caster channels its mind to its target, eventually renders them unconscious for few turns.",
-        "valid_targets": ["ground","hostile"],
+        "valid_targets": ["ground", "hostile"],
         "effect": "target_attack",
         "effect_str": "stunned",
         "base_casting_time": 500,
@@ -67,7 +68,7 @@
         "type": "SPELL",
         "name": "Dark Fireblast",
         "description": "Fire infused with black magic engulfs the target, inflicting them with profane curse.",
-        "valid_targets": ["ground","hostile"],
+        "valid_targets": ["ground", "hostile"],
         "effect": "target_attack",
         "effect_str": "profane_curse",
         "min_damage": 5,
@@ -82,7 +83,7 @@
         "type": "SPELL",
         "name": "Desecrate",
         "description": "Caster channels the underworld for a very long time to desecrate the targets with pillars of hellish flames.",
-        "valid_targets": ["ground","hostile"],
+        "valid_targets": ["ground", "hostile"],
         "effect": "target_attack",
         "effect_str": "profane_curse",
         "base_casting_time": 2000,
@@ -100,25 +101,33 @@
         "type": "SPELL",
         "name": "Heal",
         "description": "Combined with transfusion spell.",
-        "valid_targets": ["ground","ally"],
-        "min_damage": -15,
-        "max_damage": -15,
+        "valid_targets": ["ground", "ally"],
+        "//": "3x healing for the damage.",
+        "min_damage": -21,
+        "max_damage": -21,
         "effect": "target_attack"
     }, {
         "id": "v_hemo_transfusion",
         "type": "SPELL",
         "name": "Transfusion",
         "description": "Drains life force from the target, may be it an ally or a foe.",
-        "valid_targets": ["ground","hostile", "ally"],
+        "valid_targets": ["ground", "hostile", "ally"],
         "effect": "target_attack",
         "extra_effects": [{
-                "id": "v_hemo_heal"
+                "id": "v_hemo_heal",
+                "hit_self": true
+            }, {
+                "id": "v_hemo_surge",
+                "hit_self": true
+            }, {
+                "id": "v_hemo_share",
+                "hit_self": true
             }
         ],
         "base_casting_time": 300,
-        "min_damage": 15,
-        "max_damage": 15,
-        "min_range": 10,
+        "min_damage": 7,
+        "max_damage": 7,
+        "min_range": 15,
         "max_range": 10,
         "damage_type": "bio"
     }, {
@@ -126,23 +135,23 @@
         "type": "SPELL",
         "name": "Blood Ripple",
         "description": "Combined with blood surge spell.",
-        "valid_targets": ["ground","hostile"],
+        "valid_targets": ["ground", "hostile"],
         "effect": "target_attack",
-        "//": "Just deal 6 bio damage to main target, cuz they get damaged by blood surge too.",
         "min_damage": 6,
         "max_damage": 6,
         "min_range": 12,
         "max_range": 12,
         "damage_type": "bio"
-    },{
+    }, {
         "id": "v_hemo_surge",
         "type": "SPELL",
         "name": "Blood Surge",
-        "description": "A wave of blood is drawn out from the target, dealing bio damage to the main target and bash to the surrounding targets.",
-        "valid_targets": [ "hostile", "ground" ],
+        "description": "A wave of blood is drawn out from the caster, dealing bio damage to the main target and bash to the surrounding targets.",
+        "valid_targets": ["hostile", "ground", "self"],
         "effect": "target_attack",
         "extra_effects": [{
-                "id": "v_hemo_bloodrip"
+                "id": "v_hemo_bloodrip",
+                "hit_self": true
             }
         ],
         "base_casting_time": 500,
@@ -150,15 +159,18 @@
         "max_damage": 12,
         "min_aoe": 4,
         "max_aoe": 4,
-        "min_range": 12,
-        "max_range": 12,
         "damage_type": "bash"
     }, {
         "id": "v_hemo_share",
         "type": "SPELL",
         "name": "Share",
-        "description": "Combined with share blood spell.",
-        "valid_targets": ["ground","ally"],
+        "description": "Caster sends out blood tentacles that attaches to nearby allies, regaining large portion of health while damaging the caster.",
+        "extra_effects": [{
+                "id": "v_hemo_shareblood",
+                "hit_self": true
+            }
+        ],
+        "valid_targets": ["ground", "ally", "self"],
         "min_damage": 60,
         "max_damage": 60,
         "effect": "target_attack"
@@ -166,24 +178,13 @@
         "id": "v_hemo_shareblood",
         "type": "SPELL",
         "name": "Share Blood",
-        "description": "Caster sends out blood tentacles that attaches to nearby allies, regaining portions of health overtime.",
-        "valid_targets": ["ground","ally"],
-        "extra_effects": [{
-                "id": "v_hemo_share"
-            }
-        ],
+        "description": "Combined with share spell.",
+        "valid_targets": ["ground", "self", "ally"],
         "effect": "target_attack",
-        "min_damage": 3,
-        "max_damage": 3,
-        "min_aoe": 3,
-        "max_aoe": 3,
-        "min_dot": -3,
-        "max_dot": -3,
-        "//": "Heals a total of 30 hp after 10 turns. This also affects the caster.",
-        "min_duration": 1000,
-        "max_duration": 1000,
-        "min_range": 10,
-        "max_range": 10,
+        "min_damage": -30,
+        "max_damage": -30,
+        "min_aoe": 5,
+        "max_aoe": 5,
         "damage_type": "bio"
     }
 ]
