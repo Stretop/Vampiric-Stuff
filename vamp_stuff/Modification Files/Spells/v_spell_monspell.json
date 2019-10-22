@@ -1,0 +1,107 @@
+[
+{
+        "id": "v_sacrifice_spell",
+        "type": "SPELL",
+        "name": "Sacrifice",
+        "description": "Instant death damage is dealt.",
+        "flags": ["SILENT"],
+        "valid_targets": ["ally", "hostile", "ground", "self"],
+        "effect": "target_attack",
+        "min_damage": 9999999,
+        "max_damage": 9999999,
+        "min_aoe": 1,
+        "max_aoe": 1,
+        "damage_type": "none"
+    },
+{
+    "id": "mon_ether_shadow_spell",
+    "type": "SPELL",
+    "name": "Warlock Spell",
+    "description": "Picks a tier level of spell: 3/6 - tier 1, 2/6 - tier 2, 1/6 - tier 3.",
+    "valid_targets": [ "none" ],
+    "effect": "target_attack",
+    "extra_effects": [
+			{
+                "id": "mon_ether_shadow_spell_bolt"
+            },
+            {
+                "id": "mon_ether_shadow_spell_bolt"
+            },
+            {
+                "id": "mon_ether_shadow_spell_bolt"
+            },
+            {
+                "id": "mon_ether_shadow_spell_beam"
+            },
+            {
+                "id": "mon_ether_shadow_spell_beam"
+            },
+            {
+                "id": "mon_ether_shadow_spell_blast"
+            }
+        ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "flags": [ "WONDER" ]
+},
+{
+    "id": "mon_ether_shadow_spell_bolt",
+    "type": "SPELL",
+    "name": "Dark Bolt",
+    "description": "A magical burst of profane mana strikes at your foe, dealing <color_dark_gray>pure damage</color>.\n\nThis is a <color_dark_gray>tier 1</color> spell.",
+    "message": "The etherean silhouette casts Dark Bolt!",
+    "valid_targets": [ "hostile" ],
+    "extra_effects": [{
+                "id": "v_sacrifice_spell", "hit_self": true
+            }
+        ],
+    "effect": "projectile_attack",
+    "min_damage": 10,
+    "max_damage": 40,
+    "max_range": 15,
+    "flags": [ "RANDOM_DAMAGE" ],
+    "damage_type": "none"
+},
+{
+    "id": "mon_ether_shadow_spell_beam",
+    "type": "SPELL",
+    "name": "Dark Beam",
+    "description": "A profane mana beam bursts violently, striking your foes within a line that deals <color_dark_gray>pure damage</color>.\n\nThis is a <color_gray>tier 2</color> spell.",
+    "message": "The etherean silhouette casts Dark Beam!",
+    "valid_targets": [ "hostile", "ground" ],
+    "extra_effects": [{
+                "id": "v_sacrifice_spell", "hit_self": true
+            }
+        ],
+    "effect": "line_attack",
+    "min_damage": 10,
+    "max_damage": 40,
+    "min_range": 12,
+    "max_range": 12,
+    "min_aoe": 2,
+    "max_aoe": 2,
+    "flags": [ "RANDOM_DAMAGE" ],
+    "damage_type": "none"
+},
+{
+    "id": "mon_ether_shadow_spell_blast",
+    "type": "SPELL",
+    "name": "Dark Blast",
+    "description": "Conjures a volatile profane magic to the targeted area then explodes, dealing <color_dark_gray>pure damage</color> to the surrounding foes.\n\nThis is a <color_white>tier 3</color> spell.",
+    "valid_targets": [ "hostile", "ground" ],
+    "message": "The etherean silhouette casts Dark Blast!",
+    "effect": "projectile_attack",
+    "extra_effects": [{
+                "id": "v_sacrifice_spell", "hit_self": true
+            }
+        ],
+    "min_damage": 10,
+    "max_damage": 40,
+    "min_range": 10,
+    "max_range": 10,
+    "min_aoe": 4,
+    "max_aoe": 4,
+    "flags": [ "RANDOM_DAMAGE" ],
+    "damage_type": "none"
+}
+]
