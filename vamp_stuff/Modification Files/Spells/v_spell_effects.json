@@ -56,7 +56,7 @@
             "Crimson Hazed"
         ],
         "desc": [
-            "Sticky vapors of blood sticks to your body!"
+            "Sticky vapors of blood takes a firm hold of your body!"
         ],
         "show_in_info": true,
         "base_mods": {
@@ -64,5 +64,108 @@
                 -55
             ]
         }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_bloodsurge",
+        "name": [
+            "Blood Surge"
+        ],
+        "desc": [
+            "Surge of blood flows through your vessel!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+      "str_mod": [ 3 ],
+      "dex_mod": [ 2 ],
+      "speed_mod": [ 10 ],
+      "stamina_min": [ 20 ],
+      "stamina_chance": [ 2, 6 ]
+    },
+    "removes_effects": [
+      "winded"
+    ],
+    "blocks_effects": [
+      "winded"
+    ]
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_desolation",
+        "name": [
+            "Withering"
+        ],
+        "desc": [
+            "Pressence of a vile aura drains you submissively!"
+        ],
+        "show_in_info": true,
+        "max_duration": 3,
+        "base_mods": {
+      "speed_mod": [ -20 ],
+      "hurt_min": [ 2 ],
+      "hurt_max": [ 3 ]
+    }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_arcanebinding",
+        "name": [
+            "Binded"
+        ],
+        "desc": [
+            "You can't even move an inch."
+        ],
+        "show_in_info": true,
+        "base_mods": {
+            "speed_mod": [
+                -300
+            ]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_etherealstrike",
+        "name": [
+            "Ethereal Grasp"
+        ],
+        "desc": [
+            "You're held by an etherean silhouette."
+        ],
+        "show_in_info": true,
+        "base_mods": {
+            "speed_mod": [
+                -125
+            ]
+        }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_manasurge",
+        "name": [
+            "Mana Surge"
+        ],
+        "desc": [
+            "Unholy surge of mana flows through you!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+      "str_mod": [ 3 ],
+      "speed_mod": [ 1 ]
+    }
+    },
+    {
+        "type": "effect_type",
+        "id": "v_spell_megamagic_exhaust",
+        "name": [
+            "Exhausted"
+        ],
+        "desc": [
+            "That blast really packs a punch!"
+        ],
+        "show_in_info": true,
+        "base_mods": {
+      "str_mod": [ -5 ],
+      "speed_mod": [ -12 ]
+    }
     }
 ]
