@@ -229,5 +229,16 @@
     "max_damage": -10000,
     "effect": "recover_energy",
     "effect_str": "STAMINA"
+  },
+  {
+    "id": "t6_mana_darkpillar_bash",
+    "type": "SPELL",
+    "name": "Dark Pillar Bash",
+    "description": "Aims to make a crater under the target. If not, then don't.",
+    "valid_targets": [ "hostile" ],
+    "flags": ["SILENT"],
+    "min_damage": 10000,
+    "max_damage": 10000,
+    "effect": "bash"
   }
 ]
