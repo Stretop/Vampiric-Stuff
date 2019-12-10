@@ -67,7 +67,8 @@
         "melee_cut": 0,
         "armor_bash": 20,
         "death_function": ["MELT"],
-        "flags": ["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "ACIDPROOF", "NO_BREATHE", "PLASTIC", "REGENERATES_1"]
+		"regenerates": 5,
+        "flags": ["SEES", "HEARS", "SMELLS", "WARM", "BASHES", "GROUP_BASH", "POISON", "ELECTRIC", "ACIDPROOF", "NO_BREATHE", "PLASTIC"]
     },
     {
     "id": "mon_ether_shadow",
