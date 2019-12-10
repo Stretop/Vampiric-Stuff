@@ -95,9 +95,6 @@
                     }
                 },
                 "]": {
-                    "item": {
-                        "item": "hflesh_aspic"
-                    },
                     "furniture": "f_counter"
                 }
             },
