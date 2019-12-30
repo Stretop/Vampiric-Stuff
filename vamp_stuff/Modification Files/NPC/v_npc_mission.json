@@ -63,10 +63,7 @@
                 "om_terrain": "bloodhole",
                 "om_special": "bhole",
                 "reveal_radius": 1,
-                "search_range": [
-                    5,
-                    50
-                ],
+                "search_range": 50,
                 "z": 0
             },
             "update_mapgen": {
