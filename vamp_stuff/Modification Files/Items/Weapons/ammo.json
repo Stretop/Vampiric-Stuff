@@ -31,7 +31,7 @@
         "price": 2000,
         "material": ["hflesh"],
         "symbol": "=",
-        "color": "dkred",
+        "color": "red",
         "phase": "liquid",
         "count": 5,
         "stack_size": 20,

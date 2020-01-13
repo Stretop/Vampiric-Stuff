@@ -15,7 +15,7 @@
         "bashing": 11,
         "cutting": 33,
         "material": "steel",
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "WBLOCK_2",
             "UPRIGHT_SLASH",
@@ -53,7 +53,7 @@
             "steel",
             "compactblood"
         ],
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "WBLOCK_2",
             "UPRIGHT_SLASH",
@@ -89,7 +89,7 @@
         "cutting": 14,
         "bashing": 2,
         "material": "steel",
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "VAMP_WRATH",
             "WEAK_HITCRIT",
@@ -132,7 +132,7 @@
             "steel",
             "compactblood"
         ],
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "VAMP_WRATH",
             "WEAK_HITCRIT",
@@ -173,7 +173,7 @@
         "cutting": 8,
         "bashing": 4,
         "material": "steel",
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "VAMP_WRATH"
         ],
@@ -199,7 +199,7 @@
             "steel",
             "compactblood"
         ],
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "VAMP_WRATH"
         ],
@@ -222,7 +222,7 @@
         "bashing": 30,
         "cutting": 12,
         "material": "steel",
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "WBLOCK_1",
             "UPRIGHT_BASH",
@@ -250,7 +250,7 @@
             "steel",
             "compactblood"
         ],
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "WBLOCK_1",
             "UPRIGHT_BASH",
@@ -275,7 +275,7 @@
         "bashing": 4,
         "cutting": 24,
         "material": "steel",
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "WBLOCK_2",
             "UPRIGHT_SLASH",
@@ -310,7 +310,7 @@
         "bashing": 5,
         "cutting": 26,
         "material": "steel",
-        "color": "dark_red",
+        "color": "red",
         "techniques": [
             "WBLOCK_2",
             "UPRIGHT_SLASH",

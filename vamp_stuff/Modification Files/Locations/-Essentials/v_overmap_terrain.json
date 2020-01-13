@@ -120,7 +120,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -138,7 +138,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -147,7 +147,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -156,7 +156,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -165,7 +165,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -174,7 +174,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -183,7 +183,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
@@ -192,7 +192,7 @@
         "type": "overmap_terrain",
         "name": "wasteland outskirts",
         "sym": "+",
-        "color": "dark_gray",
+        "color": "light_gray",
         "see_cost": 20,
         "mondensity": 0,
         "extras": "build"
