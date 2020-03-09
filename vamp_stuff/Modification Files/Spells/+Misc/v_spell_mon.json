@@ -105,7 +105,7 @@
         },
     "special_attacks": [{
             "type": "spell",
-            "spell_id": "mon_ether_shadow_spell_target",
+            "spell_data": { "id": "mon_ether_shadow_spell_target"},
             "cooldown": 14,
             "monster_message": "%1$s stares at %3$s as it gesture its arms!"
         }
@@ -158,7 +158,7 @@
         },
     "special_attacks": [{
             "type": "spell",
-            "spell_id": "mon_idol_vex_spell_target",
+            "spell_data": { "id": "mon_idol_vex_spell_target"},
             "cooldown": 11,
             "monster_message": "%1$s shimmers as it glares at %3$s!"
         }
@@ -210,7 +210,7 @@
         },
     "special_attacks": [{
             "type": "spell",
-            "spell_id": "mon_idol_vex_etherhar_spell_target",
+            "spell_data": { "id": "mon_idol_vex_etherhar_spell_target"},
             "cooldown": 1,
             "monster_message": "%1$s shines vigorously!"
         }
