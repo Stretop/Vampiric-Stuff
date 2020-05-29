@@ -45,7 +45,7 @@
         "locations": ["forest"],
         "flags": ["UNIQUE"],
         "occurrences": [
-            50,
+            29,
             100
         ]
     }, {
