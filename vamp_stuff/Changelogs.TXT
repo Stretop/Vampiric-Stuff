@@ -2,17 +2,13 @@ Vampiric Stuff v1.4 - Axema Vales (author)
 
 https://discourse.cataclysmdda.org - CDDA official website
 
-
-
-  ~ THE MOD ADDS VAMPIRE NPCS TO YOUR WORLD, ALONG WITH NEW LOCATIONS TO EXPLORE, QUESTS TO COMPLETE, ITEMS TO DISCOVER AND MONSTERS TO ERADICATE!
-
-  * .
+  ~ Recent changelogs are noted in this file, especially if its important such as gameplay tweaks or a total overhaul.
 
 
 
 	=>CURRENT UPDATES<= (#changes, +contents, ~rebalances, -fixes...)
 	
---> V1.4 - Focuses on spells for all classes. <-- 
+--> V1.4 - We are now continuing the progress... little by little. <-- 
 	
 #  TILESETS (if possible)
 
