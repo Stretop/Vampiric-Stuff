@@ -6,5 +6,6 @@
     "profession": true,
     "purifiable": false,
     "type": "mutation",
-    "valid": false
+    "valid": false,
+    "enchantments": [ "VAMP_ench" ]
 }
