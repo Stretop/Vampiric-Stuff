@@ -24,6 +24,7 @@ https://discourse.cataclysmdda.org - CDDA official website
 -  MISSION IMPROVEMENTS (an even better flow of progression with some missions)
 -  FIXED MAJOR MISSION BUG (accepting the first quest ends into the final rewards)
 -  LOCATION SPAWN TWEAKS (major reduction of overmap generation, quest structures now spawn super rare)
+-  VAMPIRES (now are immune to most common debuffs)
 
 
 
