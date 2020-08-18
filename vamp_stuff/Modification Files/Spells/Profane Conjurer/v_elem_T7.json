@@ -25,7 +25,7 @@
     "base_casting_time": 175,
     "min_duration": 500,
     "max_duration": 2000,
-    "damage_type": "fire"
+    "damage_type": "heat"
 },
 {
     "id": "t7_elem_eternalfrost",
@@ -57,6 +57,6 @@
     "base_casting_time": 175,
     "min_duration": 500,
     "max_duration": 2000,
-    "damage_type": "fire"
+    "damage_type": "heat"
 }
 ]
