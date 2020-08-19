@@ -12,6 +12,7 @@
     "material": ["paper"],
     "weight": "1 g",
     "volume": 0
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "type": "GENERIC",
@@ -26,6 +27,7 @@
     "material": ["paper"],
     "weight": "1 g",
     "volume": 0
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "type": "GENERIC",
@@ -40,5 +42,6 @@
     "material": ["paper"],
     "weight": "1 g",
     "volume": 0
+    "flags": [ "ZERO_WEIGHT" ]
   }
 ]

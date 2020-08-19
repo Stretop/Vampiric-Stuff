@@ -23,7 +23,7 @@
         "symbol": "(",
         "color": "red",
         "looks_like": "silver_necklace",
-        "flags": ["FANCY"]
+        "flags": ["FANCY", "ZERO_WEIGHT"]
     }, {
         "id": "blood_cring",
         "type": "ARMOR",
@@ -36,6 +36,6 @@
         "symbol": "(",
         "color": "red",
         "looks_like": "silver_ring",
-        "flags": ["FANCY"]
+        "flags": ["FANCY", "ZERO_WEIGHT"]
     }
 ]

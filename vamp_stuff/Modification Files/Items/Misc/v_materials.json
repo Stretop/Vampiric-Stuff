@@ -88,6 +88,7 @@
         "material": ["hflesh"],
         "symbol": "'",
         "color": "red"
+		"flags": [ "ZERO_WEIGHT" ]
     }, {
         "id": "bloodextract",
         "type": "COMESTIBLE",
@@ -129,5 +130,6 @@
         "material": ["compactblood"],
         "symbol": ".",
         "color": "red"
+		"flags": [ "ZERO_WEIGHT" ]
     }
 ]

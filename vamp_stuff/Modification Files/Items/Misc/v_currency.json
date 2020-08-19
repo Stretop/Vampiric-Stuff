@@ -6,6 +6,7 @@
     "price": 50,
     "price_postapoc": 10,
     "weight": "12 g",
+    "volume": "1 ml",
     "to_hit": -3,
     "color": "red",
     "symbol": "$",
