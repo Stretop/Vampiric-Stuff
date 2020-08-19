@@ -97,7 +97,7 @@
         "max_range": 10,
         "min_duration": 6000,
         "max_duration": 6000,
-        "damage_type": "fire"
+        "damage_type": "heat"
     }, {
         "id": "v_profane_hellfire",
         "type": "SPELL",
@@ -116,7 +116,7 @@
         "max_aoe": 2,
         "min_duration": 12000,
         "max_duration": 12000,
-        "damage_type": "fire"
+        "damage_type": "heat"
     }, {
         "id": "v_hemo_heal",
         "type": "SPELL",
@@ -152,7 +152,7 @@
         "max_damage": 7,
         "min_range": 15,
         "max_range": 10,
-        "damage_type": "bio"
+        "damage_type": "biological"
     }, {
         "id": "v_hemo_bloodrip",
         "type": "SPELL",
@@ -165,7 +165,7 @@
         "max_damage": 6,
         "min_range": 12,
         "max_range": 12,
-        "damage_type": "bio"
+        "damage_type": "biological"
     }, {
         "id": "v_hemo_surge",
         "type": "SPELL",
@@ -212,6 +212,6 @@
         "max_damage": -30,
         "min_aoe": 5,
         "max_aoe": 5,
-        "damage_type": "bio"
+        "damage_type": "biological"
     }
 ]
