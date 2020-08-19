@@ -87,7 +87,7 @@
         "nutrition": 3,
         "material": ["hflesh"],
         "symbol": "'",
-        "color": "red"
+        "color": "red",
 		"flags": [ "ZERO_WEIGHT" ]
     }, {
         "id": "bloodextract",
@@ -129,7 +129,7 @@
         "count": 2,
         "material": ["compactblood"],
         "symbol": ".",
-        "color": "red"
+        "color": "red",
 		"flags": [ "ZERO_WEIGHT" ]
     }
 ]
